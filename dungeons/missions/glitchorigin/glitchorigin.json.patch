@@ -1,0 +1,12 @@
+[
+  [
+    { "op" : "test",
+      "path" : "/layers/4/objects/89/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"money\", \"count\" : 150 } ], \"uniqueId\" : \"weaponchest\" }"
+    },
+    { "op" : "replace",
+      "path" : "/layers/4/objects/89/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"brokensidearm\", \"count\" : 1 }, {\"name\" : \"money\", \"count\" : 150} ], \"uniqueId\" : \"weaponchest\" }"
+    }
+  ]
+]

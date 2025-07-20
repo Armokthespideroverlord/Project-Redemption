@@ -1,0 +1,29 @@
+[
+ 
+
+{
+    "op": "add",
+    "path": "/r-USCMship",
+    "value": {
+
+    "warpAction" : "InstanceWorld:r-USCMship",
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+    },
+
+    "moving" : true,
+    "speed" : 15.0,
+    "orbitRange" : [1, 1],
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/ships/npcship.png",
+      "displayName" : "Hostile Ship",
+      "description" : "Whoever's flying this ship, we shouldn't get close without being prepared for a fight."
+		}
+
+	}
+  }
+
+]

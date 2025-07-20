@@ -1,0 +1,108 @@
+[
+  [
+    {"op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/desert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/savannah/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/snow/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/jungle/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/alien/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/tundra/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "inverse" : true },
+    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "value" : [] }
+  ],
+  [
+    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons/-", "value" : [ 1.0, "hylotloceancity" ] },
+    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons/-", "value" : [ 1.0, "hylotlruinedcity" ] }
+  ],  
+  [
+    {"op" : "replace", "path" : "/planetTypes/tentacle/threatRange/0", "value" : 8},
+    {"op" : "replace", "path" : "/planetTypes/tentacle/threatRange/1", "value" : 8},
+    {"op": "add", "path": "/planetTypes/tentacle/layers/atmosphere", "value": {"primaryRegion": ["void"]}},
+{
+    "op": "replace",
+    "path": "/regionTypes/tentacle/caveLiquid/0",
+    "value": "jellyliquid"
+  },
+  {
+    "op": "replace",
+    "path": "/regionTypes/tentacleundergroundtentacles/caveLiquid/0",
+    "value": "jellyliquid"
+  }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/darkabyss"},
+    {"op" : "add", "path" : "/planetTypes/darkabyss/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/eternalfire/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/eternalfrost/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/nuclearwasteland/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/voltage/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/heckplanet"},
+    {"op" : "add", "path" : "/planetTypes/heckplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/prismatic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/prismatic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/slimeplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/oasisdesert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/colorfuldesert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/rockplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/glowingplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/anatomic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/industrial/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/mountains/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/eyes/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/soothingblossom/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/mushroomforest/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/mangrove/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/skeletal/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/geodeplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/darkhiveplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/hallowplanet"},
+    {"op" : "add", "path" : "/planetTypes/hallowplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/isn_magnetic"},
+    {"op" : "add", "path" : "/planetTypes/isn_magnetic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/isn_crystal"},
+    {"op" : "add", "path" : "/planetTypes/isn_crystal/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/tidal_thermalsurge"},
+    {"op" : "add", "path" : "/planetTypes/tidal_thermalsurge/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/tentaplanet"},
+    {"op" : "add", "path" : "/planetTypes/tentaplanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/ironsides_greyExpanse"},
+    {"op" : "add", "path" : "/planetTypes/ironsides_greyExpanse/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/gloam"},
+    {"op" : "add", "path" : "/planetTypes/gloam/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+  [
+    {"op" : "test","path" : "/planetTypes/WMwinterjungle"},
+    {"op" : "add", "path" : "/planetTypes/WMwinterjungle/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/arcticeverwood"},
+    {"op" : "add", "path" : "/planetTypes/arcticeverwood/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/darkhive"},
+    {"op" : "add", "path" : "/planetTypes/darkhive/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/livingflesh/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/geoderock/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ]
+]

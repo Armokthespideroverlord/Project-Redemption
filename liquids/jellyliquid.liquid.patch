@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "The sticky, toxic ichor of a space monster."
+  },
+  {
+    "op": "replace",
+    "path": "/color/0",
+    "value": 79
+  },
+  {
+    "op": "replace",
+    "path": "/color/1",
+    "value": 175
+  },
+  {
+    "op": "replace",
+    "path": "/color/2",
+    "value": 41
+  },
+  {
+    "op": "replace",
+    "path": "/color/3",
+    "value": 190
+  },
+  {
+    "op": "add",
+    "path": "/statusEffects/-",
+    "value": "weakpoison"
+  },
+  {
+    "op": "replace",
+    "path": "/radiantLight/0",
+    "value": 66
+  },
+  {
+    "op": "replace",
+    "path": "/radiantLight/1",
+    "value": 107
+  },
+  {
+    "op": "replace",
+    "path": "/radiantLight/2",
+    "value": 95
+  },
+  {
+    "op": "replace",
+    "path": "/itemDrop",
+    "value": "r-liquidjelly"
+  },
+  {
+    "op": "replace",
+    "path": "/bottomLightMix/0",
+    "value": 255
+  },
+  {
+    "op": "replace",
+    "path": "/bottomLightMix/1",
+    "value": 255
+  }
+]

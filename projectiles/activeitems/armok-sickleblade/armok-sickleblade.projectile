@@ -1,0 +1,26 @@
+{
+  "projectileName" : "armok-sickleblade",
+  "image" : "armok-sickleblade.png",
+  "animationCycle" : 0.125,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "fullbright" : false,
+
+  "damagePoly" : [[-16, 8], [-8, 16], [8, 16], [16, 8], [16, -8], [8, -16], [-8, -16], [-16, -8]],
+
+  "timeToLive" : 3,
+  "bounces" : -1,
+  "speed" : 30,
+  "power" : 13.5,
+  "piercing" : true,
+  "physics" : "illusion",
+  "damageKind" : "broadsword",
+  "statusEffects" : [
+    "r-weakness", "r-slowness"
+  ],
+"persistentAudio" : "/sfx/projectiles/redgiant.ogg"
+  //"persistentAudio" : "/sfx/projectiles/boomerang2.ogg"
+}

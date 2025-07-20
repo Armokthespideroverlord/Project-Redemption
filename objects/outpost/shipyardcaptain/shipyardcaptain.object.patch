@@ -1,0 +1,13 @@
+[
+ {"op":"add","path":"/offeredQuests","value":[]},
+ {"op":"add","path":"/offeredQuests/-","value":"dropship"},
+ {"op":"add","path":"/turnInQuests/-","value":"dropship"},
+ {"op":"add","path":"/turnInQuests/-","value":"r-enginerepair"},
+{
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "corporatejeepcontroller"
+    }
+  }
+]

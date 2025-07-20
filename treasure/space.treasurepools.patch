@@ -1,0 +1,45 @@
+[
+{
+    "op": "add",
+    "path": "/cultistshipChest/0/1/pool/-",
+    "value": {
+"weight": 0.85,
+      "item": [
+        "cultistbroadcast-codex",
+        1
+      ]
+    }
+  },
+{
+    "op": "add",
+    "path": "/cultistshipChest/1/1/pool/-",
+    "value": {
+"weight": 0.85,
+      "item": [
+        "cultistbroadcast-codex",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/protectorateshipChest/1/1/fill/-",
+    "value": {
+      "item": [
+        "paladincodex-codex",
+        1
+      ]
+    }
+  },
+ {
+        "op": "add",
+        "path": "/penguinshipCodex/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": [
+                "penguinhistorycodex-codex",
+                1
+            ]
+        }
+    }
+]

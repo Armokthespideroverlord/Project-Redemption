@@ -1,0 +1,14 @@
+{
+  "name" : "jumpeffect",
+  "effectConfig" : {  
+	"tech" : "r_rocketboots"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "jumpeffect.lua"
+  ],
+
+  
+  "label" : "Jump Effect"
+}

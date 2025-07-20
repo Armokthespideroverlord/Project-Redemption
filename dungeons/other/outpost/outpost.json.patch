@@ -1,0 +1,153 @@
+[
+  {
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1595,
+      "name": "",
+      "properties": {
+        "npc": "apex",
+        "seed": "7",
+        "typeName": "outpostapexscientist"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 2944,
+      "y": 992
+    }
+  },
+{
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1596,
+      "name": "",
+      "properties": {
+        "npc": "avian",
+        "seed": "25",
+        "typeName": "outpostavianrefugee"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 2992,
+      "y": 1120
+    }
+  },
+{
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1597,
+      "name": "",
+      "properties": {
+        "npc": "glitch",
+        "seed": "12",
+        "typeName": "outpostglitchmechanic"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 3275,
+      "y": 992
+    }
+  },
+{
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1598,
+      "name": "",
+      "properties": {
+        "npc": "glitch",
+        "seed": "14",
+        "typeName": "outpostglitchmercenary"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 2680,
+      "y": 1120
+    }
+  },
+{
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1599,
+      "name": "",
+      "properties": {
+        "npc": "human",
+        "seed": "46",
+        "typeName": "outposthumanexcon"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 3288,
+      "y": 1120
+    }
+  },
+{
+    "op": "add",
+    "path": "/layers/5/objects/-",
+    "value": {
+      "height": 8,
+      "id": 1600,
+      "name": "",
+      "properties": {
+        "npc": "hylotl",
+        "seed": "9",
+        "typeName": "outposthylotlwarrior"
+      },
+      "propertytypes": {
+        "npc": "string",
+        "seed": "string",
+        "typeName": "string"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 3272,
+      "y": 992
+    }
+  }
+
+]

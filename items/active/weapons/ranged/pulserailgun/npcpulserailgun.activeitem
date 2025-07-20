@@ -1,0 +1,102 @@
+{
+  "itemName": "npcpulserailgun",
+  "price": 1000,
+  "inventoryIcon": "pulserailgun.png",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "A prototype pulse railgun designed by the USCM.",
+  "shortdescription": "PRG-41",
+  "fixedLevel" : false,
+  "tooltipKind": "gun",
+  "category": "uniqueWeapon",
+  "itemTags": [
+    "weapon",
+    "ranged",
+    "assualtRifle"
+  ],
+  "twoHanded": true,
+  "animation": "/items/active/weapons/ranged/gun.animation",
+  "animationParts": {
+    "butt": "",
+    "middle": "pulserailgun.png",
+    "barrel": "",
+    "muzzleFlash": ""
+  },
+  "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        
+      }
+    },
+    "sounds": {
+      "fire": [
+        "/sfx/gun/pulserifle1.ogg"
+      ]
+    }
+  },
+  "baseOffset": [
+    0.65,
+    0
+  ],
+  "muzzleOffset": [
+    2.5,
+    0.2
+  ],
+  "scripts": [
+    "/items/active/weapons/ranged/gun.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbility": {
+    "scripts": [
+      "/items/active/weapons/ranged/gunfire.lua"
+    ],
+    "class": "GunFire",
+    "fireTime": 0.5,
+    "baseDps": 6,
+    "energyUsage": 25,
+    "projectileCount": 1,
+    "inaccuracy": 0,
+    "burstCount": 3,
+    "burstTime": 0.1,
+    "fireType": "burst",
+    "projectileType": "bullet-4",
+    "projectileParameters": {
+      "speed": 100,
+      "piercing": true
+    },
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": 3,
+        "weaponRotation": 3,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "cooldown": {
+        "duration": 0.1,
+        "armRotation": 3,
+        "weaponRotation": 3,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  },
+   "altAbilityType" : "grenadelauncher",
+  "altAbility" : {
+"name" : "Incendiary Grenade",
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "r-incendiary" }
+    },
+    "energyUsage" : 20
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

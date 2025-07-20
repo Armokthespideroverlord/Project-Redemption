@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialogMode",
+    "value": "sequence"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "In fact... would you care to learn more about the artifacts dear?"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "From what I could gather from old Floran legends, their artifact gifted the first Greenfingers their powers, these powers have been passed down the generations since."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "The Hylotl artifact inspired the first generation of great thinkers, and served as a repository of ancient wisdom and knowledge."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "According to the Avoscript, Kluex became known to the Avians through a great gift bestowed by him. I suspect that the Avian artifact may have inspired the Kluex faith..."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "If the rumors are to be believed, the Apex artifact might have been the basis of the Vestigi-Evo Process!"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "It is said that the Glitch artifact was cursed and that nearly all Glitch who discovered it would go insane. There might be some validity to that claim."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "As for the Human artifact... I'd say it's rather self explanatory dear."
+  }
+]

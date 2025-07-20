@@ -1,0 +1,13 @@
+{
+  "name" : "r-rocky",
+  "friendlyName" : "Rocky",
+
+  "mainBlock" : "rock03",
+  "subBlocks" : [ "rock02", "rock04" ],
+  "ores" : "surface",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "grass" ],
+    "grassModDensity" : 0.2
+  }
+}

@@ -1,0 +1,10 @@
+[
+{
+"op" : "add",
+"path" : "/monsters/uscmtriplod",
+"value" : {
+  "portraitCenter" : [0.0, 0.0],
+  "portraitScale" : 1.0
+}
+}
+]

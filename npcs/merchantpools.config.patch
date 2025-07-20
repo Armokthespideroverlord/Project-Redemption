@@ -1,0 +1,182 @@
+[
+  [{
+    "op": "add",
+    "path": "/shroommerchant/0/1/-",
+    "value": {
+      "item": {
+        "name": "agarancodex-codex"
+      },
+      "rarity": 0.2
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/foundrymerchant/0/1/-",
+    "value": {
+      "item": {
+        "name": "platinumbar"
+      }
+    }
+  }],
+  [{
+    "op": "add",
+    "path": "/oremerchant/0/1/-",
+    "value": {
+      "item": {
+        "name": "platinumbar"
+      }
+    }
+  }],
+  [{
+    "op": "add",
+    "path": "/augmentmerchant/0/1/-",
+    "value": {
+      "item": {
+        "name": "r-protectorateaugment"
+      }
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/3/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorchest"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/3/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorhead"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/3/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorlegs"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/4/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorchest"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/4/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorhead"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/4/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorlegs"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/5/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorchest"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/5/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorhead"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/genericarmour/5/1/-",
+    "value": {
+      "item": {
+        "name": "r-platinumarmorlegs"
+      },
+      "rarity": 0.04
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/apexingredients/0/1/-",
+    "value": {
+      "item": {
+        "name": "rawham"
+      },
+      "rarity": 0.05
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/avianingredients/0/1/-",
+    "value": {
+      "item": {
+        "name": "rawham"
+      },
+      "rarity": 0.05
+    }
+  }],
+[{
+    "op": "add",
+    "path": "/humaningredients/0/1/-",
+    "value": {
+      "item": {
+        "name": "rawham"
+      },
+      "rarity": 0.05
+    }
+  }],
+[{ "op" : "add", "path" : "/redemptionlostandfound",
+		"value" : [
+			[ 0, [
+			  
+			  { "item": { "name": "brokenprotectoratebroadsword" } },
+{ "item": { "name": "brokensidearm" } },
+{ "item": { "name": "protectorateflowerhead" } },
+{ "item": { "name": "protectoratechest" } },
+{ "item": { "name": "protectoratepants" } },
+{ "item": { "name": "raggedprotectoratecape" } },
+			  { "item": { "name": "protectoratebroadsword" }, "prerequisiteQuest" : "protectoratesword", "price" : 100000 },
+			  { "item": { "name": "protectoratehandcannon" }, "prerequisiteQuest" : "protectoratepistol", "price" : 100000 },
+{ "item": { "name": "r-guardianshield" }, "prerequisiteQuest" : "guardianshield", "price" : 100000 },
+{ "item": { "name": "protectoratedropshipcontroller" }, "prerequisiteQuest" : "dropship", "price" : 100000 },
+{ "item": { "name": "trophybronze" }, "prerequisiteQuest" : "floranarena1" },
+{ "item": { "name": "hunterrifle" }, "prerequisiteQuest" : "floranarena2" },
+{ "item": { "name": "trophysilver" }, "prerequisiteQuest" : "floranarena2" },
+{ "item": { "name": "flamingdemonsword" }, "prerequisiteQuest" : "floranarena3" },
+{ "item": { "name": "trophygold" }, "prerequisiteQuest" : "floranarena3" },
+{ "item": { "name": "hokucide" }, "prerequisiteQuest" : "museumcurator6" }
+			] ]
+		]
+	}]
+]

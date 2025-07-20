@@ -1,0 +1,29 @@
+{
+  "itemName" : "r-poisonballoon",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "r-poisonballoonicon.png",
+  "image" : "r-poisonballoon.png",
+  "shortdescription" : "Poison Balloon",
+  "description" : "Originally a water balloon, just with poison added.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "poisonballoon",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

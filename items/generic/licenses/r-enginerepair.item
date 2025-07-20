@@ -1,0 +1,12 @@
+{
+  "itemName" : "r-enginerepair",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "price" : 1000,
+  "inventoryIcon" : "r-enginerepair.png",
+  "description" : "Lets you repair your ship's engines for sublight travel.",
+  "shortdescription" : "Sublight Engine Component",
+
+  "pickupQuestTemplates" : ["r-enginerepair"],
+  "consumeOnPickup" : true
+}

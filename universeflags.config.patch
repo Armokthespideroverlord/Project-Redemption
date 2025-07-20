@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/outpost_mission1/actions/-",
+    "value": {
+      "type": "placeDungeon",
+      "dungeonId": "r-lostandfound",
+      "targetInstance": "outpost",
+      "targetPosition": [
+        1015,
+        597
+      ]
+    }
+  }
+]

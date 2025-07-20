@@ -1,0 +1,86 @@
+{
+  "metadata" : {
+    "name" : "r-arcticmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "r-crashedufo", "r-crystalpenguin", "r-penguinbunker1", "r-penguinbunker2", "r-penguincamp1", "r-penguincamp2", "r-penguincamp3", "r-penguinigloo", "r-penguintankdepot", "r-penguinufodepot" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "r-crashedufo",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-crashedufo.json" ]
+    },
+{
+      "name" : "r-crystalpenguin",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-crystalpenguin.json" ]
+    },
+{
+      "name" : "r-penguinbunker1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguinbunker1.json" ]
+    },
+{
+      "name" : "r-penguinbunker2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguinbunker2.json" ]
+    },
+{
+      "name" : "r-penguincamp1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguincamp1.json" ]
+    },
+{
+      "name" : "r-penguincamp2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguincamp2.json" ]
+    },
+{
+      "name" : "r-penguincamp3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguincamp3.json" ]
+    },
+{
+      "name" : "r-penguinigloo",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguinigloo.json" ]
+    },
+{
+      "name" : "r-penguintankdepot",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguintankdepot.json" ]
+    },
+{
+      "name" : "r-penguinufodepot",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-penguinufodepot.json" ]
+    }
+  ]
+}

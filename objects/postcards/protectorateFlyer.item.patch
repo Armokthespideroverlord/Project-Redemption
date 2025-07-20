@@ -1,0 +1,12 @@
+[
+{
+    "op": "test",
+    "path": "/description",
+    "value": "An old propaganda about the protectorate."
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "An advert for the Terrene Protectorate. ^yellow;\"Become a Protector today!\""
+  }
+]

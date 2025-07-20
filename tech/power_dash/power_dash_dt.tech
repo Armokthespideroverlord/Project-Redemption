@@ -1,0 +1,22 @@
+{
+  "name" : "power_dash_dt",
+  "type" : "body",
+
+  "scripts" : ["power_dash_dt.lua"],
+  "animator" : "power_dash.animation",
+
+  "description" : "Perform a powerful dash that knocks enemies away. ^green;Double Tap Left or Right^white;",
+  "shortDescription" : "Power Dash",
+  "rarity" : "Legendary",
+  "icon" : "/tech/power_dash/power_dash.png",
+
+  "chipCost" : 0,
+
+  "maximumDoubleTapTime" : 0.25,
+  "dashControlForce" : 4000,
+  "dashSpeed" : 100,
+  "dashDuration" : 0.18,
+  "dashCooldown" : 0.4,
+  "stopAfterDash" : true,
+  "groundOnly" : false
+}

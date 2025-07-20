@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/r-scorchedcitySpacejunk",
+    "value": [
+      [
+        0.98,
+        "junkstorm"
+      ],
+      [
+        0.02,
+        "spacejunk"
+      ]
+    ]
+  }
+]

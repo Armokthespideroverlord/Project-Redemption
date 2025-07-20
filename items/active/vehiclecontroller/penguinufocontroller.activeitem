@@ -1,0 +1,33 @@
+{
+  "itemName" : "penguinufocontroller",
+  "level" : 1,
+  "price" : 11000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "shortdescription" : "UFO Controller",
+  "description" : "Create a Penguin UFO from stored nanites.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "penguinufo.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "r-miniufo",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/items/active/vehiclecontroller/penguinufo.png",
+
+  "animationParts" : {
+    "casing" : "penguinufocontroller.png"
+  },
+
+  "inventoryIcon" : "penguinufocontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/penguinufocontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/penguinufocontroller.png:full"
+}

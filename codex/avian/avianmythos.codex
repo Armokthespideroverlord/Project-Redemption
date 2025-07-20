@@ -1,0 +1,16 @@
+{
+  "id" : "avianmythos",
+  "species" : "avian",
+  "title" : "The Old Gods",
+  "description" : "A Grounded Avian's writing on old Avian faiths.",
+  "icon" : "avianmythos.png",
+  "contentPages" : [
+  "Perhaps one of the most damning aspects of the Kluex faith is that it is not in fact the only Avian faith, or indeed the first. Despite the Stargazer council's claims to the \"undeniable truth of Kluex\", a great deal of Avians, devout and apostate alike, can recall old myths and legends of Avian deities who predate Kluex, a rather telling fact that undermines the narrative of the \"one true faith\".",
+
+"Unfortunately, the names of these old deities are largely forgotten, all that is remembered is that they each controlled different aspects of reality, leading many to theorize that polytheistic faiths were once predominant among the Avian people. Indeed it does not seem out of character for the Stargazers to have wiped away aspects of other Avian cultures simply because they did not align to their own beliefs."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "id": "dashhack",
+	"ephemeral" : true,
+    "title": "Dashhack",
+    "text": "you shouldn't be seeing this.",
+    "completionText": "This is debug.",
+    "canBeAbandoned": false,
+    "showInLog": false,
+    "showAcceptDialog":false,
+"showCompleteDialog" : false,
+  "showFailDialog" : false,
+    "logOnly": true,
+	"debug" : true,
+    "updateDelta": 10,
+    "script": "/quests/scripts/items/dashhack.lua",
+    "scriptConfig": {
+        "portraits": {
+            "default": "player"
+        },
+        "radioMessages": {
+            "received": {
+                "messageId": "itemhackMessageReceived",
+                "type": "quest",
+                "unique": false,
+                "senderName": "Player",
+                "text": "Message received.",
+                "portraitImage": ""
+            }
+        },
+        "descriptions": {
+            "default": "you should not see this ever"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "novakidphys",
+  "species" : "other",
+  "title" : "Celestial Bodies",
+  "description" : "An Observation on Novakid physiology by Hylotl Dr. K. Sakana.",
+  "icon" : "novakidbio.png",
+  "contentPages" : [
+  "Contrary to popular belief, Novakids are not exactly \"gas bags\" as some may refer to them as, but are rather composed of a gaseous material encased in a durable \"Hardlight\" plasma shell of sorts. It is unknown what exactly allows for Novakids to maintain their energy shells rather than, say, dissipate in some manner as gas often does, but what is clear is how Novakids maintain their shells. Through the consumption of traditionally edible matter, they are able to efficiently convert said matter into energy.",
+
+"What amounts to what gender-analogous body structures Novakids have seems to be defined by some sort of polarity. Novakids of one polarity have a more typically masculine form, while those of the opposite have a more feminine one. Typically Novakids will identify their gender based on the bodily form they have, but this is no hard rule and looks to be more cultural contamination from other species than something inherent. Ultimately, Novakids are practically sexless, in a manner akin to the Glitch or Floran.",
+"Despite being energy beings, Novakids are not invincible. They can suffer injuries as any other species, and as a result appear to have the ability to repair themselves through the appropriate coaxing. In addition to consuming more energy through food, they can utilize medicine and other such items just like any other species, as they will also be converted into energy as well.", 
+"It is also of note that despite the presumably immense energies required to maintain a Novakid, they are pleasantly warm to the touch, indicating that they are energy efficient individuals, by virtue of minimal energy loss through heat." ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

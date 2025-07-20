@@ -1,0 +1,123 @@
+[
+  {
+    "op": "add",
+    "path": "/steps/scan_planets",
+    "value": {
+      "category": "planet",
+      "quest": "scan_planets",
+      "questParameters": {},
+      "clueTypes": [],
+      "coordinate": {
+        "type": "world",
+        "questParameter": "world"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "clueType": "scan"
+      },
+      "next": {
+        "step": "scan_planets"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "step": "scan_planets",
+        "text": {
+          "message": "We have picked up the target's signature from this planet. Proceed down to <next.coordinate.name> and apprehend the criminal."
+        }
+      },
+      "next": {
+        "step": "capture_bounty",
+        "coordinate": {
+          "type": "previous",
+          "questParameter": "world"
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "step": "scan_planets",
+        "text": {
+          "message": "We have picked up the target's signature from this planet. Proceed down to <next.coordinate.name> to investigate further."
+        }
+      },
+      "next": {
+        "step": "find_clue_npc",
+        "coordinate": {
+          "type": "previous",
+          "questParameter": "world"
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "step": "scan_planets",
+        "text": {
+          "message": "We have picked up the target's signature from this planet. Proceed down to <next.coordinate.name> to investigate further."
+        }
+      },
+      "next": {
+        "step": "find_clue_bounty",
+        "coordinate": {
+          "type": "previous",
+          "questParameter": "world"
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "step": "scan_planets",
+        "text": {
+          "message": "We have picked up the target's signature from this planet. Proceed down to <next.coordinate.name> to investigate further."
+        }
+      },
+      "next": {
+        "step": "find_clue_object",
+        "coordinate": {
+          "type": "previous",
+          "questParameter": "world"
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/edges/-",
+    "value": {
+      "prev": {
+        "step": "scan_planets",
+        "text": {
+          "message": "We've picked up the target's signature from this planet. Proceed down to <next.coordinate.name> to investigate further."
+        }
+      },
+      "next": {
+        "step": "find_clue_item",
+        "coordinate": {
+          "type": "previous",
+          "questParameter": "world"
+        }
+      }
+    }
+  }
+]

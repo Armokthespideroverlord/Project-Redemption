@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "sewagebarrel", "count" : 1 },
+    { "item" : "toxicwaste", "count" : 10 }
+  ],
+  "output" : { "item" : "toxicwastebarrel", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

@@ -1,0 +1,79 @@
+{
+  "type" : "r-outlawrebel",
+  "displayTitle" : "Rebel Radical",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+   "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "Long live the revolution!",
+            "Nothing will get in the way of my people's freedom!",
+            "Neither you nor the Miniknog will stop me!",
+            "My comrades may forsake me, but I shall secure victory!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "apextier5ahead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "apextier5shead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "medichead", "parameters" : { "colorIndex" : [1] } }, 
+              { "name" : "eyepatchhead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "berethead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "captainshead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "apextier5mhead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "miniknoghead", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "visorhead", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "chest" : [
+              { "name" : "medicchest", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "apextier4chest", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "miniknogchest", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "legs" : [
+              { "name" : "mediclegs", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "apextier4pants", "parameters" : { "colorIndex" : [1] } },
+              { "name" : "miniknogpants", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "primary" : [ "npcpetcapturepod" ],
+            "sheathedprimary" : [ "npcrocketlauncher", "npcassaultrifle", "npcsniperrifle" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

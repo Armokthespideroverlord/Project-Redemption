@@ -1,0 +1,11 @@
+{
+  "name" : "protectorateheadlamp",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "protectorateheadlamp.lua"
+  ],
+
+  "animationConfig" : "protectorateheadlamp.animation"
+}

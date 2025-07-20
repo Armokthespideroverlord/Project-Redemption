@@ -1,0 +1,24 @@
+{
+  "itemName" : "r-peacekeeperarmor",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "A package containing a full set of Heavy Peacekeeper armor.",
+  "shortdescription" : "Heavy Peacekeeper Gear",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "r-peacekeeperarmor.png",
+  "animation" : "r-peacekeeperarmor.animation",
+  "animationCustom" : {},
+  "scripts" : ["r-peacekeeperarmor.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "r-peacekeeperarmor",
+    "level" : 1
+  }
+}

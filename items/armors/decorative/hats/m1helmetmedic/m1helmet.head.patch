@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "G.I. standard issue military helmet. This one is designed for a medic."
+  }
+]

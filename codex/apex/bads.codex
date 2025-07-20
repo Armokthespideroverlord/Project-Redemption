@@ -1,0 +1,23 @@
+{
+  "id" : "bads",
+  "species" : "apex",
+  "title" : "BADS Advisory",
+  "description" : "A Miniknog pamphlet warning against a supposed mental condition.",
+  "icon" : "apexcover4.png",
+  "contentPages" : [
+  "Are you having a case of the BADS (Big Ape Deviancy Syndrome)?
+
+Symptoms include:
+* Strong dislike of Big Ape
+* Disapproval of Big Ape's policies
+* Belief that we should not be led by Big Ape
+* Denying that Big Ape exists
+* Anything short of unconditional fawning adoration of Big Ape.
+
+If you see someone suffering from these symptoms, report them to the Miniknog immediately!"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

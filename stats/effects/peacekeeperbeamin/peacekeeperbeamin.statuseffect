@@ -1,0 +1,15 @@
+{
+  "name" : "peacekeeperbeamin",
+  "effectConfig" : {
+    "speciesTags" : {
+      "penguin" : "penguin"
+    }
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "peacekeeperbeamin.lua"
+  ],
+
+  "animationConfig" : "peacekeeperbeamin.animation"
+}

@@ -1,0 +1,177 @@
+{
+  "type" : "armok-shadowreaper",
+  "identity" : {"name":"Shadow Reaper"},
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "armok-harbingerloot" ],
+  
+  "scriptConfig" : {
+    
+ "chatSounds": {
+      "avian": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "apex": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "floran": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "glitch": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "human": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "hylotl": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      },
+      "default": {
+        "male": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ],
+        "female": [
+          "/sfx/humanoid/shadowvillager_chatter1.ogg",
+          "/sfx/humanoid/shadowvillager_chatter2.ogg",
+          "/sfx/humanoid/shadowvillager_chatter3.ogg"
+        ]
+      }
+    },
+     "dialog": {
+      "tenant": {
+        "grumbles": {
+          "tagCriteria": "/dialog/frog.config:tagCriteria",
+          "enclosedArea": "/dialog/frog.config:enclosedArea",
+          "otherDeed": "/dialog/frog.config:otherDeed",
+          "severe": "/dialog/frog.config:severe",
+          "final": "/dialog/frog.config:final"
+        },
+        "arrivedHome": {
+          "beacon": "/dialog/frog.config:beacon",
+          "rent": "/dialog/frog.config:rent"
+        }
+      },
+"greeting" : "/dialog/shadowguard.config:converse",
+      "converse": "/dialog/shadowguard.config:converse",
+      "accuse": "/dialog/shadowguard.config:accuse",
+      "attack": "/dialog/shadowguard.config:attack",
+      "reattack": "/dialog/shadowguard.config:reattack",
+      "killedTarget": "/dialog/shadowguard.config:killedTarget",
+      "lostTarget": "/dialog/shadowguard.config:lostTarget",
+      "outOfSight": "/dialog/shadowguard.config:outOfSight",
+      "cheerOn": "/dialog/shadowguard.config:cheerOn",
+      "cantReach": "/dialog/shadowguard.config:cantReach"
+    }
+  },
+  
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              {
+                "name": "r-darkguardhead",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "darkchest",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "darklegs",
+                "parameters": {
+                  "colorIndex": 0
+                }
+              }
+            ],
+            "primary": [
+              "armok-npcharbinger"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

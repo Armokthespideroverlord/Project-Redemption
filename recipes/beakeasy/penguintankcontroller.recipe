@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "dubloon", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "penguintankcontroller",
+    "count" : 1
+  },
+  "groups" : [ "beakeasy" ]
+}

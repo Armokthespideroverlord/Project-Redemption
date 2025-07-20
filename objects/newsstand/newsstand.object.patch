@@ -1,0 +1,34 @@
+[
+[
+{
+    "op" : "test",
+    "path" : "/apexDescription",
+    "value" : "A Novachild selling some newspapers."
+  },
+  {
+    "op": "replace",
+    "path": "/apexDescription",
+    "value": "A Novakid... child selling some newspapers."
+  },
+  {
+    "op": "replace",
+    "path": "/humanDescription",
+    "value": "A newspapers stand! Maybe there are some articles about those that escaped Earth's destruction?"
+  },
+{
+    "op": "replace",
+    "path": "/novakidDescription",
+    "value": "Oh, a lil boy! Work hard, gain hard, kiddo."
+  }
+],
+  [{
+    "op": "add",
+    "path": "/storeInventory/cards/-",
+    "value": "pr-USCMpostcard"
+  },
+  {
+    "op": "add",
+    "path": "/storeRandomPool/news/-",
+    "value": "pr-newspapercodex-codex"
+  }]
+]

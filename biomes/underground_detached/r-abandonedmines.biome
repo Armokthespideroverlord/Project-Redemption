@@ -1,0 +1,51 @@
+{
+  "name" : "r-abandonedmines",
+  "friendlyName" : "Abandoned Mines",
+  
+  "mainBlock" : "rock20",
+  "subBlocks" : [ "dirt", "rock02" ],
+  "ores" : "depth2",
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/dirtunderground.parallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "barrelChest" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 4,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.7, "oillantern1" ], [1.5, "haypile" ], [0.1, "haystack" ], [0.05, "outhouse" ] ],
+            "parameters" : { }
+          }
+
+
+        ]
+      }
+    ]
+  }
+}

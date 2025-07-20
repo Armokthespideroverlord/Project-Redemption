@@ -1,0 +1,39 @@
+{
+  "projectileName": "r-ancientdrone",
+  "physics": "hover",
+  "timeToLive": 15,
+  "image": "r-ancientdrone.png",
+  "animationCycle": 1,
+  "frameNumber": 16,
+  "windupFrames": 12,
+  "flippable": true,
+  "periodicActions": [],
+  "actionOnReap": [
+    {
+      "action": "sound",
+      "options": [
+        "/sfx/melee/blunt_kill_stone1.ogg"
+      ]
+    }
+  ],
+  "speed": 0,
+  "power": 30,
+  "damageKind": "default",
+  "damagePoly": [],
+  "emitters": [],
+  "renderLayer": "Projectile+1",
+  "orientationLocked": true,
+  "bounces": -1,
+  "onlyHitTerrain": true,
+  "scripts": [
+    "/projectiles/activeitems/staff/r-staffprojectile.lua"
+  ],
+  "scriptDelta": 1,
+  "controlMovement": {
+    "maxSpeed": 40,
+    "controlForce": 30
+  },
+  "searchDistance": 40,
+  "projectileType": "r-dronepellet",
+  "cooldownTime": 0.2
+}

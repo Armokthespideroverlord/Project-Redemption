@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "prisilitestar", "count" : 3 }
+, { "item" : "platinumbar", "count" : 3 }  ],
+  "output" : { "item" : "r-prisiliteshield", "count" : 1 },
+  "groups" : [ "craftingconstructor", "weapons", "all" ]
+}

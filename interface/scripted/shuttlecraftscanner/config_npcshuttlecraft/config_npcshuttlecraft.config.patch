@@ -1,0 +1,69 @@
+[
+
+{
+	"op": "add",
+    "path": "/npcshuttlecraft_peacekeeper",
+    "value": {
+		"frameTypes" : ["recon" ],
+		"styles" : ["mark2standard" ],
+		"pilot" : [
+			{ "npcType" : "shuttlepassenger_peacekeeper"  }
+		],
+		"coPilot" : [
+			{ "npcType" : "shuttlepassenger_peacekeeper"  }
+		],
+		"primaryWeapons" : ["neomagnum4" ],
+		"altWeapons" : ["neomagnum4" ],
+		"primaryWeaponsPassenger" : ["neomagnum4"],
+		"altWeaponsPassenger" : ["neomagnum4" ],
+		"specialModulesDriver" : ["headlights", "sws"],
+		"specialModulesPassenger" : ["sws"],
+		"colorsOverride" : {	"primary" : [ 23, 4 ],
+								"secondary" : [ 2 ],
+								"tertiary" : [ 2 ],
+								"quaternary" : [ 2 ],
+								"quinary" : [ 28 ],
+								"senary" : [ 28 ]	
+						},
+		"decalsOverride" : ["/decals/10x8/decal_peacekeeper.png"],
+		"decalsSecondOverride" : ["/decals/7x8/decal_empty.png"],
+		"decalsThirdOverride" : ["/decals/7x8/decal_empty.png"]
+	}
+  
+  
+},
+
+{
+	"op": "add",
+    "path": "/npcshuttlecraft_peacekeeper2",
+    "value": {
+		"frameTypes" : [ "heavy" ],
+		"styles" : ["mark2standard" ],
+		"pilot" : [
+			{ "npcType" : "shuttlepassenger_peacekeeper2"  }
+		],
+		"coPilot" : [
+			{ "npcType" : "shuttlepassenger_peacekeeper2"  }
+		],
+		"primaryWeapons" : ["neomagnum4" ],
+		"altWeapons" : ["npcneolaserlauncher", "gluesprayer"],
+		"primaryWeaponsPassenger" : ["gluesprayer", "npcneolaserlauncher"],
+		"altWeaponsPassenger" : ["neomagnum4"],
+		"specialModulesDriver" : ["headlights", "sws"],
+		"specialModulesPassenger" : ["sws"],
+		"colorsOverride" : {	"primary" : [ 23, 4 ],
+								"secondary" : [ 2 ],
+								"tertiary" : [ 2 ],
+								"quaternary" : [ 2 ],
+								"quinary" : [ 28 ],
+								"senary" : [ 28 ]	
+						},
+		"decalsOverride" : [	"/decals/10x8/decal_peacekeeper.png"],
+		"decalsSecondOverride" : ["/decals/7x8/decal_empty.png"],
+		"decalsThirdOverride" : ["/decals/7x8/decal_empty.png"]
+	}
+  
+  
+}
+
+]

@@ -1,0 +1,18 @@
+{
+  "id": "notebookcodex",
+  "species": "human",
+  "title": "USCM Logbook",
+  "description": "A weathered and dusty old logbook of a USCM marine.",
+  "icon": "camobook.png",
+  "contentPages": [
+    "^orange;//LOG: 11^white; It's been some time since I've enlisted to the USCM, things were going pretty decent at first but now the payment is running low... Truth be told I'd still be willing to do my part with or without a pay grade, I can't bear the thought of us still sitting on Earth when everyone else is out carving up the galaxy for themselves.",
+"^orange;//LOG: 14^white; I've heard that we've formed a partnership with the Miniknog recently for some bio weapons project. Despite my unease at working with those apes, maybe things are getting better for us after all.",
+"^orange;//LOG: 16^white; Of all the things I thought would happen to the USCM, I wasn't expecting this... We've lost contact with our Research-Class Freighters and the last of our Merchant-Class Freighters have gone and mutinied, meanwhile our captain has stated that they intend to surrender ourselves to the Electorate. There's already talk of a \"loyalist\" mutiny going around...",
+"^orange;//LOG: 17^white; It's over, I'm the captain now. We've dumped the old captain off on the nearest planet and made a random jump into deep space, the USCM isn't disbanding under our watch!"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25
+  }
+}
+

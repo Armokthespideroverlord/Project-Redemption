@@ -1,0 +1,118 @@
+{
+  "corporateLoot": [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1,
+            "item": "electrobaton"
+          },
+          {
+            "weight": 1,
+            "item": "raygun"
+          },
+          {
+            "weight": 1,
+            "item": "industrialcrewhead"
+          },
+          {
+            "weight": 1,
+            "item": "spacebirdhead"
+          },
+          {
+            "weight": 1,
+            "item": "mechpilothead"
+          }
+        ]
+      }
+    ],
+    [
+      5.9,
+      {
+        "pool": [
+          {
+            "weight": 0.5,
+            "item": "electrobaton"
+          },
+          {
+            "weight": 0.5,
+            "item": "raygun"
+          },
+          {
+            "weight": 0.5,
+            "item": "industrialcrewhead"
+          },
+          {
+            "weight": 0.5,
+            "item": "spacebirdhead"
+          },
+          {
+            "weight": 0.5,
+            "item": "mechpilothead"
+          },
+{"weight" : 1, "item" : "spaceplasmarifle"},
+        {"weight" : 1, "item" : "drillspear"},
+{"weight" : 1, "item" : "pulserailgun"},
+{"weight" : 1, "item" : "premierhead"},
+        {"weight" : 1, "item" : "premierchest"},
+        {"weight" : 1, "item" : "premierpants"}
+        ]
+      }
+    ]
+  ],
+  "corporateLore": [
+    [
+      1,
+      {
+        "pool": [
+          {
+            "weight": 0.2,
+            "item": "humanhistory5-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "humanhistory7-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "humanhistory8-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "notebookcodex-codex"
+          }
+        ],
+        "poolRounds": 1,
+        "allowDuplication": false
+      }
+    ]
+  ],
+"corporateLore2": [
+    [
+      1,
+      {
+        "pool": [
+          {
+            "weight": 0.2,
+            "item": "humanhistory5-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "humanhistory7-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "humanhistory8-codex"
+          },
+          {
+            "weight": 0.2,
+            "item": "broadcastcodex-codex"
+          }
+        ],
+        "poolRounds": 1,
+        "allowDuplication": false
+      }
+    ]
+  ]
+}

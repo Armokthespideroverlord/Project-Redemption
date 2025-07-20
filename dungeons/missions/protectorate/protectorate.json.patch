@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/5/objects/76/properties/parameters",
+        "value": "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"brokensidearm\", \"count\" : 1 }, { \"name\" : \"money\", \"count\" : 150 } ] }"
+    }
+]

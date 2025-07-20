@@ -1,0 +1,14 @@
+{
+  "name" : "armok-lifesteal",
+  "effectConfig" : {
+    "healAmount" : 10,
+    "emissionRate" : 0.1
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "armok-lifesteal.animation"
+}

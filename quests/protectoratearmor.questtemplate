@@ -1,0 +1,21 @@
+{
+  "id" : "protectoratearmor",
+  "prerequisites" : [ "protectoratepistol" ],
+  "title" : "^green;Hero's Armor",
+  "text" : "It seems like the Baron uncovered some hidden blueprint chip fragments within the Protectorate weapons, they appear to be for some ^orange;experimental suit of power armor!^reset;",
+  "completionText" : "It seems like the Baron uncovered some hidden blueprint chip fragments within the Protectorate weapons, they appear to be for some ^orange;experimental suit of power armor!^reset;",
+  "moneyRange" : [0, 0],
+   "rewards" : [
+    [  [ "r-datachip", 1 ] ]
+  ],   "canBeAbandoned" : false,     "showAcceptDialog": false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/r-autocomplete.lua",
+  "scriptConfig" : {
+	"portraits" : {
+      "questStarted" : "player",
+	  "questComplete" : "player"
+    },
+    "requireTurnIn" : false
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "op": "add",
+    "path": "/platinumRockSmall",
+    "value": [
+      [
+        1,
+        {
+          "pool": [
+            {
+              "weight": 1,
+              "item": "platinumore"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.25,
+              8
+            ],
+            [
+              0.5,
+              10
+            ],
+            [
+              0.25,
+              12
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/platinumRock",
+    "value": [
+      [
+        1,
+        {
+          "pool": [
+            {
+              "weight": 1,
+              "item": "platinumore"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.25,
+              12
+            ],
+            [
+              0.5,
+              15
+            ],
+            [
+              0.25,
+              18
+            ]
+          ]
+        }
+      ]
+    ]
+  }
+]

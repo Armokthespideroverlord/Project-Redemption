@@ -1,0 +1,12 @@
+[
+{
+    "op": "test",
+    "path": "/description",
+    "value": "\"Where in the universe is Charlton McVicar\" says this Starbound Chronicle article"
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "An article from The Chronicle, a newspaper infamous for spreading fake news."
+  }
+]

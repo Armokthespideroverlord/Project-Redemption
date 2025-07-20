@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "r-lostandfound",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "r-lostandfound" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "r-lostandfound",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "r-lostandfound.json" ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "r-imperviumore", "count" : 2 }  ],
+  "output" : {
+    "item" : "r_imperviumalloy",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "op": "remove",
+    "path": "/level"
+  },
+  {
+    "op": "add",
+    "path": "/fixedLevel",
+    "value": false
+  }
+]

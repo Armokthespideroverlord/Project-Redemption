@@ -1,0 +1,111 @@
+[
+{"op" : "add", "path" : "/microformerTreasure/0/1/pool/-", "value" : {"weight" : 0.01, "item" : "r-ancientsword"} },
+{"op" : "add", "path" : "/microformerTreasure/0/1/pool/-", "value" : {"weight" : 0.01, "item" : "r-ancientmask"} },
+{"op" : "add", "path" : "/microformerTreasure/0/1/pool/-", "value" : {"weight" : 0.01, "item" : "r-ancientscepter"} },
+{
+    "op": "add",
+    "path": "/geodeRewards/0/1/pool/-",
+    "value": {
+      "weight": 0.0025,
+      "item": "r-imperviumsample"
+    }
+  },
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "t2helm1"}
+  },
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "t2helm2"}
+  },
+//{
+    //"op": "add","path": "/costume/0/1/pool/-",
+    //"value":   {"weight" : 0.0003, "item" : "cardboardboxarmor"}
+  //},
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "parachutepackback"}
+  },
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "sensorysquidhathead"}
+  },
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "hottophathead"}
+  },
+{
+    "op": "add","path": "/costume/0/1/pool/-",
+    "value":   {"weight" : 0.0003, "item" : "m1helmetmedichead"}
+  },
+{
+    "op": "add",
+    "path": "/uniqueWeapon/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "brassknuckles"
+    }
+  },
+{
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "chargegun"
+    }
+  },
+{
+    "op": "add",
+    "path": "/uniqueWeapon/1/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "fryingpan"
+    }
+  },
+{
+    "op": "add","path": "/instrument/0/1/pool/-",
+    "value":   {"weight" : 0.0001, "item" : "keyboard"}
+  },
+{
+    "op": "add",
+    "path": "/geodeRewards/0/1/pool/-",
+    "value": {
+      "weight": 0.0025,
+      "item": "platinumsample"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/nonTieredOre/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": [
+        "platinumore",
+        4
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/nonTieredRichOre/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": [
+        "platinumore",
+        16
+      ]
+    }
+  },
+{
+    "op": "add","path": "/tool/0/1/pool/-",
+    "value":   {"weight" : 0.01, "item" : [ "r-blueflashlight", 1]}
+  },
+{
+    "op": "add","path": "/tool/0/1/pool/-",
+    "value":   {"weight" : 0.01, "item" : [ "r-orangeflashlight", 1]}
+  },
+{
+    "op": "add","path": "/tool/0/1/pool/-",
+    "value":   {"weight" : 0.01, "item" : [ "r-pinkflashlight", 1]}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name" : "r-slowness",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "r-slowness.lua"
+  ],
+
+  "animationConfig" : "r-slowness.animation"
+}

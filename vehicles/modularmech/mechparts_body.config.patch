@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/protector/stats/energy",
+    "value": "7"
+  },
+  {
+    "op": "replace",
+    "path": "/protector/stats/protection",
+    "value": "7"
+  }
+]

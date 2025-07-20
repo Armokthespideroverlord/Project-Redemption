@@ -1,0 +1,489 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "body": {
+        "priority": 1,
+        "default": "idle",
+        "states": {
+          "idle": {},
+          "move": {
+            "frames": 4,
+            "cycle": 0.3,
+            "mode": "loop"
+          },
+          "movebackwards": {
+            "frames": 4,
+            "cycle": 0.3,
+            "mode": "loop"
+          },
+          "jump": {
+            "frames": 2,
+            "cycle": 0.1
+          },
+          "fall": {
+            "frames": 2,
+            "cycle": 0.1
+          }
+        }
+      },
+	  "movement": {
+      "default": "idle",
+      "states": {
+        "warpInPart1": {
+          "frames": 4,
+          "cycle": 0.33,
+          "mode": "transition",
+          "transition": "warpInPart2"
+        },
+        "warpInPart2": {
+          "frames": 4,
+          "cycle": 0.33,
+          "mode": "transition",
+          "transition": "idle"
+        },
+        "idle": {},
+        "warpOutPart1": {
+          "frames": 4,
+          "cycle": 0.33,
+          "mode": "transition",
+          "transition": "warpOutPart2"
+        },
+        "warpOutPart2": {
+          "frames": 4,
+          "cycle": 0.33,
+          "mode": "transition",
+          "transition": "invisible"
+        },
+        "invisible": {}
+      }
+    }
+    },
+    "parts": {
+      "body": {
+        "properties": {
+          "offset": [
+            0,
+            -0.0625
+          ],
+          "seatOffset": [
+            -0.75,
+            1.5
+          ],
+          "zLevel": 1
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "body.png:idle"
+              }
+            },
+            "move": {
+              "properties": {
+                "image": "body.png:move.<frame>"
+              },
+              "frameProperties": {
+                "seatOffset": [
+                  [
+                    -0.75,
+                    1.5
+                  ],
+                  [
+                    -0.75,
+                    1.625
+                  ],
+                  [
+                    -0.75,
+                    1.5
+                  ],
+                  [
+                    -0.75,
+                    1.375
+                  ]
+                ]
+              }
+            },
+            "movebackwards": {
+              "properties": {
+                "image": "body.png:movebackwards.<frame>"
+              },
+              "frameProperties": {
+                "seatOffset": [
+                  [
+                    -0.75,
+                    1.375
+                  ],
+                  [
+                    -0.75,
+                    1.5
+                  ],
+                  [
+                    -0.75,
+                    1.625
+                  ],
+                  [
+                    -0.75,
+                    1.5
+                  ]
+                ]
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "body.png:jump.<frame>"
+              },
+              "frameProperties": {
+                "seatOffset": [
+                  [
+                    -0.75,
+                    1.5
+                  ],
+                  [
+                    -0.75,
+                    1.625
+                  ]
+                ]
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "body.png:fall.<frame>"
+              },
+              "frameProperties": {
+                "seatOffset": [
+                  [
+                    -0.75,
+                    1.625
+                  ],
+                  [
+                    -0.75,
+                    1.5
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      },
+      "cannon": {
+        "properties": {
+          "offset": [
+            1.1875,
+            0.75
+          ],
+          "transformationGroups": [
+            "cannon"
+          ],
+          "rotationCenter": [
+            -1.5,
+            0
+          ],
+          "fireOffset": [
+            1.5,
+            0
+          ],
+          "zLevel": 2,
+          "image": "cannon.png"
+        },
+        "partStates": {
+          "body": {
+            "move": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    1.1875,
+                    0.75
+                  ],
+                  [
+                    1.1875,
+                    0.875
+                  ],
+                  [
+                    1.1875,
+                    0.75
+                  ],
+                  [
+                    1.1875,
+                    0.625
+                  ]
+                ]
+              }
+            },
+            "movebackwards": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    1.1875,
+                    0.625
+                  ],
+                  [
+                    1.1875,
+                    0.75
+                  ],
+                  [
+                    1.1875,
+                    0.875
+                  ],
+                  [
+                    1.1875,
+                    0.75
+                  ]
+                ]
+              }
+            },
+            "jump": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    1.1875,
+                    0.75
+                  ],
+                  [
+                    1.1875,
+                    0.875
+                  ]
+                ]
+              }
+            },
+            "fall": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    1.1875,
+                    0.875
+                  ],
+                  [
+                    1.1875,
+                    0.75
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      },
+      "bodyfront": {
+        "properties": {
+          "offset": [
+            -0.3125,
+            0.8125
+          ],
+          "zLevel": 3,
+          "image": "bodyfront.png"
+        },
+        "partStates": {
+          "body": {
+            "move": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    -0.3125,
+                    0.8125
+                  ],
+                  [
+                    -0.3125,
+                    0.9375
+                  ],
+                  [
+                    -0.3125,
+                    0.8125
+                  ],
+                  [
+                    -0.3125,
+                    0.6875
+                  ]
+                ]
+              }
+            },
+            "movebackwards": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    -0.3125,
+                    0.6875
+                  ],
+                  [
+                    -0.3125,
+                    0.8125
+                  ],
+                  [
+                    -0.3125,
+                    0.9375
+                  ],
+                  [
+                    -0.3125,
+                    0.8125
+                  ]
+                ]
+              }
+            },
+            "jump": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    -0.3125,
+                    0.8125
+                  ],
+                  [
+                    -0.3125,
+                    0.9375
+                  ]
+                ]
+              }
+            },
+            "fall": {
+              "frameProperties": {
+                "offset": [
+                  [
+                    -0.3125,
+                    0.9375
+                  ],
+                  [
+                    -0.3125,
+                    0.8125
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      },
+      "warp": {
+        "properties": {
+          "centered": true,
+          "zLevel": 3,
+          "fullbright": true
+        },
+        "partStates": {
+          "movement": {
+            "warpInPart1": {
+              "properties": {
+                "image": "tankwarp.png:warpInPart1.<frame>"
+              }
+            },
+            "warpInPart2": {
+              "properties": {
+                "image": "tankwarp.png:warpInPart2.<frame>"
+              }
+            },
+            "idle": {
+              "properties": {}
+            },
+            "warpOutPart1": {
+              "properties": {
+                "image": "tankwarp.png:warpOutPart1.<frame>"
+              }
+            },
+            "warpOutPart2": {
+              "properties": {
+                "image": "tankwarp.png:warpOutPart2.<frame>"
+              }
+            },
+            "invisible": {
+              "properties": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "transformationGroups": {
+    "cannon": {
+      "interpolated": true
+    }
+  },
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0,
+      "directives": "fade=ffffff;0.5"
+    }
+  },
+  "particleEmitters": {
+    "damageShards": {
+      "transformationGroups": [],
+      "emissionRate": 0,
+      "burstCount": 30,
+      "offsetRegion": [
+        -2.5,
+        -1.875,
+        2.5,
+        0.5
+      ],
+      "particles": [
+        {
+          "particle": {
+            "type": "animated",
+            "animation": "/animations/shards/generatorshard.animation",
+            "initialVelocity": [
+              0,
+              15
+            ],
+            "finalVelocity": [
+              0,
+              -60
+            ],
+            "approach": [
+              0.3,
+              60
+            ],
+            "timeToLive": 1,
+            "layer": "middle",
+            "collidesForeground": true,
+            "variance": {
+              "initialVelocity": [
+                16,
+                5
+              ],
+              "finalVelocity": [
+                0,
+                20
+              ],
+              "rotation": 180,
+              "angularVelocity": 180
+            }
+          }
+        },
+        {
+          "particle": "fireshard"
+        }
+      ]
+    },
+    "muzzleFlash": {
+      "anchorPart": "cannon",
+      "burstCount": 3,
+      "particles": [
+        {
+          "offset": [
+            1.5,
+            0
+          ],
+          "particle": "rocketbarrelpuff"
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "explode": [
+      "/sfx/gun/grenadeblast_small_fire1.ogg",
+      "/sfx/gun/grenadeblast_small_fire2.ogg",
+      "/sfx/gun/grenadeblast_small_fire3.ogg"
+    ],
+    "engineStart": [
+      "/sfx/objects/airlock_close.ogg"
+    ],
+    "engineLoop": [
+      "/sfx/npc/monsters/penguintank_idle.ogg"
+    ],
+    "engineDrive": [
+      "/sfx/npc/monsters/penguintank_move2.ogg"
+    ],
+    "fire": [
+      "/sfx/gun/rocket1.ogg"
+    ],
+    "returnvehicle": [
+      "/sfx/tech/vehicle_disappear1.ogg"
+    ]
+  },
+  "lights": {}
+}

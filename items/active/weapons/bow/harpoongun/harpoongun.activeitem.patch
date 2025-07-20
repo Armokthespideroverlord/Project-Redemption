@@ -1,0 +1,26 @@
+[
+  {
+    "op": "remove",
+    "path": "/level"
+  },
+  {
+    "op": "add",
+    "path": "/fixedLevel",
+    "value": false
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/idle",
+    "value": {"twoHanded" : false}
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/draw",
+    "value": {"twoHanded" : false}
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/fire/twoHanded",
+    "value": false
+  }
+]

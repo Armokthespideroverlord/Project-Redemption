@@ -1,0 +1,33 @@
+{
+  "itemName" : "penguintankcontroller",
+  "level" : 1,
+  "price" : 11000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "shortdescription" : "Tank Controller",
+  "description" : "Create a Penguin tank from stored nanites.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "penguintank.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "r-minitank",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/items/active/vehiclecontroller/penguintank.png",
+
+  "animationParts" : {
+    "casing" : "penguintankcontroller.png"
+  },
+
+  "inventoryIcon" : "penguintankcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/penguintankcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/penguintankcontroller.png:full"
+}

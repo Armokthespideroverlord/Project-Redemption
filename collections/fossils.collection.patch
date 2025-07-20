@@ -1,0 +1,23 @@
+[
+  { "op": "add", 
+	"path": "/collectables/deadbeatskull",
+	"value":	 
+	{
+	  "order" : 124,
+	  "title" : "Deadbeat Skull",
+	  "description" : "A fossilized Deadbeat skull. Not to be confused with a horned Human one.",
+	  "icon" : "/objects/fossils/smallfossils/deadbeatskull.png"
+	}
+  },
+  
+  { "op": "add", 
+	"path": "/collectables/novakidbrand",
+	"value":	 
+	{
+	  "order" : 125,
+	  "title" : "Novakid Brand",
+	  "description" : "The remnant of a long dead Novakid.",
+	  "icon" : "/items/fossils/small/novakidbrandicon.png"
+	}
+  }
+]

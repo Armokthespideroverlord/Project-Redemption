@@ -1,0 +1,23 @@
+﻿[
+{
+    "op": "replace",
+    "path": "/level",
+    "value": 2
+  },
+    {
+        "op" : "add",
+        "path" : "/itemTags/-",
+        "value" : "upgradeableWeapon"
+    },
+    {
+        "op" : "add",
+        "path" : "/upgradeParameters",
+        "value" : {
+            "inventoryIcon" : "brassknuckles_l6.png:front",
+            "animationParts" : {
+                "weapon" : "brassknuckles_l6.png"
+            },
+            "shortdescription" : "Brass Knuckles ^yellow;^reset;"
+        }
+    }
+]

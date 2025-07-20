@@ -1,0 +1,15 @@
+{
+  "name" : "shadowriftin",
+  "effectConfig" : {
+    "speciesTags" : {
+      "penguin" : "penguin"
+    }
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "shadowriftin.lua"
+  ],
+
+  "animationConfig" : "shadowriftin.animation"
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "r-weakness",
+  "effectConfig" : {
+    "powerModifier" : 0.25
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "rage.lua"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pr-USCMpostcard",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "junk",
+ "tooltipKind" : "tool",
+ "inventoryIcon" : "uscm.png",
+  "description" : "Help Humanity claim the stars, ^green;enlist today!",
+  "shortdescription" : "Old USCM Ad",
+  "largeImage" : "uscmlarge.png"  
+}

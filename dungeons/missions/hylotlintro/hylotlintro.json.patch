@@ -1,0 +1,12 @@
+[
+  [
+    { "op" : "test",
+      "path" : "/layers/4/objects/3/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 } ] }"
+    },
+    { "op" : "replace",
+      "path" : "/layers/4/objects/3/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 },  { \"name\" : \"brokensidearm\", \"count\" : 1 } ] }"
+    }
+  ]
+]

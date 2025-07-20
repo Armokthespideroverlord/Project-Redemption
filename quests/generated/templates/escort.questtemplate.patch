@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptConfig/generatedText/failureText/default/0",
+    "value": "It looks like I failed to safely escort <questGiver>'s friend, I'll try to do better next time."
+  }
+]

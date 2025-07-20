@@ -1,0 +1,126 @@
+{
+  "type": "corporatemarine",
+  "identity" : {"name":"Corporate Marine"},
+  "baseType": "hostile",
+  "dropPools": [
+    "bunkerguardtreasure"
+  ],
+  "scriptConfig": {
+    "dialog": {
+      "attack": {
+        "default": {
+          "default": [
+            "Attack!"
+          ]
+        },
+        "human": {
+          "default": [
+            "Let's go marines!",
+        "Come get some!",
+        "Hostiles inbound!",
+        "We're Oscar-Mike!",
+        "Lock and load!",
+        "Go go go!",
+        "Enemy contact!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+		  {
+            "head": [
+              {
+                "name": "humantier1head"
+              }
+            ],
+            "chest": [
+              {
+                "name": "humantier1chest"
+              }
+            ],
+            "legs": [
+              {
+                "name": "humantier1pants"
+              }
+            ],
+            "primary": [
+              "npcassaultrifle",
+              "npcshotgun",
+              "npcsniperrifle",
+              "npcrocketlauncher",
+              "commongrenadelauncher",
+              "r-npcflamethrower"
+            ],
+            "sheathedprimary": [
+              "npcshortsword",
+"npcpistol",
+              "npcmachinepistol"
+            ],
+            "alt": [
+              "r-uscmriotshield"
+            ]
+          },
+		  {
+            "head": [
+              {
+                "name": "humantier2head"
+              }
+            ],
+            "chest": [
+              {
+                "name": "humantier2chest"
+              }
+            ],
+"back" : [ 	{ "name" : "survivalgearback", "parameters" : { "colorIndex" : 0  } }
+			],
+            "legs": [
+              {
+                "name": "humantier2pants"
+              }
+            ],
+            "primary": [
+              "npcassaultrifle",
+              "npcshotgun",
+              "npcsniperrifle",
+              "npcrocketlauncher",
+              "commongrenadelauncher",
+              "r-npcflamethrower"
+            ],
+            "sheathedprimary": [
+              "npcshortsword",
+"npcpistol",
+              "npcmachinepistol"
+            ],
+            "alt": [
+              "r-uscmriotshield"
+            ]
+          },
+		  {
+            "chest": [
+              {
+                "name": "explorerchest", "count":1, "parameters": {"directives":"?replace;ffca8a=909c4f;e0975c=5f6c37;a85636=414d28;6f2919=1b2211" }
+              }
+            ],
+            "legs": [
+              {
+                "name": "explorerlegs","count":1, "parameters": {"directives":"?replace;ffca8a=909c4f;e0975c=5f6c37;a85636=414d28;6f2919=1b2211" }
+              }
+            ],
+            "primary": [
+"npcpistol",
+              "npcmachinepistol"
+            ],
+            "sheathedprimary": [
+              "npcshortsword"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

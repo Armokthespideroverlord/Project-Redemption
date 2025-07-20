@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "peacecredit", "count" : 6 },
+    { "item" : "neotonfa3", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "neotonfa4",
+    "count" : 1
+  },
+  "groups" : [ "peacekeeper4" ]
+}

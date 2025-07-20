@@ -1,0 +1,48 @@
+{
+  "itemName" : "npcfoldingchair",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Get rowdy! Go crazy! Injure yourself and others!",
+  "shortdescription" : "NPC Folding Chair",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : ""
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scriptDelta" : 2,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.45,
+    "baseDps" : 11,
+    "damageConfig" : {
+      "damageSourceKind" : "foldingchair"
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
+  
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/hammer/foldingchair/<variant>.png",
+        "variants" : 2,
+        "paletteSwap" : false
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" ]
+  }]
+}

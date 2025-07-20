@@ -1,0 +1,23 @@
+{
+  "projectileName" : "r-capsule",
+  "physics" : "default",
+  "image" : "r-capsule.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+
+  "speed" : 45,
+  "onlyHitTerrain" : false,
+
+  "scripts" : [
+    "r-capsule.lua"
+  ],
+  "scriptDelta" : 0,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/protectorateexplosion/protectorateexplosion.config"
+    }
+  ],
+  "damageKind" : "default"
+}

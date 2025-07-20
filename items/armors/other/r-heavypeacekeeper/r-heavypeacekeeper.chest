@@ -1,0 +1,75 @@
+{
+  "itemName" : "r-heavypeacekeeperchest",
+  "price" : 6400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestwear",
+  "description" : "Meant to make you look big and tough.",
+  "shortdescription" : "Heavy Peacekeeper Chest",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.278333
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.51
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 9.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 7.83333
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+    // PEACEKEEPER BLUE
+    { "ffca8a" : "8ca6af", "e0975c" : "676f83", "a85636" : "3d3d51", "6f2919" : "24232f", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // GREY
+    { "ffca8a" : "818c92", "e0975c" : "626c71", "a85636" : "4e575b", "6f2919" : "323739", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // WHITE
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // RED
+    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // ORANGE
+    { "ffca8a" : "ffd495", "e0975c" : "ea9931", "a85636" : "af4e00", "6f2919" : "6e2900", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // YELLOW
+    { "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00", "e2c344" : "b6b6b6", "a46e06" : "7b7b7b" },
+    // GREEN
+    { "ffca8a" : "b2e89d", "e0975c" : "51bd3b", "a85636" : "247824", "6f2919" : "144216", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // BLUE
+    { "ffca8a" : "7db8d6", "e0975c" : "5588ab", "a85636" : "325a81", "6f2919" : "1c3553", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // PURPLE
+    { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // PINK
+    { "ffca8a" : "eab3db", "e0975c" : "d35eae", "a85636" : "97276d", "6f2919" : "59163f", "e2c344" : "e2c344", "a46e06" : "a46e06" },
+    // BROWN
+    { "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13", "e2c344" : "e2c344", "a46e06" : "a46e06" }
+  ]
+}

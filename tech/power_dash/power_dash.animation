@@ -1,0 +1,30 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "dashing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {}
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "dashParticles" : {
+      "emissionRate" : 40.0,
+      "particles" : [
+        {
+          "particle" : "power_dash_pt",
+          "flip" : true
+        }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "startDash" : [ "/sfx/tech/tech_rocketjump_release.ogg" ],
+    "recharge" : [ "/sfx/tech/tech_blink_cooldown1.ogg" ]
+  }
+}

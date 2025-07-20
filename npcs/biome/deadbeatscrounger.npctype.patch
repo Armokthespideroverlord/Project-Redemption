@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/tenant",
+    "value": {
+      "grumbles": {
+        "tagCriteria": "/dialog/deadbeat.config:tagCriteria",
+        "enclosedArea": "/dialog/deadbeat.config:enclosedArea",
+        "otherDeed": "/dialog/deadbeat.config:otherDeed",
+        "severe": "/dialog/deadbeat.config:severe",
+        "final": "/dialog/deadbeat.config:final"
+      },
+      "arrivedHome": {
+        "beacon": "/dialog/deadbeat.config:beacon",
+        "rent": "/dialog/deadbeat.config:rent"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/flee",
+    "value": {
+      "helpme": "/dialog/deadbeat.config:helpme",
+      "helpthem": "/dialog/deadbeat.config:helpthem",
+      "encourage": "/dialog/deadbeat.config:encourage",
+      "safe": "/dialog/deadbeat.config:safe"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse",
+    "value": "/dialog/deadbeat.config:converse"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/accuse",
+    "value": "/dialog/deadbeat.config:accuse"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/alert",
+    "value": "/dialog/deadbeat.config:alert"
+  }
+]

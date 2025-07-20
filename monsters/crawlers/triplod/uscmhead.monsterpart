@@ -1,0 +1,9 @@
+{
+  "name" : "uscmtriplod-head",
+  "category" : "uscmtriplod",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "uscmtriplod-head.png"
+  }
+}

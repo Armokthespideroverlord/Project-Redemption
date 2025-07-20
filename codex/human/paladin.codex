@@ -1,0 +1,24 @@
+{
+  "id" : "paladincodex",
+  "species" : "other",
+  "title" : "The Paladin Initiative",
+  "description" : "A dossier on a top secret Protectorate project.",
+  "icon" : "paladin.png",
+  "contentPages" : [
+  "^red;TOP SECRET - FOR GRAND PROTECTOR EYES ONLY^white;
+ 
+In light of reports of the USCM's recently established alliance with the Miniknog, we have been tasked with the creation of new weapon technologies for Protectorate use, dubbed the ^green;Paladin Initiative^white;. While diplomacy is still very much on the table and the Terrene Peacekeepers have dealt with many ex-USCM pirate vessels, open conflict is still a distinct possibility now that the USCM may be emboldened in their aggressiveness.",
+
+"While we're optimistic the USCM won't try anything brash against us, we still must be prepared for conflict should it come. Blueprints for the latest fruit of our labor, a mech body, are attached to this message. Meanwhile the requested shipment of the broadsword and handgun prototypes, as well as power armor blueprints, should be ready by the next few waves of graduates, coinciding with the start of additional projects.",
+
+"We are hopeful that diplomacy will prevail in the end and that our technologies will be used for peaceful means instead, but should push come to shove, we will be ready to defend Earth and ourselves alongside the Terrene Guardians.",
+
+"ADDENDUM: I find the directives to deposit this transcript and its associated blueprints into a specially constructed vault rather curious. With the technologies we have developed and our diplomatic efforts, surely it is unlikely that the USCM will attack Earth soon?"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
+

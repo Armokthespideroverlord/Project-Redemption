@@ -1,0 +1,12 @@
+[
+  [{
+    "op": "test",
+    "path": "/tooltipKind",
+    "value": "gun"
+  },
+{
+    "op": "replace",
+    "path": "/tooltipKind",
+    "value": "base"
+  }]
+]

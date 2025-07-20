@@ -1,0 +1,32 @@
+{
+  "objectName" : "r-moonmodel",
+  "colonyTags" : ["astronaut"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "description" : "A detailed model of Earth's moon, Luna.",
+  "shortdescription" : "Luna Model",
+  "race" : "generic",
+
+  "apexDescription" : "Curiously, Luna was slowly drifting away from Earth at about 3.8 centimeters an earth-year.",
+  "avianDescription" : "Earth's single natural satellite. Our own moon was considered a cursed place for some time thanks to the presence of erchius on it.",
+  "floranDescription" : "Luna is only moon of Earth. Caused tidesss on Earth.",
+  "glitchDescription" : "Sadness. I miss seeing the many phases of Earth's moon...",
+  "humanDescription" : "Ah, the Moon. Both our first step towards space, and a pretty view on the night sky. I wonder what became of it after Earth's destruction...",
+  "hylotlDescription" : "There was a Letheia owned erchius mining facility on Luna, it's been silent since the fall of Earth...",
+  "novakidDescription":  "The Moon was always a pretty sight in the sky of good ol' Earth...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "r-moonmodel.png:<color>",
+      "imagePosition" : [0, -24],
+      
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, -1], [0, -2], [0, -3] ],
+      "fgAnchors" : [ [0, 1] ]
+    }
+  ]
+}

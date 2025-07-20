@@ -1,0 +1,11 @@
+{
+  "name" : "r_fallimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "r_fallimmunity.lua"
+  ],
+
+  "animationConfig" : "r_fallimmunity.animation", "label" : "Fall Immunity"
+}

@@ -1,0 +1,23 @@
+{
+  "modId" : 5100,
+  "modName" : "r-impervium",
+  "itemDrop" : "r-imperviumore",
+  "description" : "Impervium Ore. Not only the rarest but also the toughest metal known to science.",
+  "glitchDescription" : "Analytical. Impervium's strength comes from its dense structure.",
+  "floranDescription" : "Floran lucky to find Impervium!",
+  "novakidDescription" : "This here Impervium ore is bulletproof, or so I've heard.",  "health" : 30,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "r-impervium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+"radiantLight" : [72, 80, 100]
+  }
+}

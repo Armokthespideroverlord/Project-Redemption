@@ -1,0 +1,9 @@
+{
+  "name" : "r-grit",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "r-grit.lua"
+  ]
+}

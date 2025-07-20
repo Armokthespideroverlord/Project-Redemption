@@ -1,0 +1,34 @@
+{
+    "id": "jumphack",
+	"ephemeral" : true,
+    "title": "Jumphack",
+    "text": "you should not be seeing this.",
+    "completionText": "this is debug",
+    "canBeAbandoned": false,
+    "showInLog": false,
+    "showAcceptDialog": false,
+"showCompleteDialog" : false,
+  "showFailDialog" : false,
+    "logOnly": true,
+	"debug" : true,
+    "updateDelta": 10,
+    "script": "/quests/scripts/items/jumphack.lua",
+    "scriptConfig": {
+        "portraits": {
+            "default": "player"
+        },
+        "radioMessages": {
+            "received": {
+                "messageId": "jumphackMessageReceived",
+                "type": "quest",
+                "unique": false,
+                "senderName": "Player",
+                "text": "Message received.",
+                "portraitImage": ""
+            }
+        },
+        "descriptions": {
+            "default": "you should not see this ever"
+        }
+    }
+}

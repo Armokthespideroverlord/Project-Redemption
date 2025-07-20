@@ -1,0 +1,132 @@
+[
+[
+{
+    "op" : "test",
+    "path" : "/hylotlDescription",
+    "value" : "Oh, a bookstore! There is nothing as a good book..."
+  },
+  {
+    "op": "replace",
+    "path": "/hylotlDescription",
+    "value": "Oh, a bookstore! There is nothing as good as a good book..."
+  },
+  {
+    "op": "replace",
+    "path": "/novakidDescription",
+    "value": "I will never understand the appeal of some of these here books."
+  }
+],
+  [
+    {
+      "op" : "test",
+      "path" : "/storeInventory/history",
+      "inverse" : false
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "unioncodex-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "hylotuscodex-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "penguinhistorycodex-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "agarancodex-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "minidef-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "avianmythos-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "necrocodex-codex" 
+	  }
+  ],
+[
+    {
+      "op" : "test",
+      "path" : "/storeInventory/races",
+      "inverse" : false
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "novakidphys-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "novakidpsych-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "novakidlife-codex" 
+	  }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/storeInventory/other",
+      "inverse" : false
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/other/-",
+      "value" : "paladincodex-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/other/-",
+      "value" : "broadcastcodex-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/other/-",
+      "value" : "notebookcodex-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/other/-",
+      "value" : "bads-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/other/-",
+      "value" : "cultistbroadcast-codex" 
+	  }
+  ],
+[
+    {
+      "op" : "test",
+      "path" : "/storeInventory/missions",
+      "inverse" : false
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/missions/-",
+      "value" : "cultistmission1-codex" 
+	  },
+    {
+      "op" : "add",
+      "path" : "/storeInventory/missions/-",
+      "value" : "cultistmission2-codex" 
+	  }
+  ]
+]

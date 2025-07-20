@@ -1,0 +1,24 @@
+{
+  "id" : "hylotuscodex",
+  "species" : "hylotl",
+  "title" : "The Hylotl Stewardship",
+  "description" : "A textbook describing the Hylotl government.",
+  "icon" : "hylotuscodex.png",
+  "contentPages" : [
+  "The ^orange;Hylotl Stewardship^white;, sometimes known as \"The Empire of The Three Suns\" or even simply \"The Hylotl Government\" is a parliamentary monarchy based on the Hylotl homeworld. While an expansive \"Star Empire\" like the Miniknog and Avian Stargazers, power is conversely held largely in the parliament while the office of ^orange;Emperor/Empress^white; has been reduced to a ceremonial role.",
+
+"Historically however this wasn't always so, in the past, Emperors/Empresses were once much akin to philosopher kings. In fact early on, the parliament was nothing more than a court of elected advisors, but as time went on the parliament began to assume more and more of the tasks traditionally held by the Emperor/Empress, and thus they became nothing more than a glorified philosopher.", 
+
+"Today the parliament operates similarly to the Terrene Electorate of Earth, comprising of elected stewards who are ceremonially presided over by the Emperor/Empress. Unlike the Electorate however, the parliament focuses both on internal and external policy, but thanks to strong isolationist tendencies are not very well known beyond Stewardship space.",
+
+"There is rumor that the Letheia Corporation holds undue sway over the parliament. But this is likely hearsay.",
+
+"^yellow;The Hylotl Military:^reset;
+Despite being a generally pacifist society, the Hylotl Stewardship still has a standing military force, the ^orange;Hylotl Defense Force^reset;. It is comprised of Hylotl Warriors, Mech Pilots, and the Royal Imperial Guard, all standing at the ready to protect the Hylotl people from any threat."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

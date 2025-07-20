@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/tentaclemission-bottom3",
+    "value": {
+      "unique": false,
+      "senderName": "The Baron",
+      "portraitImage": "/interface/chatbubbles/baron.png:<frame>",
+      "text": "Encouraging. Safe travels! Ha ha ha!"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/tentaclemission-arrived2/portraitImage",
+    "value": "/interface/chatbubbles/esthertalk.png:<frame>"
+  },
+  {
+    "op": "replace",
+    "path": "/tentaclemission-arrived3/portraitImage",
+    "value": "/interface/chatbubbles/lana.png:<frame>"
+  }
+]

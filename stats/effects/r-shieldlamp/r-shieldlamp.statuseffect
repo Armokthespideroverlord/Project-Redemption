@@ -1,0 +1,11 @@
+{
+  "name" : "r-shieldlamp",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "r-shieldlamp.lua"
+  ],
+
+  "animationConfig" : "r-shieldlamp.animation"
+}

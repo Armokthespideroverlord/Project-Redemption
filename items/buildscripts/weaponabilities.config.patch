@@ -1,0 +1,5 @@
+[
+{"op" : "add", "path" : "/r-stunrocket", "value" : "/items/active/weapons/ranged/abilities/r-stunrocket/r-stunrocket.weaponability" },
+{"op" : "add", "path" : "/r-dronesummon", "value" : "/items/active/weapons/staff/abilities/controlprojectile/r-dronesummon.weaponability" },
+{"op" : "add", "path" : "/armok-sickle", "value" : "/items/active/weapons/melee/abilities/armok-sickle/armok-sickle.weaponability" }
+]

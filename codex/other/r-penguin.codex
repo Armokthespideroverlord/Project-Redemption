@@ -1,0 +1,19 @@
+{
+  "id" : "penguinhistorycodex",
+  "species" : "other",
+  "title" : "The March of the Penguins",
+  "description" : "An alleged history of the Penguin species.",
+  "icon" : "r-penguinhistory.png",
+  "contentPages" : [
+  "It can take a lot to get a Penguin to discuss their history, often bribery, a drink (or two), and a bit of luck might get them to spill the beans. So it might be wise to consider the following with a pinch of salt, as it could easily all be some nonsense or some cheeky joke.",
+
+"Supposedly, the Penguin race came to be as the result of a rogue science experiment in Earth's antarctic. The details are sparse, but apparently they were uplifted and granted fully sapient intelligence. Eventually these newly uplifted Penguins, longing for freedom, hatched a plan to escape, and managed to get away on a supply smuggling freighter. Given their illegal origins they inadvertently found themselves in the criminal underbelly of the galaxy and the rest, as they say, is history.",
+
+"Of course there's only one way to verify the validity of this story, and that would be a simple DNA test, but so far no one has bothered to run the numbers (likely out of fear of retaliation from one miffed Penguin). There have, however, been rumors of a pair of Bears uplifted in a similar manner lately, but it's hard to say if it's connected to the Penguins in any way."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

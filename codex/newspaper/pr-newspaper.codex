@@ -1,0 +1,16 @@
+{
+  "id" : "pr-newspapercodex",
+  "species" : "human",
+  "title" : "Earth Obliterated!",
+  "description" : "An article from The Star-Bound Chronicle, a widely trusted news source.",
+  "icon" : "newspaper.png",
+  "contentPages" : [
+    "Today, with what can only be described as the worst calamity ever recorded in galactic history, a flame that once burned bright in a sea of darkness has been snuffed out. In addition to driving the Human race to near extinction, this terrible event unfortunately coincided with the annual graduation ceremony of the Terrene Protectorate, resulting in the loss of a large majority of Protectors, thanks to the tradition of having most of their members observe the ceremony in person.",
+    "The Human supremacist Terror group known as the Occasus Cult has declared responsibility for the fall of Earth, but experts remain skeptical that they would be capable of such an act, citing both the biological and extradimensional nature of whatever destroyed Earth. It is worth noting that the creature's attack disrupted Earth's teleportation network and caused the failure of many nearby FTL drives, resulting in the destruction of the Protectorate Exploratory Fleet in orbit of Earth. It is unknown just how many lives have been lost.",
+"Following the destruction of Earth, the remnants of the Terrene Electorate have ordered the evacuation of the Mars colonies, in fear that this unknown threat is to resurface again. We can now only ask in these dark times, with the Protectorate virtually gone, who will step up to save us now?"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

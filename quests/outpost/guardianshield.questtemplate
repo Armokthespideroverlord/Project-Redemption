@@ -1,0 +1,34 @@
+{
+  "id": "guardianshield",
+  "prerequisites": [
+ "glitch_mission2"
+  ],
+  "title": "^green;Ill Gotten Good",
+  "text": "Psst hey. You're the Protector right? I got something you might find interesting if you promise not to rat me out. Trade me a ^orange;peace credit^reset; and it's yours.",
+  "completionText": "There, here's the shield as promised. Don't ask me how I got it, all you need to know is that I can finally get the Peacekeepers off my trail thanks to you. Now get lost!",
+  "moneyRange": [
+    100,
+    100
+  ],
+"rewards" : [
+    [ [ "r-guardianshield", 1 ] ]
+  ],
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig" : {
+     "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+    "conditions": [
+      {
+        "type": "gatherItem",
+        "itemName": "peacecredit",
+        "count": 1,
+        "consume": true
+      }
+    ],
+	"turnInDescription" : "Speak to the ^orange;criminal in hiding^reset; under the ^orange;outpost^reset;"
+   }
+}

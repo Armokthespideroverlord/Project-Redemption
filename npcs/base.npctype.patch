@@ -1,0 +1,56 @@
+[
+//{
+//    "op": "test",
+//    "path": "/scripts/0",
+//    "value" : "callthespacepolice.lua",
+//    "inverse" : false
+//  },
+  {
+    "op": "add",
+    "path": "/scripts/-",
+    "value": "/npcs/callthepeacekeepers.lua"
+  },
+{
+    "op" : "add",
+    "path" : "/scriptConfig/peacekeeperSpecies",
+    "value" : ["apex","avian","floran","glitch","human","hylotl","novakid"] //so long as your mod loads after this one, you can patch your species into here to make them show up as peacekeepers. Isn't that neat?
+  }
+]
+/* all this stuff below are examples. They only need to be added to whatever npctype if you want them to be different like the shadows, otherwise it will default to normal shit.
+
+vvv A 1 here means 1/1 chance, or in other words %100. A 2 here means 1/2 chance, or %50
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/callChanceDenominator",
+    "value" : 1
+  },
+vvv Max changes the maximum health they will call at, min changes the health below which they will always call at.
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/callHealthMax",
+    "value" : 75
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/callHealthMin",
+    "value" : 25
+  },
+vvv These two allow you to force a specific type of NPC to aid the attacked, like how it is with shadows.
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/forcePeacekeeperVariant",
+    "value" : "shadowguard"
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/forcePeacekeeperVariantSpecies",
+    "value" : "shadow"
+  },
+
+vvv This one right here will prevent an npctype from ever calling the peacekeepers.
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/hasPhone",
+    "value" : false
+  }
+*/

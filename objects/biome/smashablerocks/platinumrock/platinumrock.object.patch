@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/smashDropPool",
+    "value": "platinumRock"
+  },
+  {
+    "op": "replace",
+    "path": "/breakDropPool",
+    "value": "platinumRock"
+  }
+]

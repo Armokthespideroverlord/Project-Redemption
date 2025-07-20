@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/npctypes/-",
+    "value": {
+      "type": "r-uscmvisitor",
+      "species": [
+        "human"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/npctypes/-",
+    "value": {
+      "type": "r-uscmvisitor",
+      "species": [
+        "human"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/npctypes/-",
+    "value": {
+      "type": "r-uscmvisitor",
+      "species": [
+        "human"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/npctypes/-",
+    "value": {
+      "type": "r-uscmvisitor",
+      "species": [
+        "human"
+      ]
+    }
+  }
+]

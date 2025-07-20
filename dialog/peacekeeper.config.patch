@@ -1,0 +1,17 @@
+[
+{
+    "op": "add",
+    "path": "/attack/default/default/-",
+    "value": "Stop! You violated the law!"
+  },
+  {
+    "op": "replace",
+    "path": "/attack/floran/default/0",
+    "value": "Criminal prey!"
+  },
+  {
+    "op": "replace",
+    "path": "/outOfSight/floran/default/0",
+    "value": "Floran iss good peacekeeper, will find prey!"
+  }
+]

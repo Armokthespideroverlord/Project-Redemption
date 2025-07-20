@@ -1,0 +1,162 @@
+[
+  {
+    "op": "add",
+    "path": "/parts/core/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/corehuge/input/-",
+    "value": [
+      "platinumbar",
+      300
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/cross/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/crosswayNESW/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/crosswayNWSE/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/passage/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/passageglass/input/-",
+    "value": [
+      "platinumbar",
+      75
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/shaft/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/shaftglass/input/-",
+    "value": [
+      "platinumbar",
+      75
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/cornerNE/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/cornerNW/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/cornerSW/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/cornerSE/input/-",
+    "value": [
+      "platinumbar",
+      20
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/tjuncNWE/input/-",
+    "value": [
+      "platinumbar",
+      15
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/tjuncNSE/input/-",
+    "value": [
+      "platinumbar",
+      15
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/tjuncNSW/input/-",
+    "value": [
+      "platinumbar",
+      15
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/tjuncSWE/input/-",
+    "value": [
+      "platinumbar",
+      15
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/mechassembly/input/-",
+    "value": [
+      "platinumbar",
+      40
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/mechbayL/input/-",
+    "value": [
+      "platinumbar",
+      40
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/mechbayR/input/-",
+    "value": [
+      "platinumbar",
+      40
+    ]
+  }
+]

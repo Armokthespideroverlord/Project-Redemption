@@ -1,0 +1,29 @@
+[
+{
+    "op": "add",
+    "path": "/scripts",
+    "value": [
+      "/npcs/bmain.lua"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scripts/-",
+    "value": "/npcs/callthepeacekeepers.lua"
+  },
+{
+    "op": "add",
+    "path": "/statusControllerSettings",
+    "value": {
+      "stats" : {
+         "lavaImmunity" : {
+        "baseValue" : 1.0
+      },
+      "poisonStatusImmunity" : {
+        "baseValue" : 1.0
+      }
+      }
+    }
+}
+]
+

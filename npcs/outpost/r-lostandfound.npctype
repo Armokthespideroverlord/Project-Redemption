@@ -1,0 +1,82 @@
+{
+  "type" : "r-lostandfound",
+  "displayTitle" : "Protector",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {    
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "poolsFile" : "/npcs/merchantpools.config",
+      
+	  "categories" : {
+        "override" : [ "redemptionlostandfound" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 99,
+	  
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Lost and Found",
+          "subtitle" : "What is lost can always be found."
+        }
+      }
+    },
+	
+	"dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "It ain't much, but here's some souvenirs I snagged to remember Earth by."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "I got more where that came from, if'n ya need any more keepsakes."
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+              "I got some stuff I was able to get from Earth over here."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : {
+            "default" : [
+              "Alright, let's see here..."
+            ]
+          }
+        },
+        "tout" : {
+          "default" : {
+            "default" : [
+              "Shoot, I think Esther told me about you. <entityname>? Right shame what happened to Earth. I got some stuff from it I could give you, though."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [2] } }
+            ],
+            "legs" : [
+              { "name" : "protectoratepants", "parameters" : { "colorIndex" : [2] } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

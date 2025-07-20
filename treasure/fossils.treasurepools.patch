@@ -1,0 +1,13 @@
+[
+ 
+  {"op" : "add",
+	"path" : "/smallfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.1, "item" : "deadbeatskull"}
+  },
+  {"op" : "add",
+	"path" : "/smallfossil/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.1, "item" : "novakidbrand"}
+  }
+]

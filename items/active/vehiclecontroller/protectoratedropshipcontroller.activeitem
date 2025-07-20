@@ -1,0 +1,33 @@
+{
+  "itemName" : "protectoratedropshipcontroller",
+  "level" : 1,
+  "price" : 11000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "shortdescription" : "Dropship Controller",
+  "description" : "Create a modified Protectorate dropship from stored nanites.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "protectoratedropship.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "r-dropship",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/r-dropship/dropshipwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "protectoratedropshipcontroller.png"
+  },
+
+  "inventoryIcon" : "protectoratedropshipcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/protectoratedropshipcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/protectoratedropshipcontroller.png:full"
+}

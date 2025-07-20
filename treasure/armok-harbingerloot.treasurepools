@@ -1,0 +1,51 @@
+{
+  "armok-harbingerloot" : [
+    [0, {
+      "poolRounds" : [[0.2, 1], [0.6, 2], [0.2, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 1]},
+        {"weight" : 0.6, "item" : ["money", 2]},
+        {"weight" : 0.2, "item" : ["money", 3]}
+      ]
+    }],
+    [1.9, {
+      "poolRounds" : [[0.2, 1], [0.6, 2], [0.2, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 2]},
+        {"weight" : 0.6, "item" : ["money", 3]},
+        {"weight" : 0.2, "item" : ["money", 4]}
+      ]
+    }],
+    [2.9, {
+      "poolRounds" : [[0.2, 1], [0.6, 2], [0.2, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 3]},
+        {"weight" : 0.6, "item" : ["money", 4]},
+        {"weight" : 0.2, "item" : ["money", 5]}
+      ]
+    }],
+    [3.9, {
+      "poolRounds" : [[0.2, 1], [0.6, 2], [0.2, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 4]},
+        {"weight" : 0.6, "item" : ["money", 5]},
+        {"weight" : 0.2, "item" : ["money", 6]}
+      ]
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "armok-harbinger", 1]}
+      ]
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "armok-harbinger", 1]}
+      ]
+    }],
+    [6.9, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "armok-harbinger", 1]}
+      ]
+    }]
+  ]
+}

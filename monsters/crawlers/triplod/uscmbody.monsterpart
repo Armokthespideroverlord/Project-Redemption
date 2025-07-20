@@ -1,0 +1,9 @@
+{
+  "name" : "uscmtriplod-body",
+  "category" : "uscmtriplod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "uscmtriplod-body.png"
+  }
+}

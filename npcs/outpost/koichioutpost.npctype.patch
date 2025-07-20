@@ -1,0 +1,102 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialogMode",
+    "value": "sequence"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "That being said, I've already done some preliminary research around the Ark."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "It appears this place was built by the Ancients, although I suspect you already know that..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "The gateway here uses pocket dimension technology similar to the other gateways and doorways the Ancients constructed, albeit with a giant lock built into it."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "It's curious that the Novakid are represented in the ark gateway and its brethren, there's no mention of them obtaining an artifact..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Surely the Ancients wouldn't have carved these Novakid faces if they didn't have anything to do with the Cultivator..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Perhaps what's even more curious about these gateways would be the removed faces, did they represent the Ancients, or another race entirely?"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Speaking of the Ancients, I have a strong suspicion that the local caretaker is perhaps the last of them, if only they would be willing to speak to me..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "While both portrayed as incredibly powerful entities, I have trouble believing that the Cultivator and Ruin are truly godlike in nature."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I would like to point out for instance that the Cultivator seemed to have no hand in creating life, it merely seems to have cultivated it as per its namesake."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "It seems that after the Cultivator's defeat, the Ancients entered into a period of decline, although they were at least able to maintain their constructions for a bit."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "According to Esther, while the Ruin is capable of dimensional manipulation when unrestrained, it appears to be native to our reality."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Its capabilities would certainly explain how it was able to attack Earth even while still imprisoned, as its prison has been weakening..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "And as it continues to weaken, more cracks in it will develop for it to exploit and reach out through, and before it has even escaped, more worlds will fall..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "This would explain why the Ark has a lock in it, if left open it would merely help expedite the Ruin's eventual escape."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "That's about all I have for now regarding the Ark, I'm afraid the rest of my research will have to be spent assisting Esther on locating the artifacts."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I do implore you to listen for a little longer however, I wish to speak to you about books!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I've read many wonderful ones in the Grand Pagoda Library, although my favorites would be the diaries of Hirake Corale."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Even if she's a little foolhardy at times, she's still a wonderful inspiration, if only I was as brave as her..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I wonder if Nuru is a fan of her adventures too... Surely she's into adventure stories?"
+  }
+]

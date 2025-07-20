@@ -1,0 +1,37 @@
+{
+  "id" : "protectoratepistol",
+  "prerequisites" : [ "protectoratesword" ],
+  "requiredItems" : [ "brokensidearm" ],
+  "title" : "^green;The Hero's Assembly",
+  "text" : "Curious. Is that a ^orange;Protectorate issued emergency handgun^reset; I see on you? ^white;I believe I can repair it like I had with the broadsword! ^green;Bring me ^orange;10 Tech Cards^reset; ^green;and it shall be done^reset;.",
+  "completionText" : "Pleased. While us glitch aren't fond of firearms, I am still satisfied with the end result. Enjoy!",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "protectoratehandcannon", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+"followUp": "protectoratearmor",
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;The Baron^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "brokensidearm",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "techcard",
+        "count" : 10,
+        "consume" : true
+      }
+    ]
+  }
+}

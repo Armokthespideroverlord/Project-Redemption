@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/destinations/0",
+    "value": {
+      "name": "Back to the Ark",
+      "planetName": "Return to the Ark ruins",
+      "warpAction": "InstanceWorld:outpost=arkteleporter",
+      "icon": "ark"
+    }
+  }
+]

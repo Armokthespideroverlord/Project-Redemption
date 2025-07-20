@@ -1,0 +1,496 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "thrust": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 6,
+            "cycle": 0.3,
+            "mode": "loop"
+          }
+        }
+      },
+      "movement": {
+        "default": "idle",
+        "states": {
+          "warpInPart1": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "warpInPart2"
+          },
+          "warpInPart2": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "idle"
+          },
+          "idle": {},
+          "warpOutPart1": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "warpOutPart2"
+          },
+          "warpOutPart2": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "invisible"
+          },
+          "invisible": {}
+        }
+      },
+      "blinds": {
+        "default": "opened",
+        "states": {
+          "closed": {},
+          "open": {
+            "frames": 1,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "opened"
+          },
+          "opened": {},
+          "close": {
+            "frames": 1,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "closed"
+          }
+        }
+      },
+      "frontcannon": {
+        "default": "closed",
+        "states": {
+          "closed": {},
+          "open": {
+            "frames": 2,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "opened"
+          },
+          "opened": {},
+          "close": {
+            "frames": 2,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "closed"
+          },
+          "load": {
+            "frames": 2,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "loaded"
+          },
+          "loaded": {},
+          "fire": {
+            "frames": 2,
+            "cycle": 0.05,
+            "mode": "transition",
+            "transition": "opened"
+          }
+        }
+      },
+      "backcannon": {
+        "default": "closed",
+        "states": {
+          "closed": {},
+          "open": {
+            "frames": 2,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "opened"
+          },
+          "opened": {},
+          "close": {
+            "frames": 2,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "closed"
+          },
+          "load": {
+            "frames": 2,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "loaded"
+          },
+          "loaded": {},
+          "fire": {
+            "frames": 1,
+            "cycle": 0.075,
+            "mode": "transition",
+            "transition": "opened"
+          }
+        }
+      }
+    },
+    "parts": {
+      "background": {
+        "properties": {
+          "centered": true,
+          "zLevel": -1,
+          "transformationGroups": [
+            "rotation"
+          ],
+          "image": "background.png"
+        }
+      },
+      "ship": {
+        "properties": {
+          "centered": true,
+          "zLevel": 1,
+          "transformationGroups": [
+            "rotation"
+          ],
+          "image": "dropship.png",
+          "seatPosition": [
+            2,
+            0.5
+          ]
+        }
+      },
+
+      "warp": {
+        "properties": {
+          "centered": true,
+          "zLevel": 3,
+          "fullbright": true,
+          "transformationGroups": [
+            "flip",
+            "rotation"
+          ]
+        },
+        "partStates": {
+          "movement": {
+            "warpInPart1": {
+              "properties": {
+                "image": "dropshipwarp.png:warpInPart1.<frame>"
+              }
+            },
+            "warpInPart2": {
+              "properties": {
+                "image": "dropshipwarp.png:warpInPart2.<frame>"
+              }
+            },
+            "idle": {
+              "properties": {}
+            },
+            "warpOutPart1": {
+              "properties": {
+                "image": "dropshipwarp.png:warpOutPart1.<frame>"
+              }
+            },
+            "warpOutPart2": {
+              "properties": {
+                "image": "dropshipwarp.png:warpOutPart2.<frame>"
+              }
+            },
+            "invisible": {
+              "properties": {}
+            }
+          }
+        }
+      },
+      "blinds": {
+        "properties": {
+          "centered": false,
+          "offset": [
+            -0.625,
+            0.5
+          ],
+          "zLevel": 2,
+          "transformationGroups": [
+            "rotation"
+          ]
+        },
+        "partStates": {
+          "blinds": {
+            "closed": {
+              "properties": {
+                "image": "blinds.png:closed"
+              }
+            },
+            "open": {
+              "properties": {
+                "image": "blinds.png:open.<frame>"
+              }
+            },
+            "close": {
+              "properties": {
+                "image": "blinds.png:close.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "frontcannon": {
+        "properties": {
+          "centered": true,
+          "zLevel": 4,
+          "rotationCenter": [
+            0,
+            0.1875
+          ],
+          "transformationGroups": [
+            "rotation",
+            "frontcannon"
+          ],
+          "offset": [
+            3,
+            -1
+          ],
+          "fireOffset": [
+            0,
+            -1.25
+          ]
+        },
+        "partStates": {
+          "frontcannon": {
+            "closed": {
+              "properties": {
+                "image": "cannon.png:closed"
+              }
+            },
+            "open": {
+              "properties": {
+                "image": "cannon.png:open.<frame>"
+              }
+            },
+            "opened": {
+              "properties": {
+                "image": "cannon.png:opened"
+              }
+            },
+            "close": {
+              "properties": {
+                "image": "cannon.png:close.<frame>"
+              }
+            },
+            "load": {
+              "properties": {
+                "image": "cannon.png:load.<frame>"
+              }
+            },
+            "loaded": {
+              "properties": {
+                "image": "cannon.png:loaded"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "cannon.png:fire.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "backcannon": {
+        "properties": {
+          "centered": true,
+          "zLevel": 4,
+          "rotationCenter": [
+            0,
+            0.1875
+          ],
+          "transformationGroups": [
+            "rotation",
+            "backcannon"
+          ],
+          "offset": [
+            -3,
+            -0.5
+          ],
+          "fireOffset": [
+            0,
+            -1.25
+          ]
+        },
+        "partStates": {
+          "backcannon": {
+            "closed": {
+              "properties": {
+                "image": "cannon.png:closed"
+              }
+            },
+            "open": {
+              "properties": {
+                "image": "cannon.png:open.<frame>"
+              }
+            },
+            "opened": {
+              "properties": {
+                "image": "cannon.png:opened"
+              }
+            },
+            "close": {
+              "properties": {
+                "image": "cannon.png:close.<frame>"
+              }
+            },
+            "load": {
+              "properties": {
+                "image": "cannon.png:load.<frame>"
+              }
+            },
+            "loaded": {
+              "properties": {
+                "image": "cannon.png:loaded"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "cannon.png:fire.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "bottomThrust": {
+        "properties": {
+          "offset": [
+            0.125,
+            -3.25
+          ],
+          "centered": true,
+          "zLevel": -1,
+          "fullbright": true,
+          "transformationGroups": [
+            "rotation"
+          ]
+        },
+        "partStates": {
+          "thrust": {
+            "on": {
+              "properties": {
+                "image": "bottomthruster.png:<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "globalTagDefaults": {
+    "colour": ""
+  },
+  "transformationGroups": {
+    "rotation": {
+      "interpolated": true
+    },
+    "frontcannon": {
+      "interpolated": true
+    },
+    "backcannon": {
+      "interpolated": true
+    },
+    "flip": {
+      "interpolated": true
+    }
+  },
+  "particleEmitters": {
+    "ventralThrusterIdle": {
+      "transformationGroups": [
+        "rotation"
+      ],
+      "emissionRate": 5,
+      "offsetRegion": [
+        -0.5,
+        -1.5,
+        0.5,
+        -1.55
+      ],
+      "particles": [
+        {
+          "particle": "hoverbikedownthrust"
+        }
+      ]
+    },
+    "smoke": {
+      "transformationGroups": [
+        "rotation"
+      ],
+      "emissionRate": 0,
+      "offsetRegion": [
+        -1.5,
+        -1.5,
+        0.5,
+        -1
+      ],
+      "particles": [
+        {
+          "particle": "burningvehiclesmokefront"
+        }
+      ]
+    },
+    "damageShards": {
+      "transformationGroups": [
+        "rotation"
+      ],
+      "emissionRate": 0,
+      "burstCount": 60,
+      "offsetRegion": [
+        -5,
+        -2,
+        5,
+        1
+      ],
+      "particles": [
+        {
+          "particle": "hoverbikekhakishard"
+        },
+        {
+          "particle": "fireshard"
+        }
+      ]
+    },
+    "frontMuzzle": {
+      "anchorPart": "frontcannon",
+      "burstCount": 3,
+      "particles": [
+        {
+          "offset": [
+            0,
+            -1.25
+          ],
+          "particle": "rocketbarreldownpuff"
+        }
+      ]
+    },
+    "backMuzzle": {
+      "anchorPart": "backcannon",
+      "burstCount": 3,
+      "particles": [
+        {
+          "offset": [
+            0,
+            -1.25
+          ],
+          "particle": "rocketbarreldownpuff"
+        }
+      ]
+    }
+  },
+  "lights": {},
+  "sounds": {
+    "explode": [
+      "/sfx/gun/grenadeblast_small_fire1.ogg",
+      "/sfx/gun/grenadeblast_small_fire2.ogg",
+      "/sfx/gun/grenadeblast_small_fire3.ogg"
+    ],
+    "engineStart": [
+      "/sfx/tools/teleport_up.ogg"
+    ],
+    "engineLoop": [
+      "/sfx/tech/hoverbike_drive_loop.ogg"
+    ],
+    "fire": [
+      "/sfx/gun/rocket1.ogg"
+    ],
+    "returnvehicle": [
+      "/sfx/tech/vehicle_disappear1.ogg"
+    ]
+  }
+}

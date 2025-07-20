@@ -1,0 +1,19 @@
+{
+  "id" : "novakidpsych",
+  "species" : "other",
+  "title" : "Bright Minds",
+  "description" : "An Observation on Novakid psychology by Hylotl Dr. K. Sakana.",
+  "icon" : "novakidbio.png",
+  "contentPages" : [
+  "It is well understood that Novakids suffer from a sort of short term memory loss, in fact it is often assumed that every member of their species suffers from this trait. Just like with any generalization however, this is not entirely true.
+
+While most Novakids seem to have a propensity to forget information given to them hours (or less) after receiving it, some can retain information for days or weeks. Less still have decent (if forgetful) memory, it is a rare for a Novakid to have average memory.",
+
+"This predilection for memory loss for major and complex bits of information has had a profound impact on their civilization. Chiefly it is believed that the average memory skills and the technological advancement of their civilization have met at a crossroads, and that they will for the most part never advance beyond mid-industrial era technology. Some hold more optimism for their kind however.",
+
+"It is of curious note that in my research on Novakids, I have heard the repeated, if fragmented, recollections of some dream involving a so-called \"golden god\". The fact that this has cropped up so many times, in so many places, and with so many different individual Novakids leads me to consider the possibility that my observation here is more than mere coincidence..." ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

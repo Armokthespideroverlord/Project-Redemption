@@ -1,0 +1,18 @@
+{
+  "id" : "minidef",
+  "species" : "apex",
+  "title" : "The Ministry of Defense",
+  "description" : "A rebel historian's thesis on a pre-Miniknog institution.",
+  "icon" : "minidef.png",
+  "contentPages" : [
+  "Our rebellion has had to rely on whatever equipment it can get its hands on, from stolen Miniknog technology to commandeered former USCM hardware, little of our equipment is of our own creation. What we have been able to fabricate however, would be based on designs that seem to predate both the USCM and Miniknog.
+These blueprints we had managed to acquire early on in our rebellion, are derived from the pre-Miniknog Apex military organization known as the ^orange;Ministry of Defense^white;.",
+
+"While ultimately subsumed into the Miniknog's Lambda branch during their rise, according to what little references this organization has within Miniknog sources, the Ministry of Defense appeared to be a defensive military force, part of a larger government. It is suspected that they put up little resistance to the Miniknog thanks in part to having been infiltrated by Miniknog agents in the early hours of their ascent.",
+"Despite being long gone, the Ministry of Defense's logo has had a curious legacy as the military flag of the Miniknog, which has led the rebellion to adopt it as well to confuse Miniknog intel."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

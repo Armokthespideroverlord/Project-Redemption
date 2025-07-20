@@ -1,0 +1,69 @@
+{
+  "type": "r-guardiancaptain",
+  "displayTitle" : "Guardian Captain",
+  "baseType": "guard",
+  "damageTeamType": "friendly",
+  "dropPools": [
+    "guardtreasure"
+  ],
+  "scripts": [
+    "/npcs/bmain.lua"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [],
+      "enableParticipation": false
+    },
+    "dialog": {
+      "greeting": "/dialog/r-guardiancaptainconverse.config:converse",
+      "converse": "/dialog/r-guardiancaptainconverse.config:converse"
+    }
+  },
+  "matchColorIndices": true,
+  "items": {
+    "override": [
+       [0, [
+          {
+            "head" : [ { "name" : "humantier4head" } ],
+            "chest" : [ { "name" : "humantier4chest" } ],
+            "legs" : [ { "name" : "humantier4pants" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcpistol",
+              "npcmachinepistol"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "humantier4head" } ],
+            "chest" : [ { "name" : "humantier4chest" } ],
+            "legs" : [ { "name" : "humantier4pants" } ],
+            "primary" : [
+              "tungstenhammer",
+              "tungstenaxe",
+              "tungstenshotgun",
+"tungstenmagnum",
+"titaniumspear",
+"titaniumdagger",
+"titaniumsniperrifle",
+"titaniummachinepistol",
+"durasteelbroadsword",
+"durasteelshortsword",
+"durasteelassaultrifle",
+"durasteelrevolver"
+
+            ]
+          }
+        ] ]
+    ]
+  }
+}

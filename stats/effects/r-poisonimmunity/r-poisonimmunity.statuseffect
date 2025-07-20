@@ -1,0 +1,9 @@
+{
+  "name" : "r-poisonimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "r-poisonimmunity.lua"
+  ]
+}

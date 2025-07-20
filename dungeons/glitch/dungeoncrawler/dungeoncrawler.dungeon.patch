@@ -1,0 +1,151 @@
+[
+  {
+    "op": "add",
+    "path": "/parts/5/rules/2/1/-",
+    "value": "dungeoncrawler2bnecro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/6/rules/2/1/-",
+    "value": "dungeoncrawler2bnecro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/7/rules/-",
+    "value": [
+      "doNotCombineWith",
+      [
+        "dungeoncrawler3anecro"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/parts/11/rules/2/1/-",
+    "value": "dungeoncrawlerside1necro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/11/rules/3/1/-",
+    "value": "dungeoncrawlerside1necro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/12/rules/1/1/-",
+    "value": "dungeoncrawlerside1necro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/12/rules/2/1/-",
+    "value": "dungeoncrawlerside1necro"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "dungeoncrawler2bnecro",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ],
+        [
+          "doNotConnectToPart",
+          [
+            "dungeoncrawler2a",
+            "dungeoncrawler2bnecro"
+          ]
+        ],
+        [
+          "doNotCombineWith",
+          [
+            "dungeoncrawler2bclue",
+            "dungeoncrawler2b"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "dungeoncrawler2bnecro.json"
+      ],
+      "chance": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "dungeoncrawler3anecro",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ],
+        [
+          "doNotConnectToPart",
+          [
+            "dungeoncrawler3anecro",
+            "dungeoncrawler3b"
+          ]
+        ],
+        [
+          "doNotCombineWith",
+          [
+            "dungeoncrawler3a"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "dungeoncrawler3anecro.json"
+      ],
+      "chance": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "dungeoncrawlerside1necro",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ],
+        [
+          "ignorePartMaximumRule"
+        ],
+        [
+          "doNotConnectToPart",
+          [
+            "dungeoncrawlerside1",
+            "dungeoncrawlerside2",
+            "dungeoncrawlerside3",
+            "dungeoncrawlerside4",
+            "dungeoncrawlerside5",
+            "dungeoncrawlerside6",
+            "dungeoncrawlerside1necro"
+          ]
+        ],
+        [
+          "doNotCombineWith",
+          [
+            "dungeoncrawlerside1clue",
+            "dungeoncrawlerside1"
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "dungeoncrawlerside1necro.json"
+      ],
+      "chance": 1
+    }
+  }
+]

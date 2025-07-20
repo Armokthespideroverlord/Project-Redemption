@@ -1,0 +1,247 @@
+[
+  {
+    "op": "add",
+    "path": "/converse",
+    "value": {
+      "default": {
+        "default": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "Our legends speak of us having a vast civilization, it must have been glorious...",
+          "What are you anyways?"
+        ],
+        "apex": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "I hope our civilization was nothing like your Minknog.",
+          "Haven't your scientists figured out that we're not related?"
+        ],
+        "avian": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "Somehow I don't get the feeling that we had much religion in our civilization.",
+          "No, I am not interested in converting to your faith!"
+        ],
+        "glitch": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "Our legends speak of automatons in the days before our fall, I wonder if you bots have anything to do with them...",
+          "There's something oddly familiar about your kind."
+        ],
+        "floran": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "I hope you guys weren't the downfall of our civilization.",
+          "Please don't eat me!"
+        ],
+        "hylotl": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "I know we don't look like much, but maybe there's something you could learn from our legends?",
+          "I hope your kind has the wisdom to avoid whatever befell us."
+        ],
+        "human": [
+          "Don't look at me like that. What's one to do in the post-apocalypse anyways?",
+          "Just scrounging about in a wreck, don't mind me.",
+          "What's it like out there anyways in the far beyond?",
+          "I bet it's much nicer where you grew up.",
+          "All that's left of us are ruins and raiders... what could have caused this?",
+          "At least I don't have to pay taxes anymore, whatever those were.",
+          "Now that we're in the same boat, situation wise, I guess we won't be getting aid from the Protectorate any time soon...",
+          "For the last time, we are not even close to being the same species!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/accuse",
+    "value": {
+      "default": {
+        "default": [
+          "Stop taking what little we have left!",
+          "You're no better than a raider!",
+          "Stop stealing from us! We don't have much left!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/alert",
+    "value": {
+      "default": {
+        "default": [
+          "Someone's taking our stuff!",
+          "Help! A raider's stealing from us!",
+          "Now we really have nothing!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/helpme",
+    "value": {
+      "default": {
+        "default": [
+          "Help! Raider!",
+          "A raider is attacking us!",
+          "Please have mercy on us!",
+          "Run! Raider!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/helpthem",
+    "value": {
+      "default": {
+        "default": [
+          "A raider is attacking someone! Send help!",
+          "Someone help them! I can't do anything!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/encourage",
+    "value": {
+      "default": {
+        "default": [
+          "Show that raider their place!",
+          "Drive off that raider!",
+          "You can do this! Beat that raider to a pulp!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/safe",
+    "value": {
+      "default": {
+        "default": [
+          "The raider is gone!",
+          "Now for some well deserved rest...",
+          "Glad that's over now. Back to scrounging about.",
+          "Finally, some peace and quiet."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/tagCriteria",
+    "value": {
+      "default": {
+        "default": [
+          "Something doesn't feel right about this place...",
+          "I feel like there's something missing here.",
+          "This place feels... wrong."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/enclosedArea",
+    "value": {
+      "default": {
+        "default": [
+          "Hey, I thought I was going to live somewhere without holes!",
+          "Don't tell me that you're trying to recreate that \"post-apocalyptic aesthetic\" with my room here.",
+          "I wanted to escape that dingy old wreck of a building, not find myself in one again!"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/otherDeed",
+    "value": {
+      "default": {
+        "default": [
+          "Hey, I'm not going to share this hard-earned room with someone else!",
+          "I'm not interested in having a roommate."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/severe",
+    "value": {
+      "default": {
+        "default": [
+          "This is almost getting to be as bad as my old home!",
+          "I thought I left the apocalypse behind here!",
+          "If you don't fix this joint up, I'm leaving."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/final",
+    "value": {
+      "default": {
+        "default": [
+          "The post-apocalypse is a better place to live than this!",
+          "This place has only made me feel homesick."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/beacon",
+    "value": {
+      "default": {
+        "default": [
+          "Huh? Still getting used to this advanced tech here.",
+          "Aaaah! You need me for something?"
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rent",
+    "value": {
+      "default": {
+        "default": [
+          "Sorry about not paying my rent, I hope this makes up for it!",
+          "Now that I can focus on other things besides surviving, I can give you gifts!",
+          "Thank you for helping me escape that mess of a planet, you have my gratitude, and this gift!"
+        ]
+      }
+    }
+  }
+]

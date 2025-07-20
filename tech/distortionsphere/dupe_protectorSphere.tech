@@ -1,0 +1,163 @@
+{
+	"name" : "dupe_protectorSphere",
+	"type" : "head",
+
+	"scripts" : ["/tech/distortionsphere/protectorSphere.lua"],
+	"animator" : "/tech/distortionsphere/protectorSphere.animation",
+
+	"description" : "An advanced sphere tech of both utility and offence. ^green;Hold right-click to charge up^white;.",
+	"shortDescription" : "Protector's Sphere",
+	"rarity" : "Legendary",
+	"icon" : "/tech/protectorSphere.png",
+
+	"chipCost" : 0,
+
+	"transformedMovementParameters" : {
+		"collisionPoly" : [ [-0.85, -0.35], [-0.35, -0.85], [0.35, -0.85], [0.85, -0.35], [0.85, 0.35], [0.35, 0.85], [-0.35, 0.85], [-0.85, 0.35] ],
+
+		"airForce" : 200.0,
+		"groundForce" : 450.0,
+		"liquidForce" : 350.0,
+		"normalGroundFriction" : 4,
+		"ambulatingGroundFriction" : 0.2,
+		"slopeSlidingFactor" : 3.0,
+
+		"groundFriction" : 8.0,
+		"liquidFriction" : 2.5,
+
+		"bounceFactor" : 0.5,
+		"stopOnFirstBounce" : true,
+
+		"airJumpProfile" : {
+			"jumpSpeed" : 0.0,
+			"jumpControlForce" : 0.0,
+			"jumpInitialPercentage" : 1.0,
+			"jumpHoldTime" : 0.1
+		},
+
+		"liquidJumpProfile" : {
+			"jumpSpeed" : 0.0,
+			"jumpControlForce" : 0.0,
+
+			"multiJump" : false,
+			"autoJump" : false
+		}
+	},
+
+	"ballSpeed" : 12,
+
+	"energyCost" : 0,
+	"chargeEnergy" : 20,
+	"releaseEnergy" : 50,
+
+	"ballRadius" : 1,
+	"ballFrames" : 4,
+
+	"ignorePlatforms" : true,
+	"damageDisableTime" : 0.2,
+
+	"chargePitchAdjust" : 2.0,
+	
+	"chargeTime" : [1.0, 2.0],
+	"launchVelocity" : 100,
+
+	"spinDamageRange" : [1, 11],
+	"boostDamageRange" : [22, 44],
+
+	"boostTime" : 0.5,
+	"boostMovementParameters" : {
+		"bounceFactor" : 0.5,
+		"groundForce" : 0,
+		"normalGroundFriction" : 0,
+		"ambulatingGroundFriction" : 0
+	},
+
+	"animationParts" : {
+		"ballGlow" : "/tech/distortionsphere/protectorSphereglow.png",
+		"ball" : "/tech/distortionsphere/protectorSphere.png"
+	},
+
+	"spinProjectile" : {
+		"projectileType" : "blueballout",
+		"offset" : [0, 0],
+		"aim" : [0, 0],
+		"follow" : true,
+		"cooldowns" : { "spinner" : 0.2 },
+		"projectileParameters" : {
+			"lightColor" : [0, 140, 217],
+			"fullbright" : false,
+			"timeToLive" : 0.05,
+			"speed" : 0,
+			"power" : 10,
+			"knockback" : 10,
+			"piercing" : true,
+			"acceleration" : 0,
+			"damageKind" : "default",
+			"onlyHitTerrain" : false,
+			"movementSettings" : {
+				"physicsEffectCategories" : [], 
+				"collisionEnabled" : false,
+				"gravityMultiplier" : 0.0
+			},
+			"processing" : "",
+			"periodicActions" : [],
+			"actionOnReap" : []
+		}
+	},
+
+	"boostProjectile" : {
+		"projectileType" : "blueballout",
+		"offset" : [0, 0],
+		"aim" : [0, 0],
+		"follow" : true,
+		"cooldowns" : { "boost" : 0.01 },
+		"projectileParameters" : {
+			"lightColor" : [0, 140, 217],
+			"fullbright" : false,
+			"timeToLive" : 0.05,
+			"speed" : 0,
+			"power" : 10,
+			"knockback" : 50,
+			"piercing" : true,
+			"acceleration" : 0,
+			"damageKind" : "default",
+			"onlyHitTerrain" : false,
+			"movementSettings" : {
+				"physicsEffectCategories" : [], 
+				"collisionEnabled" : false,
+				"gravityMultiplier" : 0.0
+			},
+			"processing" : "?multiply=0000",
+			"periodicActions" : [],
+			"actionOnReap" : []
+		}
+	},
+
+	"speedingProjectile" : {
+		"projectileType" : "bullet-r",
+		"offset" : [0, 0],
+		"aim" : [0, 0],
+		"follow" : true,
+		"cooldowns" : { "spinner" : 0.2 },
+		"projectileParameters" : {
+			"lightColor" : [0, 140, 217],
+			"fullbright" : false,
+			"timeToLive" : 0.05,
+			"speed" : 0,
+			"power" : 10,
+			"knockback" : 10,
+			"piercing" : true,
+			"acceleration" : 0,
+			"damageKind" : "default",
+			"onlyHitTerrain" : false,
+			"movementSettings" : {
+				"physicsEffectCategories" : [], 
+				"collisionEnabled" : false,
+				"gravityMultiplier" : 0.0
+			},
+			"processing" : "",
+			"periodicActions" : [],
+			"actionOnReap" : []
+		}
+	}
+}

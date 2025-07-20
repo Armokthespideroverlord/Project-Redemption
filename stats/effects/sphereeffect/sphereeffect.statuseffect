@@ -1,0 +1,14 @@
+{
+  "name" : "sphereeffect",
+  "effectConfig" : {  
+	"tech" : "protectorSphere"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "sphereeffect.lua"
+  ],
+
+  
+  "label" : "Sphere Effect"
+}

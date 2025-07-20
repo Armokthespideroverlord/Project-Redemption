@@ -1,0 +1,33 @@
+{
+  "itemName" : "corporatejeepcontroller",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "category" : "vehicleController",
+  "shortdescription" : "Jeep Controller",
+  "description" : "Create an old USCM jeep from stored nanites.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "r-jeep.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "r-jeep",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/r-jeep/jeepwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "corporatejeepcontroller.png"
+  },
+
+  "inventoryIcon" : "corporatejeepcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/corporatejeepcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/corporatejeepcontroller.png:full"
+}

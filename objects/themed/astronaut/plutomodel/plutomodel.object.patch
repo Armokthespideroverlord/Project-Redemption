@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/avianDescription",
+    "value": "Pluto was named after a god of the underworld in ancient Earth mythology. It reminds me of some similar old Avian mythos."
+  }
+]

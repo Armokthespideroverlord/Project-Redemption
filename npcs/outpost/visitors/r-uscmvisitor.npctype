@@ -1,0 +1,55 @@
+{
+  "type" : "r-uscmvisitor",
+  "displayTitle" : "Corporate Marine Visitor",
+  "baseType" : "outpostvisitor",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "The USCM may be no more, but it lives on through me!",
+            "Now that the USCM's gone, I might as well go find myself a new calling. Do you think I should be a bounty hunter, or a farmer instead?",
+            "What are you looking at civilian? I'm here on official business.",
+            "They always send me out to get supplies, why can't it be John for once?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              {
+                "name": "humantier1head"
+              },
+              {
+                "name": "humantier2head"
+              }
+            ],
+            "chest" : [
+              {
+                "name": "humantier1chest"
+              },
+              {
+                "name": "humantier2chest"
+              }
+            ],
+"back" : [ 	{ "name" : "survivalgearback", "parameters" : { "colorIndex" : 0  } }
+			],
+            "legs" : [
+              {
+                "name": "humantier1pants"
+              },
+              {
+                "name": "humantier2pants"
+              }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

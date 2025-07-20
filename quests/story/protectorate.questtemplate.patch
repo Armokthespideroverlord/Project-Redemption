@@ -1,0 +1,11 @@
+[
+  { "op" : "add",
+    "path" : "/scriptConfig/confiscateItems/-",
+    "value" : "brokensidearm"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/skipIntroItems/-",
+    "value": "brokensidearm"
+  }
+]

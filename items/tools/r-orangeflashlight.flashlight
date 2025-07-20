@@ -1,0 +1,18 @@
+{
+  "itemName" : "r-orangeflashlight",
+  "price" : 100,
+  "category" : "tool",
+  "inventoryIcon" : "r-orangeflashlighticon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A orange flashlight! Makes the world glimmer like gold.",
+  "shortdescription" : "Flashlight",
+  "largeImage" : "r-orangeflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "r-orangeflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 150, 0],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

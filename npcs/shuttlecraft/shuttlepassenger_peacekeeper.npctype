@@ -1,0 +1,269 @@
+{
+  "type" : "shuttlepassenger_peacekeeper",
+  "baseType" : "guard",
+
+  "damageTeamType" : "friendly",
+  
+  "scripts" : [
+    "/npcs/bmain.lua", "/npcs/shuttlecraft_lounge.lua"
+  ],
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "dialog" : {
+"greeting" : "/dialog/r-peacekeeperconverse.config:converse",
+      "converse" : "/dialog/r-peacekeeperconverse.config:converse",
+
+      "attack" : "/dialog/peacekeeper.config:attack",
+      "reattack" : "/dialog/peacekeeper.config:reattack",
+      "killedTarget" : "/dialog/peacekeeper.config:killedTarget",
+      "lostTarget" : "/dialog/peacekeeper.config:lostTarget",
+      "outOfSight" : "/dialog/peacekeeper.config:outOfSight",
+      "cheerOn" : "/dialog/peacekeeper.config:cheerOn",
+      "cantReach" : "/dialog/peacekeeper.config:cantReach"
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          }
+        ] ],
+[1, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          }
+        ] ],
+[2, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcneopistol" ]
+          }
+        ] ],
+      [3, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa1" ],
+            "sheathedprimary" : [ "neomagnum1" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa1" ],
+            "sheathedprimary" : [ "neomagnum1" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+           "primary" : [ "neotonfa1" ],
+            "sheathedprimary" : [ "neomagnum1" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa1" ],
+            "sheathedprimary" : [ "neomagnum1" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          }
+        ] ],
+      [4, [
+         {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa2" ],
+            "sheathedprimary" : [ "neomagnum2" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa2" ],
+            "sheathedprimary" : [ "neomagnum2" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+           "primary" : [ "neotonfa2" ],
+            "sheathedprimary" : [ "neomagnum2" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa2" ],
+            "sheathedprimary" : [ "neomagnum2" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          }
+        ] ],
+ [5, [
+         {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa3" ],
+            "sheathedprimary" : [ "neomagnum3" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa3" ],
+            "sheathedprimary" : [ "neomagnum3" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+           "primary" : [ "neotonfa3" ],
+            "sheathedprimary" : [ "neomagnum3" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa3" ],
+            "sheathedprimary" : [ "neomagnum3" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          }
+        ] ],
+ [6, [
+         {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa4" ],
+            "sheathedprimary" : [ "neomagnum4" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa4" ],
+            "sheathedprimary" : [ "neomagnum4" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+           "primary" : [ "neotonfa4" ],
+            "sheathedprimary" : [ "neomagnum4" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "neotonfa4" ],
+            "sheathedprimary" : [ "neomagnum4" ],
+"alt" : [
+              { "name" : "riotshield" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

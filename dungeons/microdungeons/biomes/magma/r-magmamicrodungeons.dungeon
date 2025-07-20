@@ -1,0 +1,79 @@
+{
+  "metadata" : {
+    "name" : "r-magmamicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "meteor1", "meteor2", "meteor3", "meteor4", "meteor5", "meteor6", "meteor7", "meteor8", "meteor9" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "meteor1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor1.json" ]
+    },
+{
+      "name" : "meteor2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor2.json" ]
+    },
+{
+      "name" : "meteor3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor3.json" ]
+    },
+{
+      "name" : "meteor4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor4.json" ]
+    },
+{
+      "name" : "meteor5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor5.json" ]
+    },
+{
+      "name" : "meteor6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor6.json" ]
+    },
+{
+      "name" : "meteor7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor7.json" ]
+    },
+{
+      "name" : "meteor8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor8.json" ]
+    },
+{
+      "name" : "meteor9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meteor9.json" ]
+    }
+  ]
+}

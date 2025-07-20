@@ -1,0 +1,27 @@
+{
+  "id" : "unioncodex",
+  "species" : "human",
+  "title" : "The Terrene Electorate",
+  "description" : "A textbook describing the Human government.",
+  "icon" : "unioncodex.png",
+  "contentPages" : [
+  "The ^orange;Terrene Electorate^white;, otherwise known simply as \"the Human Government\", is a representative democracy split into multiple branches, such as the Terrene Protectorate, Terrene Peacekeepers, Terrene Guardians, and many others. Unlike the so called \"Star Empires\" the other major interstellar governments are denoted as, the Electorate is a humble planet-state based on Earth with only a few outposts across the Sol system and a single colony on Mars.",
+
+"^yellow;//THE TERRENE PROTECTORATE^white;
+Serving as the foreign policy branch of the Electorate, the Protectorate deals with diplomacy and exploration while also operating as a humanitarian organization. For these reasons the Protectorate is the most well known branch, practically synonymous with the Electorate itself for those living beyond Earth. It is led by a ^orange;Grand Protector^white;, an individual who is selected from among the best and brightest Protectors, additionally serving as chief representative of the Electorate.", 
+
+"^yellow;//THE TERRENE PEACEKEEPERS^white;
+As the federal police force of the Electorate, the Peacekeepers ensure that the citizenry of Earth are kept safe, operating in tandem with the court system within the Electorate. They are largely focused on dealing with criminal activity in the Sol system, but have been known to operate outside of it to help deal with space piracy as well. The Peacekeepers are managed by a ^orange;Peacekeeper Chief^white; selected from the most upstanding of their ranks.",
+
+"^yellow;//THE TERRENE GUARDIANS^white;
+Originally representing the combined military forces of old Earth, the Terrene Guardians gradually diminished over time by demilitarization reforms. Now they operate more as first-responders, coming to aid during the rare incidents of natural disasters on Earth. They are operated by the Electorate itself as opposed to any military generals, largely thanks to the unprecedented millennia of peace Earth has been experiencing.",
+
+"^yellow;//FORMATION & HISTORY^white;
+As humanity recovered from its violent past and worked to restore Earth to its former glory, the Electorate would be formed alongside several of its branches, including the Guardians. Under its guidance Earth would be revived as humankind initiated a new wave of space exploration.", 
+"It would be upon the discovery of other civilizations that the Protectorate would be formed, initially as a mere humanitarian society. Meanwhile the Peacekeepers would start off as a detective agency tasked with safeguarding the Protectorate, before reforms would develop both into the branches of government they are now."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

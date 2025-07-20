@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "r-glitchundead",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "r-glitchundead.png"
+  }
+}

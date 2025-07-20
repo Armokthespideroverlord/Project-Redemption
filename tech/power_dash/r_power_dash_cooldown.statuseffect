@@ -1,0 +1,9 @@
+{
+  "name" : "r_power_dash_cooldown",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+
+  "scripts" : [],
+
+  "label" : "Rocket Punch Cooldown"
+}

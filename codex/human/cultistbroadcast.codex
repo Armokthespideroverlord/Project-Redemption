@@ -1,0 +1,25 @@
+{
+  "id" : "cultistbroadcast",
+  "species" : "human",
+  "title" : "Occasus Broadcast",
+  "description" : "A transcript of Asra Nox's message to all Occasus members.",
+  "icon" : "cultistbroadcast.png",
+  "contentPages" : [
+  "I am aware that many among you are disturbed by the news of Earth's destruction.
+
+Don't be.
+
+Earth was beyond salvation. What happened to it was PUNISHMENT for how corrupted it became. It had become INFESTED with aliens, and the humans of Earth WELCOMED it.",
+"It was the home of the Terrene Protectorate. An organization treacherous to humanity, protective of these creatures, insistent on treating them as equivalent to humans.
+
+We needed that wiped away. Humanity needed a fresh start.
+
+It's true that the cycles ahead will be challenging, that humanity will struggle to survive. But we WILL survive, and we will emerge STRONGER from it.",
+"And humanity's future from this point onward... WILL BE CARVED BY THE OCCASUS."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
+

@@ -1,0 +1,258 @@
+[
+  {
+    "op": "add",
+    "path": "/surface/0/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/1/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/2/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/3/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/4/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/5/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/0/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/1/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/2/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/3/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "platinum",
+      0
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/0/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/1/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/2/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/3/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "platinum",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/0/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "platinum",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/0/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "platinum",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/asteroid/0/1/-",
+    "value": [
+      "platinum",
+      0.35
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/asteroid/0/1/-",
+    "value": [
+      "r-impervium",
+      0.25
+    ]
+  }
+]

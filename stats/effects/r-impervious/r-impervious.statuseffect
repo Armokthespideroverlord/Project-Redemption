@@ -1,0 +1,9 @@
+{
+  "name" : "r-impervious",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "r-impervious.lua"
+  ]
+}

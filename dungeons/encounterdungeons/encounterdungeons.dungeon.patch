@@ -1,0 +1,49 @@
+[
+
+{
+"op" : "add", 
+"path" : "/metadata/anchor/-", 
+"value" : "r-merchant_novakid" 
+},
+
+{"op" : "add", 
+"path" : "/parts/-", 
+"value" : {"name" : "r-merchant_novakid",
+			"rules" : [
+			["maxSpawnCount", [1] ]
+			],
+			"def" : [ "tmx", "r-merchant_novakid.json" ]
+			}
+},
+{
+"op" : "add", 
+"path" : "/metadata/anchor/-", 
+"value" : "r-uscmcamp1" 
+},
+
+{"op" : "add", 
+"path" : "/parts/-", 
+"value" : {"name" : "r-uscmcamp1",
+			"rules" : [
+			["maxSpawnCount", [1] ]
+			],
+			"def" : [ "tmx", "r-uscmcamp1.json" ]
+			}
+},
+{
+"op" : "add", 
+"path" : "/metadata/anchor/-", 
+"value" : "r-uscmcamp2" 
+},
+
+{"op" : "add", 
+"path" : "/parts/-", 
+"value" : {"name" : "r-uscmcamp2",
+			"rules" : [
+			["maxSpawnCount", [1] ]
+			],
+			"def" : [ "tmx", "r-uscmcamp2.json" ]
+			}
+}
+
+]

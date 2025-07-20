@@ -1,0 +1,22 @@
+{
+  "itemName" : "r-protectorateaugment",
+  "price" : 250,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "r-protectoraugment.png",
+  "description" : "An advanced EPP module that grants physical resistance through an energy shield.",
+  "shortdescription" : "Protector's Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "r-protector",
+    "displayName" : "Protector's Augment",
+    "displayIcon" : "/items/augments/back/r-protectoraugment.png",
+    "effects" : [ "protectorshield" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

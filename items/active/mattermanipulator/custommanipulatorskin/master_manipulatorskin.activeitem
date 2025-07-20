@@ -1,0 +1,33 @@
+{
+  "itemName" : "master_manipulatorskin",
+  "level" : 1,
+  "price" : 250,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  //"tooltipKind" : "gun",
+  "category" : "Manipulator Skin",
+  "description" : "Sprites removed as they were used without permission (despite credit given, just didn't feel right to use 'em)",
+  "shortdescription" : "Removed",
+  "twoHanded" : true,
+  "inventoryIcon" : "master_manipulatorskin.png",
+  "animation" : "master_manipulatorskin.animation",
+  "animationParts" : {
+    "manipulator" : "master_manipulatorskin.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "override" : [ "/sfx/objects/colonydeed_partyhorn.ogg" ],
+      "fail" : [ "/sfx/interface/clickon_error.ogg" ]
+    }
+  },
+  
+  "scripts" : ["/items/active/mattermanipulator/manipulatoroverwrite.lua"],
+  
+  "fireOffset" : [1.0, 0.0],
+  "overrides" : {
+    "beamaxe" : "master_beamaxe",
+    "wiretool" : "master_wiretool",
+    "painttool" : "master_painttool",
+    "inspectiontool" : "master_scanmode"
+  }
+}

@@ -1,0 +1,11 @@
+[
+{ "op": "replace",
+	"path": "/primaryAbility/baseDps",
+	"value": 12.5 },
+{ "op": "replace",
+	"path": "/inactiveBaseDps",
+	"value": 12.5 },
+{ "op": "replace",
+	"path": "/activeBaseDps",
+	"value": 15.5 }
+]

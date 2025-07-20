@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "r_imperviumalloy", "count" : 12 },
+    { "item" : "r-prismatichead", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "r_imperviousarmorhelmet", "count" : 1 },
+  "groups" : [ "craftingconstructor", "armours", "all" ]
+}

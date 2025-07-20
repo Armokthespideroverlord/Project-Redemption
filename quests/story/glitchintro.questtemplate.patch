@@ -1,0 +1,26 @@
+[
+[
+{
+    "op": "test",
+    "path": "/scriptConfig/confiscateItems/0",
+    "value": "brokenprotectoratebroadsword"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/confiscateItems/-",
+    "value": "brokensidearm"
+  }
+],
+[
+{
+    "op": "test",
+    "path": "/scriptConfig/skipIntroItems/0",
+    "value": "brokenprotectoratebroadsword"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/skipIntroItems/-",
+    "value": "brokensidearm"
+  }
+]
+]

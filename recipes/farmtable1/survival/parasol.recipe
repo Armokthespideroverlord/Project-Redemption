@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 5 },
+    { "item" : "logblock", "count" : 2 },
+    { "item" : "string", "count" : 1 }
+  ],
+  "output" : { "item" : "parasol", "count" : 1 },
+  "groups" : [ "craftingfarm", "survival" ]
+}

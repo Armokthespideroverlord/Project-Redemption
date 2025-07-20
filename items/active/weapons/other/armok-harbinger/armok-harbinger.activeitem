@@ -1,0 +1,89 @@
+{
+  "itemName" : "armok-harbinger",
+  "level" : 6,
+  "price" : 1250,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Portent of the Inevitable.",
+  "shortdescription" : "Harbinger",
+  "tooltipKind" : "base",
+  "category" : "scythe",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","scythe"],
+"effects":[],
+  "inventoryIcon" : "armok-harbinger.png",
+
+  "animation" : "armok-harbinger.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "armok-harbinger.png",
+    "bladefullbright" : "armok-harbingerfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+//"fire" : [ "/sfx/melee/soulseeker_swing.ogg" ]
+"fire": ["/sfx/melee/swing_broadsword.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime": 0.8,
+    "baseDps" : 14,
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : ["armok-shadowreap", "r-weakness", "r-slowness"],
+      "knockback" : 30,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation": 20,
+        "weaponRotation": 65,
+        "allowRotate": false,
+        "allowFlip": true,
+        "aimAngle": 0
+      },
+      "windup" : {
+        "duration": 0.3,
+        "armRotation" : 90,
+        "endArmRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "preslash" : {
+        "duration": 0.05,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration": 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "armok-sickle",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

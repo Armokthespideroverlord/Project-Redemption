@@ -1,0 +1,84 @@
+{
+  "itemName": "protectoratehandcannon",
+  "price": 1500,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "A weapon devised by the Terrene Protectorate capable of accelerating matter.",
+  "shortdescription": "Protector's Handgun",
+  "tooltipKind": "base",
+  "category": "pistol",
+  "twoHanded": false,
+  "itemTags": [
+    "weapon",
+    "ranged"
+  ],
+  "level": 7,
+  "inventoryIcon": "fixedprotectorspistolicon.png",
+  "animation": "protectoratepistol.animation",
+  "animationParts": {
+    "gun": "fixedprotectorspistol.png",
+    "gunfullbright": "fixedprotectorspistolfullbright.png"
+  },
+  "animationCustom": {},
+  "muzzleOffset": [
+    0.5,
+    0.1
+  ],
+  "scripts": [
+    "/items/active/weapons/ranged/gun.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbilityType": "chargefire",
+  "primaryAbility": {
+    "chargeLevels": [
+      {
+        "time": 0,
+        "energyCost": 5,
+        "cooldown": 0.1,
+        "projectileType": "r-protectorateplasma",
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 2,
+        "fireSound": "fire"
+      },
+{
+        "time": 0.5,
+        "energyCost": 15,
+        "cooldown": 0.1,
+        "projectileType": "r-stickyplasma",
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 4.75,
+        "fireSound": "fire2"
+      },
+      {
+        "time": 1.0,
+        "energyCost": 40,
+        "cooldown": 0.5,
+        "projectileType": "energybeam",
+        "projectileParameters": {
+          "actionOnReap": [
+            {
+              "action": "projectile",
+              "type": "protectorateexplosion",
+              "inheritDamageFactor": 0.25,
+              "config": {
+                
+              }
+            },
+            {
+              "action": "sound",
+              "options": [
+                "/sfx/gun/plasma_shotgun1.ogg"
+              ]
+            }
+          ]
+        },
+        "inaccuracy": 0,
+        "baseDamage": 9.5,
+        "fireSound": "fire3"
+      }
+    ]
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

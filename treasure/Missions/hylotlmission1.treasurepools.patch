@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/hylotlmission1Competition5/0",
+    "value": [
+      1,
+      {
+        "fill": [
+          {
+            "item": [
+              "soggypaper",
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

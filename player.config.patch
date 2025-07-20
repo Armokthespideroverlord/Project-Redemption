@@ -1,0 +1,23 @@
+[
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "mechrepairgun" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviumalloy" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "prisilitestar" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "parasol" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "chainsaw" }},
+        {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "platinumbar" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "platinumblock" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "cookedtentacle" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "cookedham" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "heartforge" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "humangenerator" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "fossilbrushgrandmaster" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "toxicwastebarrel" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r-prisiliteshield" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r-prismatichead" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r-prismaticchest" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r-prismaticlegs" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviumshield" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorhelmet" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorchest" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorlegs" }}
+]

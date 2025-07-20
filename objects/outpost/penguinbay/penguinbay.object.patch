@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "r-enginerepair",
+      "prerequisiteShipLevel": 1,
+      "exclusiveQuests": [
+        "human_mission1",
+        "r-enginerepair"
+      ]
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "scorchedcityambush1"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "scorchedcityambush2"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "scorchedcityambush1",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "scorchedcityambush1.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "scorchedcityambush2",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "scorchedcityambush2.json"
+      ]
+    }
+  }
+]

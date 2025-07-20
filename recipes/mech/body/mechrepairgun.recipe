@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "salvagearm", "count" : 1 },
+		{ "item" : "ironbar", "count" : 10 },
+{ "item" : "platinumbar", "count" : 5 }
+	],
+	"duration" : 5,
+	"output" : { "item" : "mechrepairgun", "count" : 1 },
+	"groups" : [ "craftingmech", "mechbody" ]
+}

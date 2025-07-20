@@ -1,0 +1,18 @@
+{
+  "name" : "r-shadow",
+  "friendlyName" : "Shadow",
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "tar", "direstone" ],
+  "ores" : "depth3",
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/dirtunderground.parallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

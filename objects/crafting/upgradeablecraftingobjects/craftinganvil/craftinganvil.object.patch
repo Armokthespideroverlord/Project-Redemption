@@ -1,0 +1,34 @@
+[{
+    "op" : "add",
+	"path" : "/upgradeStages/1/interactData/upgradeRecipeUnlocks/-",
+	"value" : "constructoraddon"
+  },{
+    "op" : "add",
+	"path" : "/upgradeStages/2/interactData/initialRecipeUnlocks/-",
+	"value" : "constructoraddon"
+  },{
+	"op" : "add",
+	"path" : "/upgradeStages/2/learnBlueprintsOnPickup/-",
+	"value" : "constructoraddon"
+  },{
+    "op": "add",
+    "path": "/upgradeStages/2/addonConfig/usesAddons/-",
+    "value": {
+        "name": "constructorAddon",
+        "position": [0, 3],
+        "addonData": {
+            "animationState": "constructor",
+            "interactData": {
+                "paneLayoutOverride": {
+                    "windowtitle": {
+                        "title":  "Constructor's Table",
+                      "icon": {
+                        "file": "/interface/crafting/constructortable.png"
+                      }
+                    }
+                },
+                "filter": ["craftinganvil", "craftinganvil2", "craftinganvil3", "craftingconstructor"]
+            }
+        }
+    }
+}]

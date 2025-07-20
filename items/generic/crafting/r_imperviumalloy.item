@@ -1,0 +1,10 @@
+{
+  "itemName" : "r_imperviumalloy",
+  "price" : 900,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "r-imperviumplate.png",
+  "description" : "Ore to make impervium plates is primarily found on magma planets orbiting fiery stars.",
+  "shortdescription" : "Impervium Plate",
+  "itemTags" : [ "reagent" ]
+}

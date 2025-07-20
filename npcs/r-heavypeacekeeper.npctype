@@ -1,0 +1,18 @@
+{
+  "type" : "r-heavypeacekeeper",
+  "baseType" : "r-peacekeeper",
+  "levelVariance" : [0, 0],
+  "items" : {
+    "default" : [
+      [0, [
+         {
+            "head" : [ { "name" : "r-heavypeacekeeperhead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "r-heavypeacekeeperchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "r-heavypeacekeeperlegs", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "peacekeepernpcpetcapturepod" ],
+            "sheathedprimary" : [ "npcneolaserlauncher", "gluesprayer" ]
+          }
+        ] ]
+    ]
+  }
+}

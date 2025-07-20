@@ -1,0 +1,31 @@
+{
+  "itemName" : "deadbeatskull",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "shortdescription" : "Deadbeat Skull",
+  "description" : "The fossilised skull of a Deadbeat. Not to be confused with a horned Human skull.",
+  "category" : "smallFossil",
+
+  "race" : "generic",
+  "price" : 75,
+
+  "inventoryIcon" : "deadbeatskullicon.png",
+
+  "completeSetDescriptions" : {
+    "price" : 300,
+    "shortdescription" : "Deadbeat Skull",
+
+    "description" : "A fossilized Deadbeat skull, not to be confused with a Human one."
+  },
+
+  "displayImage" : "/objects/fossils/smallfossils/deadbeatskull.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "deadbeatskull",
+  "setIndex" : 1,
+  "setCount" : 1,
+  "setCollectables" : { "fossils" : "deadbeatskull" },
+
+  "completeFossilIcon" : "/objects/fossils/smallfossils/smallfossilcompleteicon.png"
+}

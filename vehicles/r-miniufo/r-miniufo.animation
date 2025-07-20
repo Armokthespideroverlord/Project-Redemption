@@ -1,0 +1,188 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "beam" : {
+        "priority" : 1,
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {}
+        }
+      },
+	  "movement": {
+        "default": "idle",
+        "states": {
+          "warpInPart1": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "warpInPart2"
+          },
+          "warpInPart2": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "idle"
+          },
+          "idle": {},
+          "warpOutPart1": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "warpOutPart2"
+          },
+          "warpOutPart2": {
+            "frames": 4,
+            "cycle": 0.33,
+            "mode": "transition",
+            "transition": "invisible"
+          },
+          "invisible": {}
+        }
+      }
+    },
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "offset" : [0.0, 0.0],
+          "seatOffset" : [-0.125, 0.125],
+          "zLevel" : 2,
+          "image" : "miniufo.png"
+        }
+      },
+	  "warp": {
+        "properties": {
+          "centered": true,
+          "zLevel": 3,
+          "fullbright": true
+        },
+        "partStates": {
+          "movement": {
+            "warpInPart1": {
+              "properties": {
+                "image": "ufowarp.png:warpInPart1.<frame>"
+              }
+            },
+            "warpInPart2": {
+              "properties": {
+                "image": "ufowarp.png:warpInPart2.<frame>"
+              }
+            },
+            "idle": {
+              "properties": {}
+            },
+            "warpOutPart1": {
+              "properties": {
+                "image": "ufowarp.png:warpOutPart1.<frame>"
+              }
+            },
+            "warpOutPart2": {
+              "properties": {
+                "image": "ufowarp.png:warpOutPart2.<frame>"
+              }
+            },
+            "invisible": {
+              "properties": {}
+            }
+          }
+        }
+      },
+      "beam" : {
+        "properties" : {
+          "offset" : [0.0, -3.25],
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "beam" : {
+            "on" : {
+              "properties" : {
+                "image" : "tractorbeam.png"
+              }
+            }
+          }
+        }
+      },
+      "beamForceRegion" : {
+        "properties" : {
+          "offset" : [0.0, -3.25]
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : { },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "particleEmitters" : {
+    "damageShards" : {
+      "transformationGroups" : [],
+      "emissionRate" : 0.0,
+      "burstCount"  : 15,
+      "offsetRegion" : [-1.25, -1.25, 1.25, 1.25],
+      "particles" : [
+        {
+          "particle" :  {
+            "type" : "animated",
+            "animation" : "/animations/shards/generatorshard.animation",
+            "initialVelocity" : [0.0, 15.0],
+            "finalVelocity" : [0.0, -60.0],
+            "approach" : [0.3, 60],
+            "timeToLive" : 1.0,
+            "layer" : "middle",
+            "collidesForeground" : true,
+            "variance" : {
+              "initialVelocity" : [16, 5],
+              "finalVelocity" : [0, 20],
+              "rotation" : 180,
+              "angularVelocity" : 180
+            }
+          }
+        },
+        { "particle" : "fireshard"}
+      ]
+    }
+  },
+
+  "sounds" : {
+    "explode" : [
+      "/sfx/gun/grenadeblast_small_fire1.ogg",
+      "/sfx/gun/grenadeblast_small_fire2.ogg",
+      "/sfx/gun/grenadeblast_small_fire3.ogg"
+    ],
+
+    "engineStart" : [ "/sfx/tools/energypickaxe_start.ogg" ],
+    "engineLoop" : [ "/sfx/tools/energypickaxe_idle.ogg" ],
+
+    "beamStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+    "beamLoop" : [ "/sfx/gun/aegisaltpistol_loop2.ogg" ],
+	"returnvehicle": [
+      "/sfx/tech/vehicle_disappear1.ogg"
+    ]
+  },
+
+  "lights" : {
+   "glow" : {
+      "active" : false,
+      "transformationGroups" : [],
+      "position" : [0.0, 0.0],
+      "color" : [120, 120, 120]
+    },
+    "tractorbeam" : {
+      "active" : false,
+      "transformationGroups" : [],
+      "position" : [0.0, -1.0],
+      "color" : [0, 200, 255],
+      "pointLight" : true,
+      "pointAngle" : -90,
+      "pointBeam" : 1
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "projectileName" : "r-protectorateplasma",
+  "physics" : "laser",
+  "image" : "r-protectorateplasma.png",
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "speed" : 80,
+  "timeToLive" : 4,
+  "lightColor" : [90, 180, 230],
+  "damageKind" : "plasma",
+  "power" : 50,
+  "knockback" : 6,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }, 
+    {
+      "action" : "loop",
+      "count" : 4,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "ember",
+            "size" : 1.5,
+            "color" : [90, 180, 230, 255],
+            "light" : [90, 180, 230],
+            "fullbright" : true,
+            "destructionTime" : 0.1,
+            "destructionAction" : "shrink",
+            "fade" : 0.9,
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0.0, -50.0],
+            "approach" : [0, 30],
+            "timeToLive" : 0.1,
+            "layer" : "middle",
+            "variance" : {
+              "position" : [0.25, 0.25],
+              "size" : 0.5,
+              "initialVelocity" : [13, 13],
+              "timeToLive" : 0.1
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "periodicActions" : [
+  ]
+}

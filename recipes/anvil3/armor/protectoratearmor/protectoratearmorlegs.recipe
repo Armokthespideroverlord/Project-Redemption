@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "r_imperviumalloy", "count" : 4 },
+{ "item" : "prisilitestar", "count" : 8 },
+{ "item" : "refinedaegisalt", "count" : 8 },
+{ "item" : "refinedferozium", "count" : 8 },
+{ "item" : "refinedviolium", "count" : 8 },
+    { "item" : "upgrademodule", "count" : 4 },
+    { "item" : "perfectpants", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "protectoratearmorlegs", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

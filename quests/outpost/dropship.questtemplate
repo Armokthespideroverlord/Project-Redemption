@@ -1,0 +1,34 @@
+{
+  "id": "dropship",
+  "prerequisites": [
+ "glitch_mission2"
+  ],
+  "title": "^green;Traveling in Style",
+  "text": "Ye be a Protector right? I happen to have meself a ^green;Protectorate dropship^reset; in storage, but it'll cost ye. If ye want to get yer hands on this I need ^orange;10 of them Salvaged Nano Receptacles!^reset;",
+  "completionText": "Here's the dropship as promised. Since business has been good with yer, I've decided to add some improvements to sweeten the deal. Thank ye.",
+  "moneyRange": [
+    100,
+    100
+  ],
+"rewards" : [
+    [ [ "protectoratedropshipcontroller", 1 ] ]
+  ],
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig" : {
+     "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+    "conditions": [
+      {
+        "type": "gatherItem",
+        "itemName": "salvagetier6",
+        "count": 10,
+        "consume": true
+      }
+    ],
+	"turnInDescription" : "Speak to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;"
+   }
+}

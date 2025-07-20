@@ -1,0 +1,50 @@
+{
+  "name" : "r-minitank",
+  "script" : "r-minitank.lua",
+  "boundBox" : [-5.0, -16.0, 5.0, 5.0],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : true,
+  "animation" : "r-minitank.animation",
+
+  "moveSpeed" : 10,
+  "groundForce" : 400,
+  "jumpSpeed" : 15,
+
+  "health" : 1000,
+  "protection" : 50,
+
+  "minAngle" : 0,
+  "maxAngle" : 30,
+  "fireInterval" : 2.0,
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "body",
+      "partAnchor" : "seatOffset",
+      "orientation" : "sit",
+      "statusEffects" : ["invulnerable"],
+      "cameraFocus" : true,
+      "armorCosmeticOverrides" : {
+        "back" : "invisibleback"
+      }
+    }
+  },
+
+  "physicsForces" : {
+  },
+
+  "damageSources" : {
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-1.75, 0.5], [-2.875, -1.0], [-2.875, -1.25], [-2.25, -1.875], [2.25, -1.875], [2.875, -1.25], [2.875, -1.0], [1.75, 0.5] ],
+    "mass" : 2,
+    "ignorePlatformCollision" : false,
+    "gravityEnabled" : true,
+    "collisionEnabled" : true
+  },
+
+  "occupiedMovementSettings" : {
+  }
+}

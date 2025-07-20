@@ -1,0 +1,496 @@
+{
+  "itemName": "r-ancientsword",
+  "price": 960,
+  "level": 7,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "description": "A hard light blade created by the Ancients.",
+  "shortdescription": "Ancient Light Knife",
+  "tooltipKind": "sword",
+  "category": "Dagger",
+  "twoHanded": false,
+  "itemTags": [
+    "weapon",
+    "melee",
+    "dagger"
+  ],
+  "inventoryIcon": "icon.png",
+  "animation": "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts": {
+    "handle": "handle.png",
+    "blade": "blade.png"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "stateTypes": {
+        "swoosh": {
+          "default": "idle",
+          "states": {
+            "idle": {},
+            "fire": {
+              "frames": 3,
+              "cycle": 0.1,
+              "mode": "transition",
+              "transition": "idle"
+            },
+            "fire2": {
+              "frames": 3,
+              "cycle": 0.1,
+              "mode": "transition",
+              "transition": "idle"
+            }
+          }
+        },
+        "blade": {
+          "default": "inactive",
+          "states": {
+            "inactive": {
+              "properties": {
+                "lightsOff": [
+                  "glow"
+                ]
+              }
+            },
+            "extend": {
+              "frames": 5,
+              "cycle": 0.2,
+              "mode": "transition",
+              "transition": "active",
+              "properties": {
+                "lightsOn": [
+                  "glow"
+                ],
+                "immediateSound": "/sfx/objects/ancientlightplatform_on.ogg"
+              }
+            },
+            "active": {
+              "frames": 8,
+              "cycle": 0.9,
+              "mode": "loop",
+              "properties": {
+                "lightsOn": [
+                  "glow"
+                ],
+                "persistentSound": ""
+              }
+            },
+            "retract": {
+              "frames": 5,
+              "cycle": 0.2,
+              "mode": "transition",
+              "transition": "inactive",
+              "properties": {
+                "lightsOn": [
+                  "glow"
+                ],
+                "immediateSound": "/sfx/objects/ancientlightplatform_off.ogg"
+              }
+            }
+          }
+        }
+      },
+      "parts": {
+        "blade": {
+          "properties": {
+            "zLevel": 0,
+            "centered": true,
+            "fullbright": true,
+            "image": "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+            "offset": [
+              -0.055,
+              1.825
+            ],
+            "transformationGroups": [
+              "weapon"
+            ],
+            "rotationCenter": [
+              0,
+              0
+            ],
+            "damageArea": [
+              [
+                -0.7,
+                -1
+              ],
+              [
+                -0.7,
+                2.5
+              ],
+              [
+                0.5,
+                2.5
+              ],
+              [
+                0.5,
+                -1
+              ]
+            ]
+          },
+          "partStates": {
+            "blade": {
+              "inactive": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "extend": {
+                "properties": {
+                  "image": "<partImage>:extend.<frame>?<directives>?<bladeDirectives>"
+                }
+              },
+              "active": {
+                "properties": {
+                  "image": "<partImage>:active.<frame>?<directives>?<bladeDirectives>"
+                }
+              },
+              "retract": {
+                "properties": {
+                  "image": "<partImage>:retract.<frame>?<directives>?<bladeDirectives>"
+                }
+              }
+            }
+          }
+        },
+        "handle": {
+          "properties": {
+            "zLevel": 1,
+            "centered": true,
+            "image": "<partImage><paletteSwaps>?<directives>",
+            "offset": [
+              0,
+              1.875
+            ],
+            "transformationGroups": [
+              "weapon"
+            ],
+            "rotationCenter": [
+              0,
+              0
+            ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "zLevel": -1,
+            "centered": true,
+            "transformationGroups": [
+              "swoosh"
+            ],
+            "rotationCenter": [
+              0,
+              0
+            ]
+          },
+          "partStates": {
+            "swoosh": {
+              "idle": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "fire": {
+                "properties": {
+                  "image": "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>?flipy?scale=0.5",
+                  "offset": [
+                    1.25,
+                    -1.25
+                  ],
+                  "damageArea": [
+                    [
+                      -3,
+                      1
+                    ],
+                    [
+                      3,
+                      1
+                    ],
+                    [
+                      3,
+                      -1
+                    ],
+                    [
+                      -3,
+                      -1
+                    ]
+                  ]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "image": "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>?scalenearest=0.5",
+                  "offset": [
+                    0.5,
+                    0
+                  ],
+                  "damageArea": [
+                    [
+                      -3,
+                      2
+                    ],
+                    [
+                      3,
+                      2
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      3,
+                      -2
+                    ],
+                    [
+                      3,
+                      -2
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      -3,
+                      0
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "transformationGroups": {
+      "weapon": {},
+      "swoosh": {}
+    },
+    "particleEmitters": {
+      "physicalswoosh": {
+        "active": false,
+        "transformationGroups": [
+          "swoosh"
+        ],
+        "emissionRate": 1,
+        "burstCount": 1,
+        "particles": []
+      },
+      "fireswoosh": {
+        "active": false,
+        "transformationGroups": [
+          "swoosh"
+        ],
+        "emissionRate": 50,
+        "burstCount": 4,
+        "particles": [
+          {
+            "particle": "fireswoosh1"
+          },
+          {
+            "particle": "fireswoosh2"
+          },
+          {
+            "particle": "fireswoosh3"
+          }
+        ]
+      },
+      "electricswoosh": {
+        "active": false,
+        "transformationGroups": [
+          "swoosh"
+        ],
+        "emissionRate": 50,
+        "burstCount": 3,
+        "particles": [
+          {
+            "particle": "electricswoosh1"
+          },
+          {
+            "particle": "electricswoosh2"
+          },
+          {
+            "particle": "electricswoosh2"
+          }
+        ]
+      },
+      "poisonswoosh": {
+        "active": false,
+        "transformationGroups": [
+          "swoosh"
+        ],
+        "emissionRate": 50,
+        "burstCount": 3,
+        "particles": [
+          {
+            "particle": "poisonswoosh1"
+          },
+          {
+            "particle": "poisonswoosh2"
+          },
+          {
+            "particle": "fireswoosh2"
+          }
+        ]
+      },
+      "iceswoosh": {
+        "active": false,
+        "transformationGroups": [
+          "swoosh"
+        ],
+        "emissionRate": 50,
+        "burstCount": 3,
+        "particles": [
+          {
+            "particle": "iceswoosh1"
+          },
+          {
+            "particle": "iceswoosh2"
+          },
+          {
+            "particle": "iceswoosh3"
+          }
+        ]
+      }
+    },
+    "lights": {
+      "glow": {
+        "position": [
+          0,
+          2
+        ],
+        "color": [
+          103,
+          250,
+          255
+        ],
+        "transformationGroups": [
+          "weapon"
+        ]
+      }
+    },
+    "sounds": {
+      "fire": [
+        "/sfx/melee/swing_dagger.ogg"
+      ]
+    }
+  },
+  "scripts": [
+    "/items/active/weapons/melee/energymeleeweapon.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbilityType": "broadswordcombo",
+  "primaryAbility": {
+    "name": "Combo Slash",
+    "type": "broadswordcombo",
+    "scripts": [
+      "/items/active/weapons/melee/meleecombo.lua"
+    ],
+    "class": "MeleeCombo",
+    "comboSteps": 1,
+    "flashTime": 0,
+    "flashDirectives": "",
+    "swooshOffsetRegions": [
+      [
+        1.5,
+        -1,
+        5.5,
+        1
+      ],
+      [
+        3,
+        -0.5,
+        6.5,
+        2
+      ]
+    ],
+    "comboSpeedFactor": 0.85,
+    "edgeTriggerGrace": 0.25,
+    "fireTime": 0.6,
+    "baseDps": 7,
+    "damageConfig": {
+      "damageSourceKind": "dagger",
+      "knockbackMode": "aim",
+      "timeout": 0.5
+    },
+    "stepDamageConfig": [
+      {
+        "baseDamageFactor": 0.8,
+        "knockback": 10
+      },
+      {
+        "baseDamageFactor": 1.5,
+        "knockback": 10
+      }
+    ],
+    "stances": {
+      "idle": {
+        "armRotation": -90,
+        "weaponRotation": -190,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "windup1": {
+        "duration": 0.15,
+        "armRotation": -120,
+        "weaponRotation": -180,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "preslash1": {
+        "duration": 0
+      },
+      "fire1": {
+        "duration": 0.2,
+        "armRotation": 70,
+        "weaponRotation": -130,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "wait1": {
+        "duration": 0.2,
+        "armRotation": 70,
+        "weaponRotation": -130,
+        "allowRotate": false,
+        "allowFlip": true,
+        "twoHanded": false
+      },
+      "windup2": {
+        "duration": 0.1,
+        "armRotation": 10,
+        "weaponRotation": -80,
+        "weaponOffset": [
+          0,
+          0
+        ],
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "preslash2": {
+        "duration": 0.05,
+        "armRotation": -15,
+        "weaponRotation": -105,
+        "weaponOffset": [
+          0,
+          0
+        ],
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "fire2": {
+        "duration": 0.15,
+        "armRotation": -105,
+        "weaponRotation": -150,
+        "weaponOffset": [
+          0,
+          0
+        ],
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

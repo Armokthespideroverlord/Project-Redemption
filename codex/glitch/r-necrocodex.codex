@@ -1,0 +1,24 @@
+{
+  "id" : "necrocodex",
+  "species" : "glitch",
+  "title" : "On Necromancy",
+  "description" : "A Glitch scribe's treatise on a sinister practice.",
+  "icon" : "r-necrocodex.png",
+  "contentPages" : [
+
+"Tales are abound of Glitch mages of all sorts, from Alchemists concocting healing elixirs, Wizards with their wands and staves, to the Artificers that create portals and flying vessels to cross the void between worlds. While many are suspected to be afflicted by the plague of madness, they are tolerated given the benefits they provide to many a kingdom.
+
+Not so the Necromancer.",
+
+"Necromancers represent the magnitude of how dangerous the plague of madness can be. As fueled by their self-inflicted isolation from Glitch society and their delusional beliefs that we are all \"mindless automatons\", they resort to the unspeakable act of reanimating our deceased kin, often those murdered by the iron cold hands of the Necromancer in question. What is perhaps most disturbing is that they are often successful.",
+
+"Through whatever forbidden arts they employ, the corpses that fall into the hands of Necromancers are turned into horrific undead, mockeries of living Glitch who follow their dark masters every, albeit simple, command. They are extremely dangerous, although thankfully not very durable given their partially decayed nature. What one should truly take care with when in the presence of one is how a Necromancer is likely to be close by.",
+
+"All of this underscores the importance of our funerary practices, as only through the repurposing of our Dead's remains rather than committing them to burial can we prevent Necromancers from terrorizing the living."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

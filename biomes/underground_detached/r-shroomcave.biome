@@ -1,0 +1,56 @@
+{
+  "name" : "r-shroomcave",
+  "friendlyName" : "Shroom Cave",
+
+  "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+
+  "mainBlock" : "dirt",
+  "subBlocks" : [ "rock02" ],
+  "ores" : "depth3",
+
+  "parallax" : "/parallax/underground/dirtunderground.parallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ],
+    "modDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "ceiling",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "ceilingmushroom" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "mushroom" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "mushroomstalk" ],
+        "treeFoliageList" : [ "mushroomyellowtop", "mushroomredtop" ]
+      }
+    ]
+  }
+}

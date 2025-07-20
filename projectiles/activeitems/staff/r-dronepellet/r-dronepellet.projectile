@@ -1,0 +1,17 @@
+{
+  "projectileName" : "r-dronepellet",
+  "image" : "r-dronepellet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "fullbright" : true,
+  "actionOnReap" : [
+  ],
+  "damageKind" : "plasma",
+
+  "emitters" : [ "energyweapon" ],
+
+  "power" : 10,
+  "speed" : 50
+}

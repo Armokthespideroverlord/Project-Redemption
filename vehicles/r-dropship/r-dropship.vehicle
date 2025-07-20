@@ -1,0 +1,51 @@
+{
+  "name" : "r-dropship",
+  "script" : "r-dropshipcontrol.lua",
+  "boundBox" : [-5, -5, 5, 5],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : true,
+  "animation" : "r-dropship.animation",
+  
+  "moveSpeed" : 30,
+  "airForce" : 100,
+
+  "minHeight" : 0,
+  "maxHeight" : 0,
+
+  "explodeTime" : 0.5,
+  "explodeProjectile" : "mechexplosion",
+
+  "warpInDelay" : 1.0,
+
+  "health" : 2500,
+  "protection" : 50,
+  
+  "loungePositions" : {
+    "seat" : {
+      "part" : "ship",
+      "partAnchor" : "seatPosition",
+      "orientation" : "sit",
+      "statusEffects" : ["highprotection"],
+      "cameraFocus" : true,
+      "armorCosmeticOverrides" : {
+        "head" : "mechpilothead"
+      }
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [2.125, -3.0], [6.0, -1.25], [6.0, 0.0], [3.5, 2.0], [-3.5, 2.0], [-6.0, 0.0], [-6.0, -1.25], [-2.125, -3.0] ],
+    "mass" : 4,
+    "airFriction" : 2,
+    "ignorePlatformCollision" : true,
+    "gravityEnabled" : true,
+    "collisionEnabled" : true
+  },
+
+  "occupiedMovementSettings" : {
+    "mass" : 4,
+    "gravityEnabled" : false,
+    "collisionEnabled" : true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "type" : "r-outlawsunborn",
+  "displayTitle" : "Sunborn Heretic",
+  "baseType" : "hostile",
+
+  "levelVariance" : [1, 1.5],
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "friendlyNpcTypes" : ["crewmemberoutlaw"]
+    },
+
+   "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "They called me a heretic for following the TRUE way of Kluex! This'll show them!",
+            "Kluex wills it!",
+            "I may have betrayed my Sunborn brothers, but it was for a higher calling!",
+            "Blood for the blood god!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "r-sunbornhead", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "back" : [
+              { "name" : "r-sunbornback", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "chest" : [
+              { "name" : "r-sunbornchest", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "legs" : [
+              { "name" : "r-sunbornpants", "parameters" : { "colorIndex" : [1] } }
+            ],
+            "primary" : [ "npcpetcapturepod", "npcbow" ],
+            "sheathedprimary" : [ "npcavianbroadsword" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

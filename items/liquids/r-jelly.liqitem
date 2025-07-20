@@ -1,0 +1,10 @@
+{
+  "itemName" : "r-liquidjelly",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "r-liquidjellyicon.png",
+  "shortdescription" : "Jelly",
+  "description" : "The sticky, toxic ichor of a space monster.",
+
+  "liquid" : "jellyliquid"
+}

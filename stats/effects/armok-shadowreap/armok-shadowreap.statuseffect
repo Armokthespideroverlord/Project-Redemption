@@ -1,0 +1,13 @@
+{
+  "name" : "armok-shadowreap",
+  "blockingStat" : "specialStatusImmunity",
+  "effectConfig" : {
+    "minMaxHealth" : 1,
+    "flashDirectives" : ""
+  },
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "armok-shadowreap.lua"
+  ]
+}

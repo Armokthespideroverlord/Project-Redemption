@@ -1,0 +1,66 @@
+{
+  "type": "r-guardian",
+  "displayTitle" : "Guardian",
+  "baseType": "guard",
+  "damageTeamType": "friendly",
+  "dropPools": [
+    "guardtreasure"
+  ],
+  "scripts": [
+    "/npcs/bmain.lua"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [],
+      "enableParticipation": false
+    },
+    "dialog": {
+      "greeting": "/dialog/r-guardianconverse.config:converse",
+      "converse": "/dialog/r-guardianconverse.config:converse"
+    }
+  },
+  "matchColorIndices": true,
+  "items": {
+    "override": [
+       [0, [
+          {
+            "head" : [ { "name" : "humantier3head" } ],
+            "chest" : [ { "name" : "humantier3chest" } ],
+            "legs" : [ { "name" : "humantier3pants" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcpistol",
+              "npcmachinepistol"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "humantier3head" } ],
+            "chest" : [ { "name" : "humantier3chest" } ],
+            "legs" : [ { "name" : "humantier3pants" } ],
+            "primary" : [
+              "npcassaultrifle",
+              "npcshotgun",
+              "npcsniperrifle"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+[
+[{
+    "op": "add",
+    "path": "/displayOres/r-impervium",
+    "value": {
+      "displayName": "Impervium",
+      "icon": "/items/generic/crafting/r-imperviumore.png"
+    }
+  }],
+  [{
+    "op": "test",
+    "path": "/displayOres/platinum",
+    "inverse" : true
+  },{
+    "op": "add",
+    "path": "/displayOres/platinum",
+    "value": {
+      "displayName": "Platinum",
+      "icon": "/items/generic/crafting/platinumore.png"
+    }
+  }],
+[  // TEST INFO
+    {
+      "inverse": true,
+      "op": "test",
+      "path": "/mods_present"
+    },
+    {
+      "op": "add",
+      "path": "/mods_present",
+      "value": {}
+    }
+  ],
+  [  //THIS MOD PRESENT
+    {
+      "op": "add",
+      "path": "/mods_present/Project Redemption",
+      "value": true
+    }
+  ],
+[  //CLEAR TEST FOR MPI
+    {
+      "inverse": false,
+      "op": "test",
+      "path": "/displayDungeons"
+    },
+    {
+      "op": "add",
+      "path": "/mods_present/MorePlanetInfo",
+      "value": true
+    }
+  ],
+[{
+      "op": "test",
+      "path": "/mods_present/MorePlanetInfo",
+      "inverse": false
+    },
+{
+    "op": "add",
+    "path": "/displayDungeons/r-USCMbunker",
+    "value": {
+      "description": "Encrypted signals are coming from this old bunker. Their signature suggest a USCM remnant holdout.",
+      "icon": "/interface/cockpit/dungeons/human.png"
+    }
+  },   {
+    "op": "add",
+    "path": "/displayDungeons/r-cultistlair",
+    "value": {
+      "description": "The poorly encrypted signals coming from this old bunker suggest Occasus presence.",
+      "icon": "/interface/cockpit/dungeons/human.png"
+    }}],
+[
+{ "op": "add", "path": "/displayDungeons/r-USCMbunker/ps_icon", "value": "/objects/human/marinesign/marinesignicon.png" },
+{ "op": "add", "path": "/displayDungeons/r-USCMbunker/ps_name", "value": "USCM Remnant Bunker" }
+]
+]

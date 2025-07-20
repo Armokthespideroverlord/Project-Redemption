@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "r_imperviumalloy", "count" : 6 }
+, { "item" : "platinumbar", "count" : 6 }  ],
+  "output" : { "item" : "r_imperviumshield", "count" : 1 },
+  "groups" : [ "craftingconstructor", "weapons", "all" ]
+}

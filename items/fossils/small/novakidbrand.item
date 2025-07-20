@@ -1,0 +1,31 @@
+{
+  "itemName" : "novakidbrand",
+  "rarity" : "Uncommon",
+  "itemTags" : ["fossil"],
+
+  "shortdescription" : "Novakid Brand",
+  "description" : "An old piece of wrought metal, all that's left of a Novakid.",
+  "category" : "smallFossil",
+
+  "race" : "novakid",
+  "price" : 75,
+
+  "inventoryIcon" : "novakidbrandicon.png",
+
+  "completeSetDescriptions" : {
+    "price" : 300,
+    "shortdescription" : "Novakid Brand",
+
+    "description" : "The remnant of a long dead Novakid."
+  },
+
+  "displayImage" : "/objects/fossils/smallfossils/novakidbrand.png",
+  "displayoffset" :[0, 0],
+
+  "fossilSetName" : "novakidbrand",
+  "setIndex" : 1,
+  "setCount" : 1,
+  "setCollectables" : { "fossils" : "novakidbrand" },
+
+  "completeFossilIcon" : "/objects/fossils/smallfossils/smallfossilcompleteicon.png"
+}

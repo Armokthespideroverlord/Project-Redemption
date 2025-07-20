@@ -1,0 +1,49 @@
+[
+{
+    "op": "add",
+    "path": "/avianmission1Rare1/0/1/fill/-",
+    "value": {
+      "item": [
+        "r-sunbornhead",
+        1
+      ]
+    }
+  },
+{
+    "op": "add",
+    "path": "/avianmission1Rare2/0/1/fill/-",
+    "value": {
+      "item": [
+        "r-sunbornchest",
+        1
+      ]
+    }
+  },
+{
+    "op": "add",
+    "path": "/avianmission1Rare3/0/1/fill/-",
+    "value": {
+      "item": [
+        "r-sunbornpants",
+        1
+      ]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/avianmission1RareChest2/0",
+    "value": [
+      1,
+      {
+        "fill": [
+          {
+            "item": [
+              "r-sunbornback",
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name" : "r-shieldbashdamage",
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+  "scripts" : ["r-shieldbashdamage.lua"]
+}

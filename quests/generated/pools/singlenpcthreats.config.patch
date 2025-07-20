@@ -1,0 +1,38 @@
+[
+{ "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "rebel radical",
+		"species" : "apex",
+		"typeName" : "r-outlawrebel",
+		"seed" : "stable"
+	  }
+	]
+  },
+{ "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "Sunborn heretic",
+		"species" : "avian",
+		"typeName" : "r-outlawsunborn",
+		"seed" : "stable"
+	  }
+	]
+  },
+{ "op" : "add",
+	"path" : "/0/1/-",
+	"value" : [
+	  [ "generic" ],
+	  {
+		"name" : "Novakid outlaw",
+		"species" : "novakid",
+		"typeName" : "prisonoutlaw",
+		"seed" : "stable"
+	  }
+	]
+  }
+]

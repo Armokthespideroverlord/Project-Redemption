@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/actionOnReap/0",
+    "value": {
+      "action": "config",
+      "file": "/projectiles/explosions/fireexplosion/r-fireexplosion.config"
+    }
+  }
+]

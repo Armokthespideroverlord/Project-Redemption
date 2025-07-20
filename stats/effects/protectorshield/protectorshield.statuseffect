@@ -1,0 +1,13 @@
+{
+  "name" : "protectorshield",
+  "effectConfig" : {
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "protectorshield.lua"
+  ],
+  "scriptDelta" : 1,
+
+  "animationConfig" : "protectorshield.animation"
+}

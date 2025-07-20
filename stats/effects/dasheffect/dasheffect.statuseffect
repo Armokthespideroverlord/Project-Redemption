@@ -1,0 +1,14 @@
+{
+  "name" : "dasheffect",
+  "effectConfig" : {  
+	"tech" : "power_dash_dt"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "dasheffect.lua"
+  ],
+
+  
+  "label" : "Dash Effect"
+}

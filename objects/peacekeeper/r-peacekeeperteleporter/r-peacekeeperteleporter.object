@@ -1,0 +1,44 @@
+{
+  "objectName" : "r-peacekeeperteleporter",
+  "objectType" : "teleporter",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "price" : 3000,
+  "rarity" : "Uncommon",
+  "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+  "shortdescription" : "Peacekeeper Teleporter",
+  "race" : "generic",
+
+  "apexDescription" : "A personal teleporter. A functional but fun piece of equipment.",
+  "avianDescription" : "I love the whoosh of my feathers when I teleport!",
+  "floranDescription" : "Perssonal teleporter is fancy!",
+  "glitchDescription" : "Enticed. A personal teleporter, with a custom design.",
+  "humanDescription" : "A personal teleporter! Now this is travelling in style.",
+  "hylotlDescription" : "A personal teleporter, it sports a custom design.",
+  "novakidDescription" : "As teleporters go, this sure is fancy lookin'!",
+
+  "category" : "teleporter",
+  "lightColor" : [56, 102, 124],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "r-peacekeeperteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "r-peacekeeperteleporter.png:<color>", "fullbright" : true }, { "image" : "r-peacekeeperteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [-0, 0], [1, 0] ]
+    }
+  ],
+  
+  "teleporterFootPosition" : [0, 1]
+
+}

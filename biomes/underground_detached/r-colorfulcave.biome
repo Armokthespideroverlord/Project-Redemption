@@ -1,0 +1,67 @@
+{
+  "name" : "r-colorfulcave",
+  "friendlyName" : "Colorful Cave",
+
+  "mainBlock" : "sand2",
+  "subBlocks" : [ "sand", "dirt" ],
+  "ores" : "depth2",
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/dirtunderground.parallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.3,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "rainbowChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "colourfulflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "colourfulbush1" ], [0.35, "colourfulbush2" ], [0.35, "colourfulbush3" ], [0.35, "colourfulbush4" ], [0.35, "colourfulbush5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "oasis" ]
+      }
+    ]
+  }
+}

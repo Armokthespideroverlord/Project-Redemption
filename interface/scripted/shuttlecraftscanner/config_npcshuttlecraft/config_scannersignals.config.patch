@@ -1,0 +1,98 @@
+[
+ {
+    "op": "add",
+    "path": "/flightcontrol_spawnlist_random/-",
+    "value": "flightcontrol_signal_peacekeeper"
+  },
+  {
+    "op": "add",
+    "path": "/flightcontrol_capital_ships/-",
+    "value": {
+      "name": "r-uscmship",
+      "signals": [
+        "flightcontrol_signal_uscm",
+        "flightcontrol_signal_uscmprison"
+      ],
+      "transponderPrefixes": [
+        "USCM"
+      ],
+      "hull": [
+        "Capital ship, Soldier-Class",
+        "Capital ship, Merchant-Class"
+      ],
+      "analysis": [
+        "A USCM remnant capital ship.",
+        "Capital ship crewed by the USCM."
+      ],
+      "status": [
+        "High Orbit"
+      ],
+      "spawnParams": [
+        -1,
+        -1,
+        10,
+        "Roaming",
+        20,
+        -10
+      ]
+    }
+  },
+{
+    "op": "add",
+    "path": "/flightcontrol_signal_peacekeeper",
+    "value": {
+      "shuttleConfig": [
+        "npcshuttlecraft_peacekeeper",
+        "npcshuttlecraft_peacekeeper2"
+      ],
+      "transponderPrefixes": [
+        "PEACEKEEPER",
+        "PEACE"
+      ],
+      "iconType": "neutral",
+      "responseTypes": [
+        "neutral", "neutral", "neutral", "neutral", "ignore"
+      ],
+      "responseTextAllow": {
+        "hostile": "flightcontrol_responses_default",
+        "assertive": "flightcontrol_responses_default",
+        "neutral": [
+				"Response: ^white;Thank you, we could use a\n   donut break right now.",
+				"Response: ^white;A break sounds about good\n   to me right about now.",
+				"Response: ^white;It's been an uneventful day\n   so far, stopping by shouldn't\n   hurt.",
+				"Response: ^white;Recevied. Officers reporting\n   to drop by!"
+],
+        	    "ignore": [ "Response: ^white;Sorry, we've got a perp to\n   chase down here.",
+                                "Response: ^white;Negative. We're in the middle\n   of a stakeout here right now."]
+      },
+      "responseTextDismiss": {
+        "hostile": "flightcontrol_responses_default",
+        "assertive": "flightcontrol_responses_default",
+        "neutral": [
+"Response: ^white;No crime reported, you stay\n   out of trouble now!.",
+"Response: ^white;Understood. We were having\n   difficulty finding crime anyways."
+],
+        "ignore": [ "Response: ^white;Sorry, we've got a perp to\n   chase down here.",
+                                "Response: ^white;Negative. We're in the middle\n   of a stakeout here right now."]
+      },
+      "analysis": {
+        "hostile": [
+          "Peacekeepers ready to make an arrest.",
+          "A Peacekeeper craft initiating a crime raid."
+        ],
+        "assertive": [
+          "Peacekeepers on a mission.",
+          "Peacekeepers performing an inspection."
+        ],
+        "neutral": [
+          "A Peacekeeper craft on patrol.",
+          "Peacekeepers searching for crime."
+        ],
+        "ignore": [
+          "Peacekeeper craft on an operation.",
+          "Peacekeepers chasing a crook."
+        ]
+      }
+    }
+  }
+]

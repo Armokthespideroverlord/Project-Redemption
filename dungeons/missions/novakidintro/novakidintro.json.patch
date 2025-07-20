@@ -1,0 +1,12 @@
+[
+  [
+    { "op" : "test",
+      "path" : "/layers/4/objects/2/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"protectorateflowerhead\", \"count\" : 1 }, { \"name\" : \"bandage\", \"count\" : 2 }, { \"name\" : \"salve\", \"count\" : 4 } ] }"
+    },
+    { "op" : "replace",
+      "path" : "/layers/4/objects/2/properties/parameters",
+      "value" : "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 },  { \"name\" : \"brokensidearm\", \"count\" : 1 }, { \"name\" : \"protectorateflowerhead\", \"count\" : 1 }, { \"name\" : \"bandage\", \"count\" : 2 }, { \"name\" : \"salve\", \"count\" : 4 } ] }"
+    }
+  ]
+]

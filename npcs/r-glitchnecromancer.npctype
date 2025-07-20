@@ -1,0 +1,69 @@
+{
+  "type" : "r-glitchnecromancer",
+  "identity" : {"name":"Glitch Necromancer"},
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Crazed. Go my pretties go!",
+            "Desperate. Just leave me alone!",
+            "Annoyed. Oh great, another adventurer.",
+            "Exasperated. Can't I just have some peace and quiet for once?",
+            "Arrogant. I have conquered death itself, you stand no chance of killing me!",
+            "Manic. Death is but an illusion!",
+	        "Distraught. I just wanted to bring my loved ones back..."
+          ],
+		"glitch" : [
+            "Menacing. Soon you will join the ranks of my servants!",
+	        "Sinister. Ah good, I was about to go looking for another body.",
+            "Grim. Come to finish me off?",
+            "Crazed. Go my pretties go!",
+	        "Exasperated. Can't I just have some peace and quiet for once?",
+	        "Arrogant. I have conquered death itself, you stand no chance of killing me!",
+            "Distraught. I just wanted to bring my loved ones back..."
+      	 ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "wizardchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "wizardlegs", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "raredagger"
+            ]
+          },
+          {
+            "head" : [ { "name" : "glitchskullhead", "parameters" : { "colorIndex" : 0 } }, { "name" : "skullmaskhead", "parameters" : { "colorIndex" : 0 } }, { "name" : "rustyskul", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [
+              { "name" : "wizardchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "wizardlegs", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+              "raredagger"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

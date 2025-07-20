@@ -1,0 +1,63 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "teleport" : {
+        "default" : "none",
+        "states" : {
+          "none" : { },
+          "beamIn" : {
+            "frames" : 16,
+            "cycle" : 1.0,
+            "mode" : "transition",
+            "transition" : "none",
+            "properties" : {
+              "immediateSound" : "/sfx/melee/astraltear1.ogg"
+            },
+            "frameProperties" : {
+              "multiply" : [ "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffff00", "ffffffff", "ffffffff" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "fullbright" : true,
+          "centered" : true
+        },
+        "partStates" : {
+          "teleport" : {
+            "none" : { },
+            "beamIn" : {
+              "properties" : {
+                "image" : "/animations/teleport/<species>shadowriftin.png:<frame>"
+              }
+            }
+          }
+        }
+      },
+      "beam" : {
+        "properties" : {
+          "fullbright" : true,
+          "centered" : true,
+          "offset" : [0, 30]
+        },
+        "partStates" : {
+          "teleport" : {
+            "beamIn" : {
+              "properties" : {
+                "image" : "/animations/teleport/shadowriftinbeam.png:<frame>?scalenearest=1;60"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "globalTagDefaults" : {
+    "species" : "",
+    "effectDirectives" : ""
+  }
+}

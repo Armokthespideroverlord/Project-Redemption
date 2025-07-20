@@ -1,0 +1,45 @@
+[
+  {
+    "op": "add",
+    "path": "/items/override/0/1/-",
+    "value": {
+      "head": [
+        {
+          "name": "r-heavypeacekeeperhead",
+          "parameters": {
+            "colorIndex": [
+              0
+            ]
+          }
+        }
+      ],
+      "chest": [
+        {
+          "name": "r-heavypeacekeeperchest",
+          "parameters": {
+            "colorIndex": [
+              0
+            ]
+          }
+        }
+      ],
+      "legs": [
+        {
+          "name": "r-heavypeacekeeperpants",
+          "parameters": {
+            "colorIndex": [
+              0
+            ]
+          }
+        }
+      ],
+      "primary": [
+        ""
+      ],
+      "sheathedprimary": [
+        "npcpistol"
+      ]
+    }
+  }
+]
+

@@ -1,0 +1,89 @@
+[
+  {
+    "op": "replace",
+    "path": "/novakidvillageLore/0",
+    "value": [
+      1,
+      {
+        "pool": [
+        {"weight" : 0.2, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.2, "item" : [ "bookpiles", 4]},
+        {"weight" : 0.2, "item" : [ "bookpiles", 3]},
+        {"weight" : 0.2, "item" : [ "bookpiles", 2]},
+        {"weight" : 0.2, "item" : [ "bookpiles", 1]}
+        ],
+        "poolRounds": 1,
+        "allowDuplication": false
+      }
+    ]
+  },
+{
+      "op" : "add",
+      "path" : "/apexbaseLore/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "bads-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/apexcityLore/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "bads-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/humancampLore/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "unioncodex-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/hylotloceancityLore/0/1/pool/-",
+      "value" : {"weight" : 0.5, "item" : "hylotuscodex-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/hylotlcityLore/0/1/pool/-",
+      "value" : {"weight" : 0.5, "item" : "hylotuscodex-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/novakidvillageLore/0/1/pool/-",
+      "value" : {"weight" : 0.33, "item" : "novakidphys-codex"}
+    },
+    {
+      "op" : "add",
+      "path" : "/novakidvillageLore/0/1/pool/-",
+      "value" : {"weight" : 0.33, "item" : "novakidpsych-codex"}
+    },
+    {
+      "op" : "add",
+      "path" : "/novakidvillageLore/0/1/pool/-",
+      "value" : {"weight" : 0.33, "item" : "novakidlife-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/apexcampLore/0/1/pool/-",
+      "value" : {"weight" : 0.5, "item" : "minidef-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/avianvillageLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.25,
+            "item": "avianmythos-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/avianairshipLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.5,
+            "item": "avianmythos-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/dungeoncrawlerLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.2,
+            "item": "necrocodex-codex"
+          }
+    }
+]

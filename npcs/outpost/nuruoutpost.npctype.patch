@@ -1,0 +1,82 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialogMode",
+    "value": "sequence"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Ssay, you want to hear some random facts?"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I've been hunting since I was a ssprout and winning since I was a bud."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Florans are often mindlessly savage."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "People have a lot of expectations of you when you're a top hunter..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "I've heard rumour of beasts far beyond any the Floran have hunted."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "I try not to sspeak with a hisss, but sssometimes I can't help it."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "I am seventeen ssummers old."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "I enjoy hunting, but sssometimes it's not enough."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "The Floran are not evil. Our tribe's greenfinger taught me to respect life. A lesson many never learn."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "My favorite food is ssticky ribss."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Some of my favorite activities include dancing, playing pranks, and eating tasty meatss!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Meanwhile the few things I dislike include fire, vegetabless, and being bored and hungry."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Back when I was just a bud, I took down an Oogler in less than twelve seconds!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Ssorry about not being able to join you on your adventures all that much thought, I like to have my own too!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "I'm thinking of going on some big adventure of my own once this one is over in fact..."
+  }
+]

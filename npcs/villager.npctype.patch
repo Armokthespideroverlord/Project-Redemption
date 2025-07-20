@@ -1,0 +1,18 @@
+[
+{
+    "op": "add",
+    "path": "/statusControllerSettings/stats/lavaImmunity",
+    "value": {
+      "baseValue": 1.0
+    }
+  },
+{
+    "op": "add",
+    "path": "/statusControllerSettings/stats/poisonStatusImmunity",
+    "value": {
+      "baseValue": 1.0
+    }
+  }
+]
+
+

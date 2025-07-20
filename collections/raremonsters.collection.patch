@@ -1,0 +1,11 @@
+[
+{
+"op" : "add",
+"path" : "/collectables/uscmtriplod",
+"value" : {
+  "order" : 107,
+  "monsterType" : "uscmtriplod",
+  "icon" : "/monsters/crawlers/triplod/uscmtriplod-full.png"
+}
+}
+]

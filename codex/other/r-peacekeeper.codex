@@ -1,0 +1,34 @@
+{
+  "id" : "peacekeeperrulebook",
+  "species" : "other",
+  "title" : "Peacekeeper Rule Book",
+  "description" : "Important guidelines covering how a Peacekeeper should operate.",
+  "icon" : "r-peacekeepercover.png",
+  "contentPages" : [
+  "Greetings, new recruit!
+
+As a freshly minted Peacekeeper it is your duty to keep the peace across the galaxy, which means following the law just as much as the civilians you serve do. 
+
+As a result, here are some important rules you must follow to that end:
+- Violence is ONLY ever a tool of last resort, always try to find a peaceful means of dealing with a problem first before resorting to the use of force.",
+
+"- In the event that you find yourself in a situation where a peaceful resolution is impossible, always prioritize the safety of innocents when possible.
+
+- You will always have a partner assigned to you, be they working in the field alongside you or serving remotely to help you analyze any clues you may come across. A Peacekeeper is never truly alone.
+
+- NEVER ACCEPT BRIBES, NO MATTER THE REASON.",
+
+"- Remember that you are neither judge, jury, nor executioner. The courts exist for a reason, and should an assumed perpetrator be found guilty they will undergo rehabilitative justice to allow them a chance for redemption once they have served their time. Only the worst of the worst deserve life imprisonment.
+
+- Always wear your Terrene Peacekeeper issued uniform when on duty. It is not only a badge of honor, but allows you to be easily identified as a Peacekeeper.",
+
+"- Your superiors don't only exist to give you your orders and assignments, but to also serve as mentors. Try to utilize their tutelage whenever the opportunity arises.
+
+Lastly, no matter if your assignment has you patrolling Earth or deep space, you will find that you don't just have the support of your fellow Peacekeepers but the Terrene Protectorate and Terrene Guardians as well. Good luck out there!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

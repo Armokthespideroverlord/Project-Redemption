@@ -1,0 +1,81 @@
+[{
+"op" : "add",
+"path" : "/scriptConfig/offeredQuests/-",
+"value" : "protectoratepistol"
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/turnInQuests/-",
+"value" : "protectoratepistol"
+},
+{
+    "op": "add",
+    "path": "/scriptConfig/dialogMode",
+    "value": "sequence"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Nostalgic. Being part of this adventure reminds me of the ones I had when I was younger..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Curious. Would you like to hear about some of my more notable adventures?"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Narrative. My first major adventure took place on the planet Apoc, a magma world swarming with ignome."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "It was on that planet where I first encountered my nemesis, Count 01, deep within the bowels of his obsidian tomb."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "Amused. Needless to say, I only barely escaped with my life!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "He would chase me across the stars, from planet to planet, one of my closest shaves with him being on the ocean world of Cyanine."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "The seas were rough on that world, and they would have nearly brought me to the clutches of my vile enemy too, had it not been for a stroke of luck!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Relieved. I was saved by none other than the legendary adventurer, Hiraki Corale! We exchanged many tales that day."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Eventually we went our separate ways, but not before we shared one adventure on the forest planet of Ereb."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Excited. We found the lost ruins of an ancient civilization on it, crawling with Florans, perhaps we had stumbled across their fabled homeworld!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Annoyed. Unfortunately our scrape with the count resulted in our ship, and all of the evidence we had of this lost civilization on it, being destroyed."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Smug. We did end up stealing his ship and left him trapped on Ereb however, I do hope the Florans got to him."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value":  "Satisfied. Anyways, I believe that is enough of my adventures for one day, until next time Protector!"
+  }
+]

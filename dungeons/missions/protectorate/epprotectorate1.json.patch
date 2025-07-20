@@ -1,0 +1,684 @@
+[
+[
+  {
+    "op": "test",
+    "path": "/layers/6",
+    "value": {
+      "color": "#d87d0c",
+      "draworder": "topdown",
+      "id": 7,
+      "name": "stagehands",
+      "objects": [
+        {
+          "gid": 2325,
+          "height": 20,
+          "id": 1910,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"money\", \"count\" : 150 } ] }",
+            "tilesetDirection": "left"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "tilesetDirection": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 24,
+          "x": 6680,
+          "y": 1720
+        },
+        {
+          "height": 88,
+          "id": 1911,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epvoice\" }",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 56,
+          "x": 1120,
+          "y": 1400
+        },
+        {
+          "height": 64,
+          "id": 1912,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epwatch\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 112,
+          "x": 2208,
+          "y": 1384
+        },
+        {
+          "height": 64,
+          "id": 1913,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epbottom\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 88,
+          "x": 2632,
+          "y": 2072
+        },
+        {
+          "height": 328,
+          "id": 1914,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"findbeamaxe\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 592,
+          "x": 4088,
+          "y": 1800
+        },
+        {
+          "height": 160,
+          "id": 1915,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epsurface\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 152,
+          "x": 4832,
+          "y": 1512
+        },
+        {
+          "height": 152,
+          "id": 1916,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epashes\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 168,
+          "x": 5464,
+          "y": 1456
+        },
+        {
+          "height": 104,
+          "id": 1917,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epashes2\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 6088,
+          "y": 1568
+        },
+        {
+          "height": 88,
+          "id": 1918,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"eptunnel\" }",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 152,
+          "x": 1712,
+          "y": 1720
+        },
+        {
+          "height": 64,
+          "id": 1919,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epbunker\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 56,
+          "x": 1256,
+          "y": 1672
+        },
+        {
+          "height": 104,
+          "id": 1920,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"invisiblewall\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 776,
+          "y": 1264
+        },
+        {
+          "height": 104,
+          "id": 1921,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epweapon\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 160,
+          "x": 6608,
+          "y": 1616
+        },
+        {
+          "height": 152,
+          "id": 1922,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epgettothechopper\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 72,
+          "x": 7344,
+          "y": 1448
+        },
+        {
+          "height": 80,
+          "id": 1923,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epruines\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 192,
+          "x": 1416,
+          "y": 1440
+        },
+        {
+          "height": 160,
+          "id": 1924,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"ship\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 304,
+          "x": 7800,
+          "y": 1424
+        },
+        {
+          "height": 8,
+          "id": 1937,
+          "name": "",
+          "properties": {
+            "monster": "epshadowspet"
+          },
+          "propertytypes": {
+            "monster": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 8,
+          "x": 4792,
+          "y": 1904
+        },
+        {
+          "height": 104,
+          "id": 1938,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epwake\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 920,
+          "y": 1376
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0
+    }
+  }
+],
+[
+  {
+    "op": "replace",
+    "path": "/layers/6",
+    "value": {
+      "color": "#d87d0c",
+      "draworder": "topdown",
+      "id": 7,
+      "name": "stagehands",
+      "objects": [
+        {
+          "gid": 2325,
+          "height": 20,
+          "id": 1910,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"initialItems\" : [ { \"name\" : \"brokenprotectoratebroadsword\", \"count\" : 1 }, { \"name\" : \"money\", \"count\" : 150 }, { \"name\" : \"brokensidearm\", \"count\" : 1 } ] }",
+            "tilesetDirection": "left"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "tilesetDirection": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 24,
+          "x": 6680,
+          "y": 1720
+        },
+        {
+          "height": 88,
+          "id": 1911,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epvoice\" }",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 56,
+          "x": 1120,
+          "y": 1400
+        },
+        {
+          "height": 64,
+          "id": 1912,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epwatch\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 112,
+          "x": 2208,
+          "y": 1384
+        },
+        {
+          "height": 64,
+          "id": 1913,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epbottom\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 88,
+          "x": 2632,
+          "y": 2072
+        },
+        {
+          "height": 328,
+          "id": 1914,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"findbeamaxe\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 592,
+          "x": 4088,
+          "y": 1800
+        },
+        {
+          "height": 160,
+          "id": 1915,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epsurface\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 152,
+          "x": 4832,
+          "y": 1512
+        },
+        {
+          "height": 152,
+          "id": 1916,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epashes\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 168,
+          "x": 5464,
+          "y": 1456
+        },
+        {
+          "height": 104,
+          "id": 1917,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epashes2\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 6088,
+          "y": 1568
+        },
+        {
+          "height": 88,
+          "id": 1918,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"eptunnel\" }",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 152,
+          "x": 1712,
+          "y": 1720
+        },
+        {
+          "height": 64,
+          "id": 1919,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epbunker\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 56,
+          "x": 1256,
+          "y": 1672
+        },
+        {
+          "height": 104,
+          "id": 1920,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"invisiblewall\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 776,
+          "y": 1264
+        },
+        {
+          "height": 104,
+          "id": 1921,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epweapon\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 160,
+          "x": 6608,
+          "y": 1616
+        },
+        {
+          "height": 152,
+          "id": 1922,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epgettothechopper\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 72,
+          "x": 7344,
+          "y": 1448
+        },
+        {
+          "height": 80,
+          "id": 1923,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epruines\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 192,
+          "x": 1416,
+          "y": 1440
+        },
+        {
+          "height": 160,
+          "id": 1924,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"ship\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 304,
+          "x": 7800,
+          "y": 1424
+        },
+        {
+          "height": 8,
+          "id": 1937,
+          "name": "",
+          "properties": {
+            "monster": "epshadowspet"
+          },
+          "propertytypes": {
+            "monster": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 8,
+          "x": 4792,
+          "y": 1904
+        },
+        {
+          "height": 104,
+          "id": 1938,
+          "name": "",
+          "properties": {
+            "parameters": "{ \"messageType\" : \"enterMissionArea\", \"messageArgs\" : \"epwake\"}",
+            "stagehand": "messenger"
+          },
+          "propertytypes": {
+            "parameters": "string",
+            "stagehand": "string"
+          },
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 128,
+          "x": 920,
+          "y": 1376
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0
+    }
+  }
+]
+]

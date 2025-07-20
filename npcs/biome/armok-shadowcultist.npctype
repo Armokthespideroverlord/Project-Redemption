@@ -1,0 +1,87 @@
+{
+  "type" : "armok-shadowcultist",
+  "displayTitle" : "Shadow Cultist",
+  "baseType" : "base",
+  "innateStatusEffects" : [ "armok-darkritual" ],
+
+  "damageTeamType" : "friendly",
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "questGenerator" : {
+      "pools" : ["common", "shady"],
+      "enableParticipation" : false
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "helpthem" : "/dialog/flee.config:helpthem",
+        "encourage" : "/dialog/flee.config:encourage",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "converse" : "/dialog/armok-shadowcultist.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "cultisthead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  },
+"statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 0.01
+      },
+      "protection" : {
+        "baseValue" : 100.0
+      },
+			"lavaImmunity": {
+				"baseValue": 1.0
+			},
+			"fireStatusImmunity": {
+				"baseValue": 1.0
+			},
+			"poisonStatusImmunity": {
+				"baseValue": 1.0
+			}
+  }
+  }
+}

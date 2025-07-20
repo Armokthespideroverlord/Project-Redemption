@@ -1,0 +1,5 @@
+[
+//protectorate blue
+		{"op" : "add", "path" : "/swapSets/-", "value":    ["8da6b0", "657988", "434d5e", "313247"] },
+//protectorate gold
+		{"op" : "add", "path" : "/swapSets/-", "value":    ["fbdf71", "d9b035", "a26f03", "664601"] }]

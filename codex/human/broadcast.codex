@@ -1,0 +1,25 @@
+{
+  "id" : "broadcastcodex",
+  "species" : "human",
+  "title" : "USCM Transmission",
+  "description" : "A somewhat yellowed transcript of an order received from USCM mobile HQ.",
+  "icon" : "camoclip.png",
+  "contentPages" : [
+  "^red;//ALERT^white;
+
+You are hereby ordered to lay down all arms and surrender to the Terrene Electorate in peace.
+
+All hardware is to be abandoned.
+
+This is our final command.
+
+May the force and influence of Humanity continue to expand.
+
+"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
+

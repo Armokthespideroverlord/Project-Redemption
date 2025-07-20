@@ -1,0 +1,13 @@
+{
+  "name" : "armok-darkritual",
+  "blockingStat" : "specialStatusImmunity",
+  "effectConfig" : {
+    "minMaxHealth" : 0,
+    "flashDirectives" : ""
+  },
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "armok-darkritual.lua"
+  ]
+}

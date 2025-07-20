@@ -1,0 +1,45 @@
+[
+  {
+    "op": "add",
+    "path": "/animatedParts/stateTypes/stage/states/constructor",
+    "value": {
+      "properties": {
+        "lightsOff": [],
+        "lightsOn": [ "replicatorglow", "acceleratorglow", "separatorglow", "manipulatorglow" ]
+      }
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/lights/partStates/stage/constructor",
+    "value": {
+      "properties": {
+        "image": "replicatorconstructor.png"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/lights/partStates/stage/constructor/properties",
+    "value": {
+      "image": "replicatorconstructor.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/chassis/partStates/stage/constructor",
+    "value": {
+      "properties": {
+        "image": "craftinganvil3lit.png:<color>"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/chassis/partStates/stage/constructor/properties",
+    "value": {
+      "image": "craftinganvil3lit.png:<color>"
+    }
+  }
+]

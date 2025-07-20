@@ -1,0 +1,29 @@
+{
+  "frameGrid" : {
+    "size" : [24, 50],
+    "dimensions" : [8, 1],
+    "names" : [
+      [
+        "charging.1",  "charging.2",  "charging.3",  "charging.4",  "charging.5",  "discharge.1",  "discharge.2",  "discharge.3"
+        
+      ]
+    ]
+  },
+  "aliases" : {
+    "charging.6" : "charging.5",
+    "charging.7" : "charging.5",
+    "charging.8" : "charging.5",
+    "charging.9" : "charging.5",
+    "charging.10" : "charging.5",
+    "charging.11" : "charging.5",
+    "charging.12" : "charging.5",
+    "charging.13" : "charging.5",
+    "spark.1" : "charging.5",
+    "spark.2" : "charging.5",
+    "spark.3" : "charging.5",
+    "loop.1" : "charging.5",
+    "loop.2" : "charging.5",
+    "loop.3" : "charging.5",
+    "loop.4" : "charging.5"
+  }
+}

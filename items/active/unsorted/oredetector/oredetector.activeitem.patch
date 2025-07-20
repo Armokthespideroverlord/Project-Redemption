@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/pingDetectConfig/colors/platinum",
+    "value": [
+      226,226,220,255
+    ]
+  }
+]

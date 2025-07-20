@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "r_imperviumalloy", "count" : 8 },
+    { "item" : "r-prismaticlegs", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "r_imperviousarmorlegs", "count" : 1 },
+  "groups" : [ "craftingconstructor", "armours", "all" ]
+}

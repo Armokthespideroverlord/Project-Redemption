@@ -1,0 +1,9 @@
+[
+
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/interface/games/fossilgame/r-fossilgame.lua"
+	}
+
+]

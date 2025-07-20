@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/r-peacekeeperarmor",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "item": "r-heavypeacekeeperhead"
+            },
+            {
+              "item": "r-heavypeacekeeperchest"
+            },
+            {
+              "item": "r-heavypeacekeeperlegs"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+]

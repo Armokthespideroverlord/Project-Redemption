@@ -1,0 +1,20 @@
+{
+  "frameGrid" : {
+    "size" : [32, 11],
+    "dimensions" : [12, 1],
+
+    "names" : [
+      [ null, "hurt.1", null, "idle.1", null, "engage.1", "engage.2", null, "notice.1", null, "blast.1", "blast.2" ]
+    ]
+  },
+
+  "aliases" : {
+    "engage.3" : "engage.1",
+    "engage.4" : "engage.2",
+    "engage.5" : "engage.1",
+    "engage.6" : "engage.2",
+    "engage.7" : "engage.1",
+    "engage.8" : "engage.2",
+    "engage.9" : "engage.1"
+  }
+}

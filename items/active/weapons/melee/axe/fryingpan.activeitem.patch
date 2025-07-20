@@ -1,0 +1,40 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/level",
+    "value": 4
+  },
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Legendary"
+  },
+ {
+        "op" : "add",
+        "path" : "/itemTags/-",
+        "value" : "upgradeableWeapon"
+    },
+{
+    "op": "replace",
+    "path": "/primaryAbility/baseDps",
+    "value": 10
+  },
+ {
+        "op": "add",
+        "path": "/primaryAbility/damageConfig/statusEffects",
+        "value": [
+            "paralysis"
+        ]
+    },
+    {
+        "op" : "add",
+        "path" : "/upgradeParameters",
+        "value" : {
+            "inventoryIcon" : "fryingpan_l6.png",
+            "animationParts" : {
+                "blade" : "fryingpan_l6.png"
+            },
+            "shortdescription" : "Frying Pan ^yellow;^reset;"
+        }
+    }
+]

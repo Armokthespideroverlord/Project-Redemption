@@ -1,0 +1,68 @@
+{
+  "projectileName": "r-stunrocket",
+  "image": "r-stunrocket.png",
+  "animationCycle": 0.2,
+  "frameNumber": 2,
+  "damageKindImage": "icon.png",
+  "lightColor": [
+    249,
+    21,
+    207
+  ],
+  "pointLight": true,
+  "actionOnReap": [
+    {
+      "action": "projectile",
+      "type": "stunzone",
+      "inheritDamageFactor": 0.2,
+      "angle": 0
+    }
+  ],
+  "power": 10,
+  "damageKind": "default",
+  "damagePoly": [
+    [
+      -4.5,
+      0
+    ],
+    [
+      -3,
+      -3
+    ],
+    [
+      0,
+      -4.5
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      4.5,
+      0
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      0,
+      4.5
+    ],
+    [
+      -3,
+      3
+    ]
+  ],
+  "statusEffects": [],
+  "emitters": [],
+  "flippable": true,
+  "speed": 10,
+  "physics": "rocket",
+  "damageType": "NoDamage",
+  "scripts": [
+    "r-stunrocket.lua"
+  ],
+  "maxSpeed": 75,
+  "controlForce": 100
+}

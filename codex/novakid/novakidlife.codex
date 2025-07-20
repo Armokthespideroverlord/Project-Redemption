@@ -1,0 +1,19 @@
+{
+  "id" : "novakidlife",
+  "species" : "other",
+  "title" : "Stellar Forges",
+  "description" : "An Observation on the Novakid lifecycle by Hylotl Dr. K. Sakana.",
+  "icon" : "novakidbio.png",
+  "contentPages" : [
+  "The Novakids, with their unusual physiology and nature, likewise have an unusual life-cycle. The birth of a new Novakid requires two parents, a male and female of opposite polarities, to imbue a piece of metal with their energies, creating a juvenile Novakid known as a \"Protokid\".
+
+This piece of metal will in fact become a brand, the face of the Protokid and later adult Novakid once their body has developed.",
+
+"Despite this, I have documented cases of \"brandless\" Novakids, who often appear to be the eldest Novakid around. There are rumors of them being \"the very first\" of the Novakid species.
+
+While the Novakids do not seem capable of dying from old age, they can still die to other causes. Their deaths are surprisingly not as dramatic as some may believe, rather simply dissipating and leaving behind their brand." ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

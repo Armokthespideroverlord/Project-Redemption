@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/prerequisites",
+    "value": [
+      "floran_mission2"
+    ]
+  }
+]

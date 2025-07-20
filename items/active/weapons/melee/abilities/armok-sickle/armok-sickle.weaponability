@@ -1,0 +1,42 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "sickle_sound" : [ "/sfx/melee/timepierce_swing1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Reap",
+    "type" : "armok-sickle",
+    "scripts" : ["/items/active/weapons/melee/abilities/armok-sickle/armok-sickle.lua"],
+    "class" : "sickle",
+
+    "projectileType" : "armok-sickleblade",
+    "projectileOffset" : [0,0],
+    "baseDamage" : 13.5,
+    "energyUsage" : 200,
+    "cooldownTime" : 1.6,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.3,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      }
+    }
+  }
+}

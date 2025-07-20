@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/price",
+    "value": 50
+  },
+  {
+    "op": "add",
+    "path": "/itemTags",
+    "value": [
+      "reagent"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/category",
+    "value": "craftingMaterial"
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "Ore for platinum bars can be found very deep on most planets around all stars."
+  }
+]

@@ -1,0 +1,12 @@
+[
+{
+    "op": "test",
+    "path": "/description",
+    "value": "\"The Agaran Menace Strikes Hylotl Camp\""
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "An article from The Chronicle, a newspaper infamous for spreading fake news."
+  }
+]

@@ -1,0 +1,10 @@
+[{
+"op" : "add",
+"path" : "/scriptConfig/offeredQuests/-",
+"value" : "guardianshield"
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/turnInQuests/-",
+"value" : "guardianshield"
+}]

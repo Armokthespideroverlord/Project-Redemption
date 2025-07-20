@@ -1,0 +1,18 @@
+{
+  "itemName" : "r-pinkflashlight",
+  "price" : 100,
+  "category" : "tool",
+  "inventoryIcon" : "r-pinkflashlighticon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A pink flashlight! Spread the love.",
+  "shortdescription" : "Flashlight",
+  "largeImage" : "r-pinkflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "r-pinkflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 0, 255],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

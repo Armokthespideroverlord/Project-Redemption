@@ -1,0 +1,17 @@
+{
+  "name" : "r-ancientrage",
+  "effectConfig" : {
+    "powerMultiplier" : 1.50,
+    "directives" : "?fade=a451c4;0.25?border=1;a451c480;a451c400"
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "r-ancientrage.lua"
+  ],
+
+  "animationConfig" : "r-ancientrage.animation",
+
+  "label" : "Might",
+  "icon" : "/interface/statuses/largedamageboost.png"
+}

@@ -1,0 +1,124 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "firing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "charge": {
+            "frames": 4,
+            "cycle": 1,
+            "mode": "transition",
+            "transition": "fullcharge",
+            "properties": {
+              "persistentSound": "/sfx/melee/staff_charge1.ogg",
+              "persistentSoundStopTime": 0.6
+            }
+          },
+          "fullcharge": {
+            "frames": 3,
+            "cycle": 0.5,
+            "mode": "loop"
+          },
+          "fire": {
+            "frames": 1,
+            "cycle": 0.07,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    },
+    "parts": {
+      "gun": {
+        "properties": {
+          "centered": true,
+          "offset": [
+            1,
+            -0.1
+          ],
+          "transformationGroups": [
+            "weapon"
+          ]
+        },
+        "partStates": {
+          "firing": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge": {
+              "properties": {
+                "image": "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire"
+              }
+            }
+          }
+        }
+      },
+      "gunfullbright": {
+        "properties": {
+          "centered": true,
+          "offset": [
+            1,
+            -0.1
+          ],
+          "transformationGroups": [
+            "weapon"
+          ],
+          "zLevel": 1,
+          "fullbright": true
+        },
+        "partStates": {
+          "firing": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge": {
+              "properties": {
+                "image": "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "transformationGroups": {
+    "weapon": {},
+    "muzzle": {}
+  },
+  "sounds": {
+    "fire": [
+      "/sfx/gun/plasma_pistol4.ogg"
+    ],
+    "fire2": [
+      "/sfx/gun/plasma_ar4.ogg"
+    ],
+    "fire3": [
+      "/sfx/gun/plasma_shotgun3.ogg"
+    ]
+  }
+}

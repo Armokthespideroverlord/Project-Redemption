@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "r_imperviumalloy", "count" : 10 },
+{ "item" : "prisilitestar", "count" : 20 },
+{ "item" : "refinedaegisalt", "count" : 20 },
+{ "item" : "refinedferozium", "count" : 20 },
+{ "item" : "refinedviolium", "count" : 20 },
+    { "item" : "upgrademodule", "count" : 10 },
+    { "item" : "perfectchest", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "protectoratearmorchest", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

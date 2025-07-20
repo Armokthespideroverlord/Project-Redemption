@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/1/objectSets/0/pool/-",
+    "value":
+            [
+              0.48,
+              "platinumrocksmall"
+            ]
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/1/objectSets/0/pool/-",
+    "value":
+            [
+              0.16,
+              "platinumrock"
+            ]
+  }
+]

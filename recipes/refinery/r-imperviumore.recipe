@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "r-imperviumore", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 33 },
+  "groups" : [ "refinery" ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+	  "op": "add",
+	  "path": "/collectables/glitchundead",
+	  "value": 	  
+	  {
+	    "order" : 303,
+	    "monsterType" : "r-glitchundead",
+	    "icon" : "/monsters/dungeon/r-glitchundead/r-glitchundead.png:walk.1"
+	  }
+	}
+]

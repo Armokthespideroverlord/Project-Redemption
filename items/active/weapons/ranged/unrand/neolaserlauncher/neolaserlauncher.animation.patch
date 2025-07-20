@@ -1,0 +1,48 @@
+[
+  {
+    "op": "replace",
+    "path": "/particleEmitters/beamCollision/particles/0",
+    "value": {
+      "particle": {
+        "type": "ember",
+        "size": 1,
+        "color": [
+          249,
+          21,
+          207
+        ],
+        "position": [
+          0,
+          0
+        ],
+        "fullbright": true,
+        "destructionAction": "fade",
+        "destructionTime": 0.2,
+        "fade": 1,
+        "layer": "front",
+        "timeToLive": 0.6,
+        "variance": {
+          "initialVelocity": [
+            2,
+            2
+          ],
+          "position": [
+            0.25,
+            0.25
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/particleEmitters/beamCollision/particles/1",
+    "value": {
+      "particle": "r-neonenergybeamimpact"
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/particleEmitters/beamCollision/particles/2"
+  }
+]

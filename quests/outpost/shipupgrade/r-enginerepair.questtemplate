@@ -1,0 +1,35 @@
+{
+  "id" : "r-enginerepair",
+  "title" : "^green;Becoming Somewhat Space-worthy",
+  "text" : "This engine module seems sufficient to restore sublight capabilities to your ship. ^green;Visit Penguin Pete^reset; with an ^orange;Upgrade Module^reset; to upgrade your ship.",
+  "completionText" : "I can get yer engines sublight capable again fer sure.",
+  "completionCinema" : "/cinematics/upgrading/shipupgrade.cinematic",
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "sail",
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/shipyardcaptain/shipyardcaptainportrait.png"} ],
+        "title" : "Penguin Pete"
+      }
+    },
+    "upgradeShip" : { "shipLevel" : 2 },
+    "requireTurnIn" : true,
+    "turnInDescription" : "Deliver an ^orange;Upgrade Module^reset; to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;.",
+    
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "upgrademodule",
+        "count" : 1,
+        "consume" : true,
+        "description" : "Find ^orange;<itemName>^reset;: ^green;<current> / <required>^reset;"
+      }
+    ]
+  }
+}

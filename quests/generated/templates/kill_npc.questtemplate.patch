@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/2/1/-",
+    "value": "Terrene Peacekeeper"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/2/1/-",
+    "value": "Terrene Guardian"
+  }
+]

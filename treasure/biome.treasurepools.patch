@@ -1,0 +1,106 @@
+[
+{
+    "op": "add","path": "/oceanTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "barrelhead"}
+  },
+{
+    "op": "add","path": "/oceanTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "barrelchest"}
+  },
+{
+    "op": "add","path": "/oceanFloorTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "harpoongun"}
+  },
+{
+    "op": "add","path": "/toxicTreasure/0/1/pool/-",
+    "value":   {"weight" : 1.0, "item" : ["r-poisonballoon", 10]}
+  },
+{
+    "op": "add","path": "/stoneCaveTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "cavebow"}
+  },
+{
+    "op": "add","path": "/volcanicTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : "firelordback"}
+  },
+{
+    "op": "add","path": "/mushroomTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["fungusstim", 2]}
+  },
+{
+    "op": "add","path": "/mushroomTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["fungusstim", 3]}
+  },
+{
+    "op": "add","path": "/mushroomTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["shroomremedy", 4]}
+  },
+{
+    "op": "add","path": "/mushroomTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["shroomremedy", 6]}
+  },
+{
+    "op": "add","path": "/rainbowTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.1, "item" : "bubblegun"}
+  },
+{
+    "op": "add","path": "/alpineTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "stoneblade"}
+  },
+{
+    "op": "add","path": "/alpineTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.005, "item" : "legendblade"}
+  },
+{
+    "op": "add","path": "/mushroomUndergroundTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["fungusstim", 2]}
+  },
+{
+    "op": "add","path": "/mushroomUndergroundTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["fungusstim", 3]}
+  },
+{
+    "op": "add","path": "/mushroomUndergroundTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["shroomremedy", 4]}
+  },
+{
+    "op": "add","path": "/mushroomUndergroundTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["shroomremedy", 6]}
+  },
+{
+    "op": "add","path": "/wildernessTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["synthesisstim", 2]}
+  },
+{
+    "op": "add","path": "/wildernessTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : ["synthesisstim", 3]}
+  },
+{
+    "op": "add","path": "/wildernessTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["grassremedy", 4]}
+  },
+{
+    "op": "add","path": "/wildernessTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.3, "item" : ["grassremedy", 6]}
+  },
+{
+    "op": "add","path": "/iceCaveTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "frostshield"}
+  },
+{
+    "op": "add","path": "/iceCaveTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "frozenbow"}
+  },
+{
+    "op": "add","path": "/stoneCaveTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.05, "item" : "cavebow"}
+  },
+{
+    "op": "add","path": "/luminousCaveTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.5, "item" : ["glowbomb", 5]}
+  },
+{
+    "op": "add","path": "/slimeTreasure/0/1/pool/-",
+    "value":   {"weight" : 0.2, "item" : "bouncyball"}
+  }
+]
