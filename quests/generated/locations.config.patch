@@ -1,0 +1,11 @@
+[
+  { "op" : "add",
+	"path" : "/r-USCMbunker",
+	"value" : {
+	  "entrance1" : {
+		"name" : "USCM bunker",
+		"tags" : [ "human", "friendly"]
+	  }
+	}
+  }
+]
