@@ -355,6 +355,18 @@
                  "width":16,
                  "x":280,
                  "y":328
+                }, 
+                {
+                 "gid":8832,
+                 "height":8,
+                 "id":905,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":128,
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -621,7 +633,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":905,
+ "nextobjectid":906,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.0",
@@ -762,6 +774,10 @@
         {
          "firstgid":8700,
          "source":"..\/..\/..\/..\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8801,
+         "source":"..\/..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/cooking.json"
         }],
  "tilewidth":8,
  "type":"map",
