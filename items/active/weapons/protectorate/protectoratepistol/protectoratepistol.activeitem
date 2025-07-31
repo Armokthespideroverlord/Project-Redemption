@@ -3,7 +3,7 @@
   "price": 1500,
   "maxStack": 1,
   "rarity": "Legendary",
-  "description": "A weapon devised by the Terrene Protectorate capable of accelerating matter.",
+  "description": "An advanced prototype Matter Accelerator devised by the Terrene Protectorate.",
   "shortdescription": "Protector's Handgun",
   "tooltipKind": "base",
   "category": "pistol",
