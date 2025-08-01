@@ -261,27 +261,6 @@
                  "width":32,
                  "x":472,
                  "y":136
-                }, 
-                {
-                 "height":152,
-                 "id":735,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"r-USCMbunker.entrance1\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string",
-                     "stagehand":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":288,
-                 "x":256,
-                 "y":152
                 }],
          "opacity":1,
          "type":"objectgroup",

@@ -244,7 +244,7 @@
     {
       "name" : "lair_shell_big_end1a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -257,7 +257,7 @@
     {
       "name" : "lair_shell_big_end2a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -270,7 +270,7 @@
     {
       "name" : "lair_shell_big_end3a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -283,7 +283,7 @@
     {
       "name" : "lair_shell_big_end1b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -296,7 +296,7 @@
     {
       "name" : "lair_shell_big_end2b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -309,7 +309,7 @@
     {
       "name" : "lair_shell_big_end3b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_big1a", "lair_shell_big2a", "lair_shell_big3a", "lair_shell_big4a", "lair_shell_big5a", "lair_shell_big6a",
           "lair_shell_big1b", "lair_shell_big2b", "lair_shell_big3b", "lair_shell_big4b", "lair_shell_big5b", "lair_shell_big6b"
@@ -322,7 +322,7 @@
     {
       "name" : "lair_shell_medium_end1a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "lair_shell_medium_end1a.json" ],
@@ -331,7 +331,7 @@
     {
       "name" : "lair_shell_medium_end2a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "lair_shell_medium_end2a.json" ],
@@ -340,7 +340,7 @@
     {
       "name" : "lair_shell_medium_end1b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "lair_shell_medium_end1b.json" ],
@@ -349,7 +349,7 @@
     {
       "name" : "lair_shell_medium_end2b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "lair_shell_medium_end2b.json" ],
@@ -358,7 +358,7 @@
     {
       "name" : "lair_shell_small_end1a",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "doNotCombineWith", [ 
           "lair_shell_small1a", "lair_shell_small1b"
         ] ],
@@ -370,7 +370,7 @@
     {
       "name" : "lair_shell_small_end1b",
       "rules" : [
-        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b" ] ],
+        [ "doNotConnectToPart", [ "lair_entrance1a", "lair_entrance1b", "lair_entrance1" ] ],
         [ "ignorePartMaximumRule" ]
       ],
       "def" : [ "tmx", "lair_shell_small_end1b.json" ],
