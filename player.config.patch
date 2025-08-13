@@ -19,5 +19,15 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviumshield" }},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorhelmet" }},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorchest" }},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorlegs" }}
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "r_imperviousarmorlegs" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "copperpickaxe" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "silverpickaxe" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "goldpickaxe" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "platinumpickaxe" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "diamondpickaxe" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "copperdrill" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "silverdrill" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "golddrill" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "platinumdrill" }},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "diamonddrill" }}
 ]

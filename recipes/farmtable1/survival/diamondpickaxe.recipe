@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 4 },
+    { "item" : "logblock", "count" : 2 }
+  ],
+  "output" : { "item" : "diamondpickaxe", "count" : 1 },
+  "groups" : [ "craftingfarm", "survival" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 4 },
+    { "item" : "logblock", "count" : 2 }
+  ],
+  "output" : { "item" : "silverpickaxe", "count" : 1 },
+  "groups" : [ "craftingfarm", "survival" ]
+}
