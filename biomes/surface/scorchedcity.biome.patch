@@ -3,5 +3,13 @@
     "op": "add",
     "path": "/weather/0/1/-",
     "value": "/weather.config:r-scorchedcitySpacejunk"
-  }
+  },
+{
+        "op": "add",
+        "path": "/spawnProfile/groups/0/pool/-",
+        "value": [
+            2,
+            "bobot"
+        ]
+    }
 ]
