@@ -27,7 +27,7 @@ Some of the more notable bits of content in the mod so far:
 
 ## Future plans:
 * Earth refugee ships
-* Mission and Boss tweaks
+* Mission and Boss additions
 * Virorbs
 And much much more.
 
