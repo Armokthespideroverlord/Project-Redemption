@@ -15,11 +15,7 @@ Some of the more notable bits of content in the mod so far:
 * Many new lore codices found across vanilla villages, dungeons and ship/space encounters.
 * And much more!
 
-## [Current content](https://steamcommunity.com/workshop/filedetails/discussion/1397217904/2914346777812596842/)
-
 ## [FAQ](https://steamcommunity.com/workshop/filedetails/discussion/1397217904/2914346777812575636/)
-
-## [Item IDs](https://steamcommunity.com/workshop/filedetails/discussion/1397217904/1694922526918038723/)
 
 ## [Companion mods](https://steamcommunity.com/workshop/filedetails/?id=2141830986) and [Addons](https://steamcommunity.com/workshop/filedetails/?id=2626767755)
 
