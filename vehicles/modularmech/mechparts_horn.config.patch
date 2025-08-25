@@ -1,0 +1,15 @@
+[
+    {
+        "op": "add",
+        "path": "/r-peacekeeper",
+        "value": {
+            "animationCustom": {
+                "sounds": {
+                    "horn": [
+                        "/sfx/tech/mech_horn_peacekeeper.ogg"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/audio/-",
+    "value": {
+      "timecode": 13.5,
+      "resource": "/sfx/cinematics/protectorate/titlejingle.ogg"
+    }
+  }
+]

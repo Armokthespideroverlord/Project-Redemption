@@ -1,0 +1,13 @@
+{
+  "itemName" : "r-mechhornpeacekeeper",
+  "price" : 250,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "r-mechhornpeacekeeper.png",
+  "description" : "For alerting perps that you're on their tail.",
+  "shortdescription" : "Peacekeeper Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "r-peacekeeper"]
+}
