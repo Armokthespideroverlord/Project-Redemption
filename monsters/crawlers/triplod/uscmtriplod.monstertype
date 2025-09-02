@@ -155,7 +155,8 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "robotic"
+        "targetMaterialKind" : "robotic",
+        "displayTitle": "^yellow; Rare Breed ^reset;"
       },
 
       "appliesEnvironmentStatusEffects" : false,
