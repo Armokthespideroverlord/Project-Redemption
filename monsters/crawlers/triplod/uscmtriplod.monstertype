@@ -8,7 +8,7 @@
 
   "animation" : "uscmtriplod.animation",
 
-  "dropPools" : [ { "default" : "uscmtriplodTreasure", "bow" : "uscmtriplodHunting" } ],
+  "dropPools" : [ { "default" : "triplodTreasure", "bow" : "triplodHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
