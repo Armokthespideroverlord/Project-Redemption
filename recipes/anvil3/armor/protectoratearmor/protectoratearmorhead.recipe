@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "r_imperviumalloy", "count" : 6 },
-{ "item" : "prisilitestar", "count" : 12 },
+    { "item" : "r_imperviumalloy", "count" : 3 },
+{ "item" : "solariumstar", "count" : 6 },
 { "item" : "refinedaegisalt", "count" : 12 },
 { "item" : "refinedferozium", "count" : 12 },
 { "item" : "refinedviolium", "count" : 12 },
