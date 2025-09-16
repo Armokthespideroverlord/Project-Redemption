@@ -19,6 +19,8 @@ Some of the more notable bits of content in the mod so far:
 
 ## [Companion mods](https://steamcommunity.com/workshop/filedetails/?id=2141830986) and [Addons](https://steamcommunity.com/workshop/filedetails/?id=2626767755)
 
+## [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1397217904)
+
 ## [Chucklefish Forums Link](https://community.playstarbound.com/resources/project-redemption.5377/)
 
 ## Future plans:
