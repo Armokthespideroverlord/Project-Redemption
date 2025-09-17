@@ -5,5 +5,145 @@
     "value": {
       "baseValue": 1
     }
+  },
+{
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:ffAverage",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              2,
+              "tentaclepopbig"
+            ],
+            [
+              0.8,
+              "tentaclepopmed"
+            ],
+            [
+              0.8,
+              "tentaclepopsmall"
+            ],
+            [
+              0.8,
+              "tentacleegg"
+            ],
+            [
+              0.4,
+              "tentaclespawner1"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:hazardUndergroundCeilingTop",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "tentaclespike"
+            ]
+          ],
+          "parameters": {}
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/2",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:ffAverage",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              2,
+              "tentaclepopbig"
+            ],
+            [
+              0.8,
+              "tentaclepopmed"
+            ],
+            [
+              0.8,
+              "tentaclepopsmall"
+            ],
+            [
+              0.8,
+              "tentacleegg"
+            ],
+            [
+              0.4,
+              "tentaclespawner1"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/3",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:hazardUndergroundCeilingTop",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "tentaclespike"
+            ]
+          ],
+          "parameters": {}
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/4",
+    "value": {
+      "mode": "ceiling",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:hazardUndergroundCeilingTop",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "tentaclespike"
+            ]
+          ],
+          "parameters": {}
+        }
+      ]
+    }
   }
 ]
