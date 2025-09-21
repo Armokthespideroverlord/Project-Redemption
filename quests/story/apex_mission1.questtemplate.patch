@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/apexhistory2",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/apexhistory6",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/apexhistory7",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/apexhistory10",
+    "value": 10
+  }
+]

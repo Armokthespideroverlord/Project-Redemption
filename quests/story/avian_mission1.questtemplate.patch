@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/avianhistory1",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/avianhistory3",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/avianhistory7",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/objectValues/avianhistory8",
+    "value": 10
+  }
+]
