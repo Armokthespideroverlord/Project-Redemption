@@ -2,21 +2,21 @@
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/floranhistory1",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/floranhistory3",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/floranhistory4",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/floranhistory5",
-    "value": 10
+    "value": 5
   }
 ]

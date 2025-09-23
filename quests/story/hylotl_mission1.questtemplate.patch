@@ -2,21 +2,21 @@
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/hylotlhistory2",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/hylotlhistory3",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/hylotlhistory4",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/hylotlhistory6",
-    "value": 10
+    "value": 5
   }
 ]

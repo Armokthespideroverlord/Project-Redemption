@@ -2,21 +2,21 @@
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/glitchhistory2",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/glitchhistory4",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/glitchhistory5",
-    "value": 10
+    "value": 5
   },
   {
     "op": "add",
     "path": "/scriptConfig/objectValues/glitchhistory9",
-    "value": 10
+    "value": 5
   }
 ]
