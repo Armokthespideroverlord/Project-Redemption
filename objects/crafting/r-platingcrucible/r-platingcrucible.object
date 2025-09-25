@@ -1,6 +1,6 @@
 {
   "objectName" : "r-platingcrucible",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "soundEffect" : "/sfx/objects/scififurnace.ogg",
   "soundEffectRangeMultiplier" : 1.0,
 
@@ -8,17 +8,18 @@
   "interactData" : "/interface/scripted/r-platingcrucible/r-platingcruciblegui.config"
   "printable" : false,
   "description" : "This crucible can reinforce armor with Impervium.",
-  "shortdescription" : "Plating Crucible",
+  "shortdescription" : "^orange;Plating Crucible^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
 
-  "apexDescription" : "A crafting table. I can make steel here.",
-  "avianDescription" : "A crafting table. I can make steel here.",
-  "floranDescription" : "Floran make sssteel on table.",
-  "glitchDescription" : "Statement. I can make steel here.",
-  "humanDescription" : "A crafting table. I can make steel here.",
-  "hylotlDescription" : "A crafting table. I can make steel here.",
+  "apexDescription" : "A plating crucible. I can reinforce my armor here.",
+  "avianDescription" : "A plating crucible. I can reinforce my armor here.",
+  "floranDescription" : "Floran make ssstrengthen armor with crucible.",
+  "glitchDescription" : "Statement. I can enhance my armor with this.",
+  "humanDescription" : "A plating crucible. I can reinforce my armor here.",
+  "hylotlDescription" : "A plating crucible. I can reinforce my armor here.",
+  "novakidDescription" : "A platin' crucible. I can reinforce my armor here."
 
   "inventoryIcon" : "r-platingcrucibleicon.png",
   "orientations" : [
