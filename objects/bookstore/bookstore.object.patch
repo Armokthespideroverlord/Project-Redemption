@@ -78,6 +78,11 @@
       "op" : "add",
       "path" : "/storeInventory/races/-",
       "value" : "novakidlife-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "bads-codex" 
 	  }
   ],
   [
@@ -100,11 +105,6 @@
       "op" : "add",
       "path" : "/storeInventory/other/-",
       "value" : "notebookcodex-codex" 
-	  },
-{
-      "op" : "add",
-      "path" : "/storeInventory/other/-",
-      "value" : "bads-codex" 
 	  },
 {
       "op" : "add",
