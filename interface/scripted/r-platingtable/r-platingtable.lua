@@ -141,7 +141,7 @@ function toggleInterface(item)
 		widget.setButtonEnabled("upgradeBtn", true)
 		local weapontype = ""
 
-		for _,v1 in pairs({"armor"}) do
+		for _,v1 in pairs({"headwear", "chestwear", "legwear"}) do
 			for _, v2 in pairs(self.config.validItems[v1]) do
 				if string.find(item.name, v2) then
 					calculateUpgrade(item, v1)

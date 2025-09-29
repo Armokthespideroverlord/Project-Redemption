@@ -6,6 +6,6 @@
   "description" : "The result of combining blueprint chip fragments hidden within protectorate weaponry.",
   "shortdescription" : "Restored Datachip",
 
-  "learnBlueprintsOnPickup" : [ "protectoratearmorhead","protectoratearmorchest","protectoratearmorlegs" ],
+  "learnBlueprintsOnPickup" : [ "protectoratearmorhead","protectoratearmorchest","protectoratearmorlegs"],
   "consumeOnPickup" : true
 }
