@@ -52,7 +52,7 @@ function update(dt)
 			local newItem = self.itemStorage[1]
 			newItem.parameters.level = self.upgradeConfig.newLevel
 			-- updates the rarity of the item
-			if newItem.parameters.level >= 7 then
+			if newItem.parameters.level >= 6 then
 				newItem.parameters.rarity = "legendary"
 			end
 
@@ -116,16 +116,16 @@ function toggleInterface(item)
 		return
 	else
 		if not item.parameters.level then
-			item.parameters.level = 1
+			item.parameters.level = 6
 		end
 		if item.parameters.level >= 5 then
-			widget.setVisible("upgradeCost.currencyCost", true)
+			widget.setVisible("upgradeCost.currencyCost", false)
 		end
 
-		local maxLevel = 8
+		local maxLevel = 6
 		-- if frackin'universe is loaded
 		if root.itemConfig({name = "weaponupgradeanvil2", count = 1}) then
-			maxLevel = 7
+			maxLevel = 6
 		end
 
 		if item.parameters.level >= maxLevel then
@@ -141,7 +141,7 @@ function toggleInterface(item)
 		widget.setButtonEnabled("upgradeBtn", true)
 		local weapontype = ""
 
-		for _,v1 in pairs({"melee", "ranged", "magic"}) do
+		for _,v1 in pairs({"armor"}) do
 			for _, v2 in pairs(self.config.validItems[v1]) do
 				if string.find(item.name, v2) then
 					calculateUpgrade(item, v1)
