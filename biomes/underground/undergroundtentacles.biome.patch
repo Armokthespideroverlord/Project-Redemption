@@ -1,5 +1,5 @@
 [
-  {
+{
     "op": "add",
     "path": "/spawnProfile/monsterParameters/statusSettings/stats/slimeImmunity",
     "value": {
@@ -8,7 +8,7 @@
   },
   {
     "op": "add",
-    "path": "/surfacePlaceables/items/1/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopsmall"
@@ -16,7 +16,7 @@
   },
   {
     "op": "add",
-    "path": "/surfacePlaceables/items/1/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopmed"
@@ -24,7 +24,7 @@
   },
   {
     "op": "add",
-    "path": "/surfacePlaceables/items/1/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopbig"
@@ -32,7 +32,7 @@
   },
   {
     "op": "add",
-    "path": "/surfacePlaceables/items/2/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
     "value": [
       2.0,
       "tentaclespike"
@@ -40,7 +40,7 @@
   },
   {
     "op": "add",
-    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/1/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopsmall"
@@ -48,7 +48,7 @@
   },
   {
     "op": "add",
-    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/1/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopmed"
@@ -56,7 +56,7 @@
   },
   {
     "op": "add",
-    "path": "/undergroundPlaceables/items/0/objectSets/0/pool/-",
+    "path": "/undergroundPlaceables/items/1/objectSets/0/pool/-",
     "value": [
       3.5,
       "tentaclepopbig"
