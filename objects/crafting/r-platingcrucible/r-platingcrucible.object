@@ -20,20 +20,20 @@
   "flickerIntensityVariance" : 0.0,
 
   "printable" : false,
-  "description" : "This crucible can reinforce armor with Impervium.",
-  "shortdescription" : "^orange;Plating Crucible^white;",
+  "description" : "This forge can reinforce armor with Impervium.",
+  "shortdescription" : "^orange;Magmatic Forge^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
   "colonyTags" : [ "combat", "crafting" ],
 
-  "apexDescription" : "A plating crucible. I can reinforce my armor here.",
-  "avianDescription" : "A plating crucible. I can reinforce my armor here.",
-  "floranDescription" : "Floran make ssstrengthen armor with crucible.",
+  "apexDescription" : "A magmatic forge. I can reinforce my armor here.",
+  "avianDescription" : "A magmatic forge. I can reinforce my armor here.",
+  "floranDescription" : "Floran make ssstrengthen armor with lava forge.",
   "glitchDescription" : "Statement. I can enhance my armor with this.",
-  "humanDescription" : "A plating crucible. I can reinforce my armor here.",
-  "hylotlDescription" : "A plating crucible. I can reinforce my armor here.",
-  "novakidDescription" : "A platin' crucible. I can reinforce my armor here.",
+  "humanDescription" : "A magmatic forge. I can reinforce my armor here.",
+  "hylotlDescription" : "A magmatic forge. I can reinforce my armor here.",
+  "novakidDescription" : "A magmatic forge. I can reinforce my armor here.",
 
   "inventoryIcon" : "r-platingcrucibleicon.png",
   "orientations" : [
