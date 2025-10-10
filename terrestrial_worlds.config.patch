@@ -189,5 +189,24 @@
 {"op" : "add", "path" : "/planetTypes/ColorfulDesert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/Geometric_Snow/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/OvergrownJungle/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/ARTestPlanet"},
+    {"op" : "add", "path" : "/planetTypes/ARTestPlanet/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARKashmir/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARAlien/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARBarren/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARDesert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARForest/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARGarden/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARJungle/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARMagma/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARMidnight/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/AROcean/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARSavannah/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARSnow/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARToxic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARTundra/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+{"op" : "add", "path" : "/planetTypes/ARVolcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
   ]
 ]
