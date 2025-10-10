@@ -33,7 +33,7 @@
   "glitchDescription" : "Statement. I can enhance my armor with this.",
   "humanDescription" : "A magmatic forge. I can reinforce my armor here.",
   "hylotlDescription" : "A magmatic forge. I can reinforce my armor here.",
-  "novakidDescription" : "A magmatic forge. I can reinforce my armor here.",
+  "novakidDescription" : "I can reinforce my armor with this here magmatic forge.",
 
   "inventoryIcon" : "r-platingcrucibleicon.png",
   "orientations" : [
