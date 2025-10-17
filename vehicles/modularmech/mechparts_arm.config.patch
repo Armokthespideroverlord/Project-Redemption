@@ -15,15 +15,15 @@
 		"partParameters": {
 			"script": "/vehicles/modularmech/armscripts/gatlingarm.lua",
 			"armClass": "GatlingArm",
-			"rotationLimits": [-1.75,
-			1.75],
-			"fireOffset": [6.0,
-			-0.25],
-			"windupTime": 0.3,
-			"fireTime": 0.1,
+			"rotationLimits": [-1.75, 1.75],
+			"fireOffset": [8.5, 0.0],
+			"windupTime": 0.5,
+			"winddownTime" : 0.5,
+			"fireTime": 0.075,
 			"projectileType": "flame",
 			"projectileParameters": {
 				"power": 25,
+				"speed" : 17.5,
 				"piercing": true
 			},
 			"projectileCount": 1,
@@ -32,8 +32,8 @@
 			"projectileInaccuracy": 0.03
 		},
 		"partImages": {
-			"<armName>": "arm/r-widefire.png",
-			"<armName>Fullbright": "arm/r-widefire_fullbright.png"
+			"<armName>": "arm/r-widefire/r-widefire.png",
+			"<armName>Fullbright": "arm/r-widefire/r-widefire_fullbright.png"
 		},
 		"defaultPrimaryColors": ["909c4f",
 		"5f6c37",
@@ -56,9 +56,8 @@
 								}
 							},
 							"active": {
-								"cycle": 0.2,
 								"properties": {
-									"persistentSound": "/sfx/gun/flamethrower.ogg",
+									"persistentSound": "/sfx/gun/flamethrower_loop.ogg",
 									"persistentSoundRangeMultiplier": 1.0,
 									"persistentSoundStopTime": 0.2
 								}

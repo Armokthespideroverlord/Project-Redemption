@@ -7,7 +7,7 @@
   "tooltipKind" : "mecharm",
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "r-mecharmwidefire.png",
-  "description" : "A broad barreled flamethrowing mech arm that can cover a wide distance.",
+  "description" : "A broad barreled flamethrowing mech arm to burn enemies up close.",
   "shortdescription" : "WideFire Mech Arm",
   "itemTags" : [ ],
 
