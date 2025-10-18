@@ -1,11 +1,4 @@
 [
-  {
-    "op": "add",
-    "path": "/prerequisites",
-    "value": [
-      "floran_mission2"
-    ]
-  },
 {
     "op": "add",
     "path": "/rewards/0/0/-",

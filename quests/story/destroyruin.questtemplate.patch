@@ -1,0 +1,11 @@
+[
+{
+    "op": "add",
+    "path": "/rewards/0/0/-",
+    "value": {
+      "treasure": {
+        "level": 7
+      }
+    }
+  }
+]

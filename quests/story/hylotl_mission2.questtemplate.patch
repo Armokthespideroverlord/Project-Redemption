@@ -7,13 +7,5 @@
         "level": 4
       }
     }
-  },
-  {
-    "op": "add",
-    "path": "/rewards/0/-",
-    "value": [
-      "r-mecharmwidefire",
-      1
-    ]
   }
 ]
