@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/tiles/-",
+    "value": {
+      "value": [
+        96,
+        17,
+        25,
+        255
+      ],
+      "comment": "letheiasign",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "letheiasign"
+        ]
+      ]
+    }
+  }
+]
