@@ -3,5 +3,10 @@
     "op": "add",
     "path": "/scriptConfig/dialog/bless/default/default/-",
     "value": "Such a grand and ancient ruin... I have no doubt Kluex created this! Accept this blessing!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/bless/default/default/-",
+    "value": "The champions of Kluex deserve only the best gifts."
   }
 ]
