@@ -10,15 +10,7 @@
     {"op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
     {"op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
     {"op" : "add", "path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
-  ],
-  [
-    {"op" : "test", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "inverse" : true },
-    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons", "value" : [] }
-  ],
-  [
-    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons/-", "value" : [ 1.0, "hylotloceancity" ] },
-    {"op" : "add", "path" : "/planetTypes/arctic/layers/subsurface/dungeons/-", "value" : [ 1.0, "hylotlruinedcity" ] }
-  ],  
+  ], 
   [
     {"op" : "replace", "path" : "/planetTypes/tentacle/threatRange/0", "value" : 8},
     {"op" : "replace", "path" : "/planetTypes/tentacle/threatRange/1", "value" : 8},
