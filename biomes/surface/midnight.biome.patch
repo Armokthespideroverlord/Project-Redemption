@@ -3,7 +3,7 @@
   "mode" : "floor",
   "priority" : 1,
   "variants" : 1,
-  "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
+  "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
 
   "type" : "microdungeon",
   "microdungeons" : [ "armok-darkundergroundchamber" ]
