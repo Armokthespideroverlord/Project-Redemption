@@ -2,11 +2,16 @@
   {
     "op": "add",
     "path": "/scriptConfig/dialog/bless/default/default/-",
-    "value": "Such a grand and ancient ruin... I have no doubt Kluex created this! Accept this blessing!"
+    "value": "Such grand ancient ruins... I have no doubt Kluex made these! Accept this blessing!"
   },
 {
     "op": "add",
     "path": "/scriptConfig/dialog/bless/default/default/-",
     "value": "The champions of Kluex deserve only the best gifts."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/bless/default/default/-",
+    "value": "'And so the great and terrible Destroyer was vanquished forever by Kluex and his blessed followers.'"
   }
 ]
