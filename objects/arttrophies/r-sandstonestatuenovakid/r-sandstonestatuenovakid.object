@@ -1,0 +1,34 @@
+{
+  "objectName" : "r-sandstonestatuenovakid",
+  "colonyTags" : ["sandstone","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A sandstone Novakid. Not much of a sharpshooter.",
+  "shortdescription" : "Novakid Sandstone Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "A rare example of a brandless Novakid. Quite enigmatic.",
+  "avianDescription" : "The lack of a brand makes this Novakid look especially emotionless as a statue.",
+  "floranDescription" : "Ssstrange looking starman.",
+  "glitchDescription" : "Speculative. If rumor is to be believed, this statue may represent some of the first Novakids.",
+  "humanDescription" : "Novakids have always looked awesome, and this one is extra awesome looking!",
+  "hylotlDescription" : "A statue that represents the oddness of the Novakid perfectly.",
+  "novakidDescription" : "Hol' up, have I met this feller before?",
+
+  "inventoryIcon" : "r-sandstonestatuenovakidicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "r-sandstonestatuenovakid.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/input/-",
+    "value": {
+      "item": "r-sandstonestatuenovakid",
+      "count": 1
+    }
+  }
+]

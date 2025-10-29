@@ -102,5 +102,10 @@
 {
     "op": "add","path": "/slimeTreasure/0/1/pool/-",
     "value":   {"weight" : 0.2, "item" : "bouncyball"}
-  }
+  },
+{"op":"add",
+	"path":"/desertTreasure/0/1/pool/-",
+	"value":
+        {"weight" : 0.05, "item" : "r-sandstonestatuenovakid"}
+}
 ]
