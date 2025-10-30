@@ -6,13 +6,13 @@
      "width":1
     },
  "margin":0,
- "name":"PR",
+ "name":"PR-misc",
  "spacing":0,
  "tilecount":2,
  "tileheight":44,
  "tileproperties":
     {
-     "5":
+     "0":
         {
          "\/\/description":"A sandstone Novakid. Not much of a sharpshooter.",
          "\/\/name":"r-sandstonestatuenovakid",
@@ -22,20 +22,20 @@
          "object":"r-sandstonestatuenovakid",
          "tilesetDirection":"right"
         },
-     "6":
+     "1":
         {
-         "\/\/description":"I wonder how quickly that would cook a burger.",
-         "\/\/name":"r-smallside",
-         "\/\/shortdescription":"Damaging Small Booster Flame",
-         "imagePositionX":"-16",
-         "imagePositionY":"-24",
-         "object":"r-smallside",
+         "\/\/description":"A cultist altar. Nefarious worship goes on here.",
+         "\/\/name":"armok-cultistaltar",
+         "\/\/shortdescription":"Cultist Altar",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"armok-cultistaltar",
          "tilesetDirection":"right"
         }
     },
  "tilepropertytypes":
     {
-     "5":
+     "0":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -45,7 +45,7 @@
          "object":"string",
          "tilesetDirection":"string"
         },
-     "6":
+     "1":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -58,19 +58,19 @@
     },
  "tiles":
     {
-     "5":
+     "0":
         {
          "image":"r-sandstonestatuenovakid.png",
          "imageheight":44,
          "imagewidth":16
         },
-     "6":
+     "1":
         {
-         "image":"smallboosterflametiled.png",
-         "imageheight":31,
-         "imagewidth":32
+         "image":"cultistaltar.png",
+         "imageheight":39,
+         "imagewidth":24
         }
     },
- "tilewidth":32,
+ "tilewidth":24,
  "type":"tileset"
 }

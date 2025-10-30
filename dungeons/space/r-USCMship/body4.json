@@ -1159,54 +1159,6 @@
                  "width":16,
                  "x":368,
                  "y":464
-                }, 
-                {
-                 "gid":9396,
-                 "height":31,
-                 "id":2736,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":656,
-                 "y":160
-                }, 
-                {
-                 "gid":9396,
-                 "height":31,
-                 "id":2737,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":312,
-                 "y":472
-                }, 
-                {
-                 "gid":9396,
-                 "height":31,
-                 "id":2738,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":1072,
-                 "y":496
-                }, 
-                {
-                 "gid":9396,
-                 "height":31,
-                 "id":2739,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":1712,
-                 "y":496
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2214,7 +2166,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2740,
+ "nextobjectid":2744,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.0",
@@ -2383,10 +2335,6 @@
         {
          "firstgid":9345,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/apexresearchlab.json"
-        }, 
-        {
-         "firstgid":9396,
-         "source":"..\/..\/..\/tilesets\/PR\/PR.json"
         }],
  "tilewidth":8,
  "type":"map",
