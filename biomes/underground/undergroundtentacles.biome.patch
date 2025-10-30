@@ -1,9 +1,15 @@
 [
 {
     "op": "add",
-    "path": "/spawnProfile/monsterParameters/statusSettings/stats/slimeImmunity",
+    "path": "/spawnProfile/monsterParameters",
     "value": {
-      "baseValue": 1
+      "statusSettings": {
+        "stats": {
+          "slimeImmunity": {
+            "baseValue": 1
+          }
+        }
+      }
     }
   },
   {
