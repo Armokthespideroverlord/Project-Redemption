@@ -19,7 +19,7 @@
   {
     "op": "add",
     "path": "/chatCooldown",
-    "value": 15
+    "value": 30
   },
   {
     "op": "add",
