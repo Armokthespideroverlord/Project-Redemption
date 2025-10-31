@@ -85,5 +85,21 @@
             "weight": 0.2,
             "item": "necrocodex-codex"
           }
+    },
+{
+      "op" : "add",
+      "path" : "/floranvillagetowerLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.2,
+            "item": "floranwar-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/floranhutvillageLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.2,
+            "item": "floranwar-codex"
+          }
     }
 ]
