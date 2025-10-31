@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/scripts",
+    "value": [
+      "/objects/outpost/repairo/repairo.lua"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptDelta",
+    "value": 20
+  },
+  {
+    "op": "add",
+    "path": "/chatRadius",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/chatCooldown",
+    "value": 15
+  },
+  {
+    "op": "add",
+    "path": "/chatOptions",
+    "value": [
+      "Don't worry about the tentacles, they're just animatronics, taxidermied animatronics.",
+      "Sorry bud, my mount isn't for sale.",
+      "Psst. Got anything valuable? I can provide you with even more valuable things in return!"
+    ]
+  }
+]
