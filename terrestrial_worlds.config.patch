@@ -200,5 +200,19 @@
 {"op" : "add", "path" : "/planetTypes/ARToxic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/ARTundra/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/ARVolcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/mountainous"},
+    {"op" : "add", "path" : "/planetTypes/mountainous/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/crewearth"},
+    {"op" : "add", "path" : "/planetTypes/crewdesert/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewsavannah/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewjungle/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewalien/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewmidnight/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewvolcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/crewscorchedcity/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
   ]
 ]
