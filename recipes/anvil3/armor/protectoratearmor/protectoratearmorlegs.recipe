@@ -1,10 +1,8 @@
 {
   "input" : [
     { "item" : "r_imperviumalloy", "count" : 2 },
-{ "item" : "solariumstar", "count" : 4 },
-{ "item" : "refinedaegisalt", "count" : 8 },
-{ "item" : "refinedferozium", "count" : 8 },
-{ "item" : "refinedviolium", "count" : 8 },
+{ "item" : "manipulatormodule", "count" : 4 },
+{ "item" : "techcard", "count" : 4 },
     { "item" : "upgrademodule", "count" : 4 },
     { "item" : "perfectpants", "count" : 1 }
   ],
