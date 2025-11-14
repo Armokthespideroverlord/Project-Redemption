@@ -27,8 +27,7 @@
 				"piercing": true
 			},
 			"projectileCount": 1,
-			"projectileSpacing": [0,
-			1],
+			"projectileSpacing": [0,1],
 			"projectileInaccuracy": 0.03
 		},
 		"partImages": {
