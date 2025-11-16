@@ -7,7 +7,7 @@
   "canBeHit" : true,
   "animation" : "r-dropship.animation",
   
-  "moveSpeed" : 30,
+  "moveSpeed" : 60,
   "airForce" : 100,
 
   "minHeight" : 0,
