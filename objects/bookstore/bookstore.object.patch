@@ -56,7 +56,13 @@
       "op" : "add",
       "path" : "/storeInventory/history/-",
       "value" : "necrocodex-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/history/-",
+      "value" : "floranwar-codex" 
 	  }
+
   ],
 [
     {
