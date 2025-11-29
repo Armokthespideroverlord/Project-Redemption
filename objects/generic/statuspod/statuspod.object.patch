@@ -62,7 +62,16 @@
 			"projectileType": "levitationstatusprojectile",
 			"projectileParams": {}
 		}
+	},
+{
+		"op": "add",
+		"path": "/projectileOptions/-",
+		"value": {
+			"projectileType": "jumpstatusprojectile",
+			"projectileParams": {}
+		}
 	}
+
 
 
 ]
