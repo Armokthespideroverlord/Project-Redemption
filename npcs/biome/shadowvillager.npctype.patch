@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/scripts",
+    "path": "/scripts/-",
     "value": [
       "/npcs/calltheshadows.lua"
     ]
