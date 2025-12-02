@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/tiles/4/brush/1/2/parameters/treasurePools/0",
+    "value": "r-penguinmission2Reward"
+  }
+]

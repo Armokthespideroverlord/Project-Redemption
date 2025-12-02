@@ -1,0 +1,15 @@
+{
+  "r-penguinmission2Reward" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "r-mecharmwidefire", 1]},
+        {"pool" : "smallChestTreasure"}
+      ],
+      "poolRounds" : [
+        [0.5, 5],
+        [0.5, 6]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}
