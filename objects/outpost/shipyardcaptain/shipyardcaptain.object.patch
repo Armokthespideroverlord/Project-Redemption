@@ -1,4 +1,4 @@
-[
+[[
 {"op":"test","path":"/offeredQuests","value":[]},
 {"op":"add","path":"/offeredQuests","value":[]}
 ],
@@ -13,4 +13,4 @@
       "item": "corporatejeepcontroller"
     }
   }
-]
+]]
