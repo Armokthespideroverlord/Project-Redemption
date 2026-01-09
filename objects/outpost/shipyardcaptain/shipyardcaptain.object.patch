@@ -1,7 +1,10 @@
 [
- {"op":"add","path":"/offeredQuests","value":[]},
- {"op":"add","path":"/offeredQuests/-","value":"dropship"},
- {"op":"add","path":"/turnInQuests/-","value":"dropship"},
+{"op":"test","path":"/offeredQuests","value":[]},
+{"op":"add","path":"/offeredQuests","value":[]}
+],
+[
+ {"op":"add","path":"/offeredQuests/-","value":"r-dropship"},
+ {"op":"add","path":"/turnInQuests/-","value":"r-dropship"},
  {"op":"add","path":"/turnInQuests/-","value":"r-enginerepair"},
 {
     "op": "add",
