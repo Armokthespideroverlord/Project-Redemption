@@ -1,5 +1,5 @@
 [[
-{"op":"test","path":"/offeredQuests","value":[]},
+{"op":"test","path":"/offeredQuests","value":[], "inverse":true},
 {"op":"add","path":"/offeredQuests","value":[]}
 ],
 [
