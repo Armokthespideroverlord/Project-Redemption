@@ -2,7 +2,7 @@
 
 //The following is an emergency broadcast from the Terrene Protectorate
 
-"With the fall of Earth comes our own fall. Humanity is either under some new power or near extinct. To any and all remaining Protectors in this dark galaxy, our hearts and minds are with you, for you are our last chance, our last hope, for redemption"
+"With the fall of Earth comes our own fall. Humanity is either under some new power or near extinct. To any and all remaining Protectors in this dark galaxy, our hearts and minds are with you, for you are our last chance, our last hope, for redemption."
 
 This mod is basically a miscellaneous content mod with a strong focus on expanding upon the game's lore in a manner in-keeping with its canon, as well as introducing things I feel are """missing""" (in a particularly subjective sense) from the base game. Given the fairly even spread of the mod's content, it's meant to have a fairly light footprint on the game, although expect it to get larger in stature as time goes on.
 
