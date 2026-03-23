@@ -60,10 +60,10 @@
 				"Response: ^white;Thank you, we could use a\n   donut break right now.",
 				"Response: ^white;A break sounds about good\n   to me right about now.",
 				"Response: ^white;It's been an uneventful day\n   so far, stopping by shouldn't\n   hurt.",
-				"Response: ^white;Recevied. Officers reporting\n   to drop by!"
+				"Response: ^white;Recevied. Officers reporting\n   in to drop by!"
 ],
         	    "ignore": [ "Response: ^white;Sorry, we've got a perp to\n   chase down here.",
-                                "Response: ^white;Negative. We're in the middle\n   of a stakeout here right now."]
+                                "Response: ^white;Negative. We're in the middle\n   of a stakeout right now."]
       },
       "responseTextDismiss": {
         "hostile": "flightcontrol_responses_default",
@@ -73,7 +73,7 @@
 "Response: ^white;Understood. We were having\n   difficulty finding crime anyways."
 ],
         "ignore": [ "Response: ^white;Sorry, we've got a perp to\n   chase down here.",
-                                "Response: ^white;Negative. We're in the middle\n   of a stakeout here right now."]
+                                "Response: ^white;Negative. We're in the middle\n   of a stakeout right now."]
       },
       "analysis": {
         "hostile": [
