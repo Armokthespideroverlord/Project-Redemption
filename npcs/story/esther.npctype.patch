@@ -19,10 +19,10 @@
     "path": "/scriptConfig/dialog/converse/default/default/-",
     "value": "The Hylotl artifact inspired the first generation of great thinkers, and served as a repository of ancient wisdom and knowledge."
   },
-  {
+{
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "According to the Avoscript, Kluex became known to the Avians through a great gift bestowed by him. I suspect that the Avian artifact may have inspired the Kluex faith..."
+    "value": "According to the Avoscript, Kluex bestowed Avolite crystals to the Avaians through a great gift. I suspect that this gift may have actually been the Avian artifact..."
   },
   {
     "op": "add",
