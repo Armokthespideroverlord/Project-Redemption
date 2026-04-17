@@ -214,5 +214,9 @@
     {"op" : "add", "path" : "/planetTypes/crewmidnight/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
     {"op" : "add", "path" : "/planetTypes/crewvolcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
     {"op" : "add", "path" : "/planetTypes/crewscorchedcity/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/frostcity"},
+    {"op" : "add", "path" : "/planetTypes/frostcity/layers/surface/dungeons/-", "value" : [3.0, "r-USCMbunker"] }
   ]
 ]
