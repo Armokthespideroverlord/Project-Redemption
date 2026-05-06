@@ -10,5 +10,4 @@
   "power" : 1,
   "knockback" : 50,
 
-  "damageType" : "hidden",
-  "damageKind" : "hammer"}
+  "damageKind" : "hidden"}
