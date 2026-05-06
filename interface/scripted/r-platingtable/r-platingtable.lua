@@ -119,13 +119,13 @@ function toggleInterface(item)
 			item.parameters.level = 6
 		end
 		if item.parameters.level >= 5 then
-			widget.setVisible("upgradeCost.currencyCost", false)
+			widget.setVisible("upgradeCost.currencyCost", true)
 		end
 
-		local maxLevel = 6
+		local maxLevel = 7
 		-- if frackin'universe is loaded
 		if root.itemConfig({name = "weaponupgradeanvil2", count = 1}) then
-			maxLevel = 6
+			maxLevel = 7
 		end
 
 		if item.parameters.level >= maxLevel then
@@ -141,7 +141,7 @@ function toggleInterface(item)
 		widget.setButtonEnabled("upgradeBtn", true)
 		local weapontype = ""
 
-		for _,v1 in pairs({"headwear", "chestwear", "legwear"}) do
+		for _,v1 in pairs({"melee", "ranged", "magic"}) do
 			for _, v2 in pairs(self.config.validItems[v1]) do
 				if string.find(item.name, v2) then
 					calculateUpgrade(item, v1)
