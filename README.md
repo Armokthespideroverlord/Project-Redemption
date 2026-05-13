@@ -35,4 +35,6 @@ Known Incompatibilities:
 * Any mods that overwrite the fossilgame.lua or destroyruin.lua files, nothing horrible will happen if another mod overwrites these files, it's just that the Grandmaster fossil brush will become useless and that you won't get any new radiomessages for the ruin mission.
 * [Supper's Combat Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=1595801436): Breaks the lost and found npc somehow.
 
+As a bonus for those who've bothered to read down this entire description, here are some arts related to this mod made by my friend Mono [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2119601074), and [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3438158987)!
+
 [Credits List](https://github.com/Armokthespideroverlord/Project-Redemption/wiki/Credits)
