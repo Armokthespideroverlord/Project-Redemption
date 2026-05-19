@@ -7,7 +7,9 @@
   "flippable" : true,
   "timeToLive" : 0.1,
   "speed" : 0,
-  "power" : 1,
+  "power" : 0,
   "knockback" : 50,
 
-  "damageType" : "NoDamage"}
+  "damageType" : "Knockback",
+  "damageKind" : "hammer"
+}

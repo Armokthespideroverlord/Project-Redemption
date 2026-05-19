@@ -1,5 +1,5 @@
 {
-  "name" : "protectorSphere",
+  "name" : "dupe_protectorSphere",
   "type" : "head",
 
   "scripts" : ["protectorSphere.lua"],

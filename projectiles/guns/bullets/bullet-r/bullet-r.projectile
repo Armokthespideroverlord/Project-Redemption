@@ -16,7 +16,7 @@
 "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
 "piercing" : true,
 "acceleration" : 0,
-"damageKind" : "default",
+"damageKind" : "broadsword",
 "onlyHitTerrain" : false,
 "movementSettings" : {
 	"physicsEffectCategories" : [], 
