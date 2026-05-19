@@ -10,4 +10,4 @@
   "power" : 1,
   "knockback" : 50,
 
-  "damageKind" : "hidden"}
+  "damageType" : "NoDamage"}

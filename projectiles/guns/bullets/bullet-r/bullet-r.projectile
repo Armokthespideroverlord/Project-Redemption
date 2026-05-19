@@ -1,17 +1,28 @@
 {
-  "projectileName" : "bullet-r",
-  "image" : "bullet-r.png",
-  "animationCycle" : 0.25,
-  "frameNumber" : 1,
-  "damageKindImage" : "icon.png",
-  "pointLight" : false,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    }
-  ],
-  "power" : 5.0,
-  "speed" : 75,
-  "damageKind" : "default"
+"projectileName" : "bullet-r",
+"image" : "bullet-r.png",
+"animationCycle" : 0.25,
+"frameNumber" : 1,
+"damageKindImage" : "icon.png",
+"pointLight" : false,
+"actionOnReap" : [
+],
+//"lightColor" : [0, 140, 217],
+"fullbright" : false,
+"timeToLive" : 0.05,
+"speed" : 0,
+"power" : 10,
+"knockback" : 10,
+"damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+"piercing" : true,
+"acceleration" : 0,
+"damageKind" : "default",
+"onlyHitTerrain" : false,
+"movementSettings" : {
+	"physicsEffectCategories" : [], 
+	"collisionEnabled" : false,
+	"gravityMultiplier" : 0.0
+	},
+"processing" : "",
+"periodicActions" : []
 }

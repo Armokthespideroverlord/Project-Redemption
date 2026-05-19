@@ -1,157 +1,177 @@
 {
-	"globalTagDefaults" : {
-		"rotationFrame" : "0",
-		"ballDirectives" : ""
-	},
+  "globalTagDefaults" : {
+    "rotationFrame" : "0",
+    "ballDirectives" : "",
+    "disabledTag" : ""
+  },
 
-	"animatedParts" : {
-		"stateTypes" : {
-			"ballState" : {
-				"default" : "off",
-				"states" : {
-					"deactivate" : {
-						"frames" : 3,
-						"cycle" : 0.12,
-						"mode" : "transition",
-						"transition" : "off"
-					},
-					"off" : { },
-					"activate" : {
-						"frames" : 3,
-						"cycle" : 0.12,
-						"mode" : "transition",
-						"transition" : "on"
-					},
-					"on" : { }
-				}
-			}
-		},
+  "animatedParts" : {
+    "stateTypes" : {
+      "ballState" : {
+        "default" : "off",
+        "states" : {
+          "deactivate" : {
+            "frames" : 3,
+            "cycle" : 0.12,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "off" : { },
+          "activate" : {
+            "frames" : 3,
+            "cycle" : 0.12,
+            "mode" : "transition",
+            "transition" : "on"
+          },
+          "on" : { }
+        }
+      }
+    },
 
-		"parts" : {
-			"ballGlow" : {
-				"properties" : {
-					"transformationGroups" : [ "ball" ],
-					"centered" : true
-				},
-				"partStates" : {
-					"ballState" : {
-						"on" : {
-							"properties" : {
-								"zLevel" : 1,
-								"fullbright" : true,
-								"image" : "<partImage>:<rotationFrame><ballDirectives>"
-							}
-						}
-					}
-				}
-			},
-			"ball" : {
-				"properties" : {
-					"transformationGroups" : [ "ball" ],
-					"centered" : true
-				},
-				"partStates" : {
-					"ballState" : {
-						"deactivate" : {
-							"properties" : {
-								"offset" : [0, 0],
-								"fullbright" : true,
-								"image" : "transform.png:deactivate.<frame>"
-							}
-						},
-						"activate" : {
-							"properties" : {
-								"offset" : [0, 1.5],
-								"fullbright" : true,
-								"image" : "transform.png:activate.<frame>"
-							}
-						},
-						"on" : {
-							"properties" : {
-								"image" : "<partImage>:<rotationFrame><ballDirectives>"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
+    "parts" : {
+      "ballGlow" : {
+        "properties" : {
+          "transformationGroups" : [ "ball" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "ballState" : {
+            "on" : {
+              "properties" : {
+                "zLevel" : 1,
+                "fullbright" : true,
+                "image" : "protectorSphereglow<disabledTag>.png:<rotationFrame>"
+              }
+            }
+          }
+        }
+      },
+      "ball" : {
+        "properties" : {
+          "transformationGroups" : [ "ball" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "ballState" : {
+            "deactivate" : {
+              "properties" : {
+                "offset" : [0, 0],
+                "fullbright" : true,
+                "image" : "transform.png:deactivate.<frame>"
+              }
+            },
+            "activate" : {
+              "properties" : {
+                "offset" : [0, 1.5],
+                "fullbright" : true,
+                "image" : "transform.png:activate.<frame>"
+              }
+            },
+            "on" : {
+              "properties" : {
+                "image" : "protectorSphere<disabledTag>.png:<rotationFrame><ballDirectives>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
 
-	"transformationGroups" : {
-		"ball" : { "interpolated" : true }
-	},
+  "transformationGroups" : {
+    "ball" : { "interpolated" : true }
+  },
 
-	"particleEmitters" : {
-		"activateParticles" : {
-			"particles" : [ ]
-		},
-		"deactivateParticles" : {
-			"particles" : [ ]
-		},
-		"chargeLeft" : {
-			"emissionRate" : 10,
-			"particles" : [
-				{
-					"particle" : {
-						"type" : "animated",
-						"animation" : "/animations/jumpsmokehalf/jumpsmokehalf.animation",
-						"flip" : true,
-						"layer" : "middle",
-						"fade" : 0.9,
-						"destructionAction" : "shrink",
-						"destructionTime" : 0.4,
-						"position" : [0.5, -0.6],
-						"initialVelocity" : [3, 0],
-						"timeToLive" : 0.4,
-						"variance" : {
-							"initialVelocity" : [1, 1]
-						}
-					}
-				}
-			]
-		},
-		"chargeRight" : {
-			"emissionRate" : 10,
-			"particles" : [
-				{
-					"particle" : {
-						"type" : "animated",
-						"animation" : "/animations/jumpsmokehalf/jumpsmokehalf.animation",
-						"layer" : "middle",
-						"fade" : 0.9,
-						"destructionAction" : "shrink",
-						"destructionTime" : 0.4,
-						"position" : [-0.5, -0.6],
-						"initialVelocity" : [-3, 0],
-						"timeToLive" : 0.4,
-						"variance" : {
-							"initialVelocity" : [1, 1]
-						}
-					}
-				}
-			]
-		},
-		"boosting" : {
-			"emissionRate" : 60,
+  "particleEmitters" : {
+    "activateParticles" : {
+      "particles" : [ ]
+    },
+    "deactivateParticles" : {
+      "particles" : [ ]
+    },
+
+    "charge" : {
+      "emissionRate" : 8,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/jumpsmokehalf/jumpsmokehalf.animation",
+            "flip" : true,
+            "layer" : "middle",
+            "fade" : 0.9,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.4,
+            "position" : [0.5, -0.6],
+            "initialVelocity" : [3, 0],
+            "timeToLive" : 0.4,
+            "variance" : {
+              "initialVelocity" : [1, 1]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/jumpsmokehalf/jumpsmokehalf.animation",
+            "layer" : "middle",
+            "fade" : 0.9,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.4,
+            "position" : [-0.5, -0.6],
+            "initialVelocity" : [-3, 0],
+            "timeToLive" : 0.4,
+            "variance" : {
+              "initialVelocity" : [1, 1]
+            }
+          }
+        }
+      ]
+    },
+		"spinning" : {
+			"emissionRate" : 40,
 			"particles" : [
 				{
 					"particle" : {
 						"type" : "ember",
-						"size" : 2.0,
-						"color" : "#73daff",
-						"fade" : 0.9,
+						"size" : 2.2,
+"color" : [96, 184, 235],
+            "light" : [0, 0, 0],
 						"destructionAction" : "shrink",
 						"destructionTime" : 1,
+            "fade" : 0.8,
 						"fullbright" : true,
 						"initialVelocity" : [0, 0],
 						"finalVelocity" : [0, 0],
 						"approach" : [0, 0],
-						"timeToLive" : 0.15,
-						"light" : [0, 0, 0],
+						"timeToLive" : 0.18,
 						"layer" : "back",
 						"variance" : {
 							"initialVelocity" : [4, 4],
-							"finalVelocity" : [8, 8],
+							"finalVelocity" : [10, 10],
+							"size" : 1,
+							"position" : [0, 0]
+						}
+					}
+				},
+        {
+					"particle" : {
+						"type" : "ember",
+						"size" : 2.2,
+"color" : [0, 140, 217],
+            "light" : [0, 0, 0],
+						"destructionAction" : "shrink",
+						"destructionTime" : 1,
+            "fade" : 0.8,
+						"fullbright" : true,
+						"initialVelocity" : [0, 0],
+						"finalVelocity" : [0, 0],
+						"approach" : [0, 0],
+						"timeToLive" : 0.18,
+						"layer" : "back",
+						"variance" : {
+							"initialVelocity" : [4, 4],
+							"finalVelocity" : [10, 10],
 							"size" : 1,
 							"position" : [0, 0]
 						}
@@ -174,42 +194,18 @@
 					}
 				}
 			]
-		},
-		"spinning" : {
-			"emissionRate" : 30,
-			"particles" : [
-				{
-					"particle" : {
-						"type" : "ember",
-						"size" : 2.0,
-						"color" : "#73daff",
-						"fade" : 0.9,
-						"destructionAction" : "shrink",
-						"destructionTime" : 1,
-						"fullbright" : true,
-						"initialVelocity" : [0, 0],
-						"finalVelocity" : [0, 0],
-						"approach" : [0, 0],
-						"timeToLive" : 0.15,
-						"light" : [0, 0, 0],
-						"layer" : "back",
-						"variance" : {
-							"initialVelocity" : [4, 4],
-							"finalVelocity" : [8, 8],
-							"size" : 1,
-							"position" : [0, 0]
-						}
-					}
-				}
-			]
 		}
-	},
+    
+  },
 
-	"sounds" : {
-		"chargeLoop" : [ "/sfx/tech/tech_sonicsphere_charge1.ogg" ],
-		"forceDeactivate" : [ "/sfx/tech/tech_sonicsphere_charge1.ogg" ],
-		"launch" : [ "/sfx/tech/tech_sonicsphere_launch.ogg" ],
-		"activate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
-		"deactivate" : [ "/sfx/tech/tech_sphere_transform.ogg" ]
-	}
+  "sounds" : {
+    "chargeLoop" : [ "/sfx/tech/tech_sonicsphere_charge1.ogg" ],
+
+    "activate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
+    "deactivate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
+    "forceDeactivate" : [ "/sfx/tech/tech_sonicsphere_charge1.ogg" ],
+
+    "wallCrash" : [ "/sfx/npc/monsters/peblit_drop1.ogg" ],
+    "boost" : [ "/sfx/tech/tech_rocketjump_release.ogg" ]
+  }
 }
