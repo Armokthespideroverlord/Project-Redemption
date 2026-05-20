@@ -1,0 +1,24 @@
+[
+[
+{
+    "op": "test",
+    "path": "/metadata/anchor/37",
+    "value" : "protectorate_base"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/anchor/37"
+  }
+],
+[
+{
+    "op": "test",
+    "path": "/metadata/anchor/57",
+    "value" : "protectorate_base"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/anchor/57"
+  }
+]
+]

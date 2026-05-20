@@ -24,6 +24,33 @@
 		}
 
 	}
+  },
+{
+    "op": "add",
+    "path": "/protectoratebase",
+	"value": {
+	  "warpAction" : "InstanceWorld:protectoratebase",
+	  "threatLevel" : 6,
+	  "skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/anomaly/anomalyhorizonleft.png", "right": "/celestial/system/anomaly/anomalyhorizonright.png" } ]
+	  },
+
+	  "moving" : false,
+	  "speed" : 0,
+	  "orbitRange" : [0, 0],
+	  "generatedParameters" : {
+		"displayName" : "/celestial/r-anomalynames.config:nameGen"
+	  },
+	  "lifeTime" : [1500, 2100],
+	  "parameters" : {
+		"icon" : "/celestial/system/Planet_Unknown.png",
+		"displayName" : "???",
+		"description" : "A Terrene Protectorate signal ID has been detected, but the celestial interference prevents a detailed scan. An investigation is warranted."
+	  }
+	}
   }
+
 
 ]

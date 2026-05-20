@@ -3,5 +3,10 @@
     "op": "add",
     "path": "/objectSpawnPool/-",
     "value": [ 0.05, "r-USCMship" ]
+  },
+{
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [0.01, "protectoratebase"]
   }
   ]

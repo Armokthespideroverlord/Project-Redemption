@@ -18,5 +18,24 @@
     "worldEdgeForceRegions" : "TopAndBottom",
     "biome" : "space"
     }
+  },
+{
+    "op" : "add",
+    "path" : "/protectoratebase",
+    "value" : {
+	  "primaryDungeon" : "protectoratebase",
+	  "threatLevel" : 6,
+	  "gravity" : 0,
+	  "airless" : true,
+	  "worldSize" : [1200, 200],
+	  "dungeonBaseHeight" : 150,
+	  "dungeonSurfaceHeight" : 150,
+	  "ambientLightLevel" : [32, 32, 32],
+	  "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+	  "musicTrack" : "/music/lava-exploration1.ogg",
+	  "environmentStatusEffects" : ["biomeairless", "biomeheat", "dontstarve"],
+	  "worldEdgeForceRegions" : "TopAndBottom",
+	  "biome" : "space"
+    }
   }
 ]
