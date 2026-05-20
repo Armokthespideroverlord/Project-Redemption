@@ -20,7 +20,7 @@
   "flickerIntensityVariance" : 0.0,
 
   "printable" : false,
-  "description" : "This forge can reinforce armor with Impervium.",
+  "description" : "This forge utilizes melted down Impervium to reinforce armor pieces.",
   "shortdescription" : "^orange;Magmatic Forge^white;",
   "race" : "generic",
   "category" : "crafting",
