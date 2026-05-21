@@ -5,7 +5,7 @@
   "printable" : false,
   "price" : 3000,
   "rarity" : "Uncommon",
-  "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+  "description" : "A personal teleporter, connects to bookmarked locations.",
   "shortdescription" : "Peacekeeper Teleporter",
   "race" : "generic",
 
@@ -23,10 +23,10 @@
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/remoteteleporter.config",
 
-  "inventoryIcon" : "r-peacekeeperteleportericon.png",
+  "inventoryIcon" : "peacekeeperteleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "r-peacekeeperteleporter.png:<color>", "fullbright" : true }, { "image" : "r-peacekeeperteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "peacekeeperteleporter.png:<color>", "fullbright" : true }, { "image" : "peacekeeperteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
