@@ -5,7 +5,7 @@
   "scripts" : ["power_dash_dt.lua"],
   "animator" : "power_dash.animation",
 
-  "description" : "Perform a powerful dash that knocks enemies away. ^green;Double Tap Left or Right^white;",
+  "description" : "Perform a powerful dash that knocks enemies away.",
   "shortDescription" : "Power Dash",
   "rarity" : "Legendary",
   "icon" : "/tech/power_dash/power_dash.png",

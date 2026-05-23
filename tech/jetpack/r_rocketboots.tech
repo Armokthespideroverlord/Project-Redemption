@@ -4,7 +4,7 @@
 
   "rarity" : "Legendary",
   "icon" : "/tech/r_rocketboots.png",
-  "description" : "Allows for flight. ^green;Press and hold jump while in the air to activate.^white;",
+  "description" : "Allows for flight.",
   "shortDescription" : "Rocket Thrusters",
   "chipCost" : 0,
 
