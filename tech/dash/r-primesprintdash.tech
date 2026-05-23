@@ -1,0 +1,27 @@
+{
+  "name" : "r-primesprintdash",
+  "type" : "body",
+
+  "scripts" : ["r-primesprintdash.lua"],
+  "animator" : "r-primesprintdash.animation",
+
+  "description" : "A sprint that doubles as a blink dash while holding ^green;[shift]^reset;.",
+  "shortDescription" : "Prime Sprintdash",
+  "rarity" : "Legendary",
+  "icon" : "/tech/r-primesprintdash.png",
+
+  "chipCost" : 24,
+
+  "energyCostPerSecond": 15,
+  "maximumDoubleTapTime": 0.25,
+  "dashControlForce": 1000,
+  "dashSpeedModifier": 1.6,
+  "stopAfterDash": true,
+  "groundOnly": false,
+  "dashDistance": 13,
+  "blinkOutTime": 0.15,
+  "blinkInTime": 0.15,
+  "dashCooldown": 2.0,
+  "rechargeDirectives": "?fade=CCCCFFFF=0.25",
+  "rechargeEffectTime": 0.1
+}

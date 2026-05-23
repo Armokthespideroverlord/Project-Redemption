@@ -1,0 +1,33 @@
+{
+  "name" : "r-primejump",
+  "type" : "legs",
+
+  "scripts" : ["r-primejump.lua"],
+  "animator" : "r-primejump.animation",
+
+  "description" : "Allows you to perform 3 rocket jumps and cling to walls!",
+  "shortDescription" : "Prime Jump",
+  "rarity" : "Legendary",
+  "icon" : "/tech/r-primejump.png",
+
+  "chipCost" : 24,
+
+  "chargeTime" : 0.5,
+  "boostTime" : 0.25,
+  "boostSpeed" : 40,
+  "boostForce" : 900,
+  "rocketJumpCount" : 3,
+
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+  "wallReleaseTime" : 0.15,
+  "wallGrabFreezeTime" : 0.15,
+  "wallJumpXVelocity" : 15,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.0
+    },
+    "airForce" : 0,
+    "airFriction" : 10.0
+  }
+}

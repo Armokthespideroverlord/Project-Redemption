@@ -1,0 +1,78 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "dashing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "properties": {
+              "persistentSound": "/sfx/tech/tech_sprint_loop2.ogg",
+              "immediateSound": "/sfx/tech/tech_dash.ogg"
+            }
+          }
+        }
+      },
+      "blinking": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "in": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
+          },
+          "out": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    },
+    "parts": {
+      "blinkeffect": {
+        "properties": {
+          "centered": true
+        },
+        "partStates": {
+          "blinking": {
+            "in": {
+              "properties": {
+                "image": "blinkin.png:<frameIndex>"
+              }
+            },
+            "out": {
+              "properties": {
+                "image": "blinkout.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "particleEmitters": {
+    "dashParticles": {
+      "emissionRate": 40.0,
+      "particles": [
+        {
+          "particle": "sprint",
+          "flip": true,
+          "offset": [0, 0.0]
+        },
+        {
+          "particle": "sprint",
+          "flip": true,
+          "offset": [0, -0.75]
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "activate": ["/sfx/tech/tech_blink1.ogg"],
+    "recharge": ["/sfx/tech/tech_blink_cooldown1.ogg"]
+  }
+}
