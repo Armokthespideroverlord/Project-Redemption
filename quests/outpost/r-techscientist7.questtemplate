@@ -1,0 +1,42 @@
+{
+  "id" : "r-techscientist7",
+  "prerequisites" : [ "techscientist6" ],
+  "title" : "^orange;Technical Support",
+  "text" : "With all the data you've given me through testing my prototypes, I'm on the cusp of completing their ^orange;complete variants^reset;, all that's missing are some additional components. ^green;Would you be willing to bring me^reset; ^orange;10 Platinum Bars^reset;?",
+  "completionText" : "I cannot thank you enough! With your invaluable assistance I have finally created the ^orange;Prime Techs^reset; that I had been devising for years. You are more than welcome to make use of them!",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "platinumbar",
+        "count" : 10,
+        "consume" : true
+      }
+    ],
+   "showTech" : [
+      "r-primephere",
+      "r-primesprintdash",
+      "r-primejump"
+    ]
+  }
+}

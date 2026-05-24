@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/offeredQuests/-",
+    "value": "r-techscientist7"
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "r-techscientist7"
+  }
+]
