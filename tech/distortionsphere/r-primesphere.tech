@@ -1,0 +1,75 @@
+{
+  "name" : "r-primesphere",
+  "type" : "head",
+
+  "scripts" : ["r-primesphere.lua"],
+  "animator" : "sonicsphere.animation",
+
+  "description" : "Transform into a sphere that combines aquatic speed, sonic charge, and spike wall-climbing! ^green;[F]",
+  "shortDescription" : "Prime Sphere",
+  "rarity" : "Legendary",
+  "icon" : "/tech/spikesphere.png",
+
+  "chipCost" : 24,
+
+  "animationParts" : {
+    "ballGlow" : "sonicsphereglow.png",
+    "ball" : "sonicsphere.png"
+  },
+
+  "transformedMovementParameters" : {
+    "collisionPoly" : [ [-0.85, -0.45], [-0.45, -0.85], [0.45, -0.85], [0.85, -0.45], [0.85, 0.45], [0.45, 0.85], [-0.45, 0.85], [-0.85, 0.45] ],
+
+    "liquidForce" : 350,
+    "liquidFriction" : 2.5,
+    "minimumLiquidPercentage" : 0.1,
+    "liquidImpedance" : 0.2,
+    "liquidBuoyancy" : 2.0,
+
+    "groundForce" : 450.0,
+    "normalGroundFriction" : 1.5,
+    "ambulatingGroundFriction" : 0.2,
+    "slopeSlidingFactor" : 3.0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 16.0,
+      "jumpControlForce" : 800.0,
+      "jumpInitialPercentage" : 1.0,
+      "jumpHoldTime" : 0.1
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 0.0,
+      "jumpControlForce" : 0.0,
+
+      "multiJump" : false,
+      "autoJump" : false
+    }
+  },
+
+  "ballSpeed" : 10,
+  "ballLiquidSpeed" : 18,
+
+  "energyCost" : 50,
+
+  "ballRadius" : 1,
+  "ballFrames" : 8,
+
+  "chargePitchAdjust" : 2.0,
+
+  "chargeEnergy" : 30,
+  "chargeTime" : [0.5, 1.5],
+  "launchVelocity" : [80, 10],
+
+  "boostTime" : 0.5,
+  "boostMovementParameters" : {
+    "bounceFactor" : 0.5,
+    "groundForce" : 0,
+    "normalGroundFriction" : 0,
+    "ambulatingGroundFriction" : 0
+  },
+
+  "ignorePlatforms" : true,
+
+  "damageDisableTime" : 0.2
+}
