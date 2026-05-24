@@ -5,7 +5,7 @@
   "scripts" : ["r-primesphere.lua"],
   "animator" : "sonicsphere.animation",
 
-  "description" : "Transform into a sphere that combines aquatic speed, sonic charge, and spike wall-climbing! ^green;[F]",
+  "description" : "The ultimate sphere; combines the aqua, sonic, and spike spheres into one. ^green;[F]",
   "shortDescription" : "Prime Sphere",
   "rarity" : "Legendary",
   "icon" : "/tech/spikesphere.png",
