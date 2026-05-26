@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "r_imperviumalloy", "count" : 10 },
-    { "item" : "platinumbar", "count" : 10 },
+    { "item" : "platinumbar", "count" : 5 },
     { "item" : "liquidlava", "count" : 5 }
   ],
   "output" : {
