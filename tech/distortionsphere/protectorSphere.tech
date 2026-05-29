@@ -5,7 +5,7 @@
   "scripts" : ["protectorSphere.lua"],
   "animator" : "protectorSphere.animation",
 
-  "description" : "An advanced sphere tech of both utility and offence. ^green;Hold left-click to charge up^white;.",
+  "description" : "The ultimate sphere. ^green;Hold left-click to charge up^white;.",
   "shortDescription" : "Protector's Sphere",
   "rarity" : "Legendary",
   "icon" : "/tech/protectorSphere.png",

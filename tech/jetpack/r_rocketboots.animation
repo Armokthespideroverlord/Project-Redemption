@@ -25,28 +25,11 @@
 
   "particleEmitters" : {
     "jetpackParticles" : {
-      "enabled" : true,
-      "emissionRate" : 50.0,
+      "emissionRate" : 100.0,
       "particles" : [
         {
-          "particle" : {
-            "type" : "animated",
-            "mode" : "LoopForever",
-            "animation" : "jetparticle.animation",
-            "position" : [0, 0],
-            "finalVelocity" : [0, 1],
-            "approach" : [0, 50],
-            "destructionAction" : "shrink",
-            "destructionTime" : 0.85,
-            "fade" : 1,
-            "size" : 1,
-            "layer" : "front",
-            "timeToLive" : 0.85,
-			"fullbright": true,
-            "variance" : {
-              "initialVelocity" : [0.5, 0.0]
-            }
-          }
+          "particle" : "r-doublejump",
+          "offset" : [0.2, -3]
         }
       ]
     }

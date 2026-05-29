@@ -5,7 +5,7 @@
   "scripts" : ["r-primesphere.lua"],
   "animator" : "sonicsphere.animation",
 
-  "description" : "The ultimate sphere; combines the aqua, sonic, and spike spheres into one. ^green;[F]",
+  "description" : "Combines the aqua, sonic, and spike spheres into one. ^green;[F]",
   "shortDescription" : "Prime Sphere",
   "rarity" : "Legendary",
   "icon" : "/tech/spikesphere.png",

@@ -5,7 +5,7 @@
   "scripts" : ["r-primesprintdash.lua"],
   "animator" : "r-primesprintdash.animation",
 
-  "description" : "An  airsprint that doubles as a blink dash while holding ^green;[shift]^reset;.",
+  "description" : "A sprint that becomes a blink dash while holding ^green;[shift]^reset;.",
   "shortDescription" : "Prime Sprintdash",
   "rarity" : "Legendary",
   "icon" : "/tech/r-primesprintdash.png",
