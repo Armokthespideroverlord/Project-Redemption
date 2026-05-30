@@ -1,7 +1,7 @@
 {
   "id" : "penguinhistorycodex",
   "species" : "other",
-  "title" : "The March of the Penguins",
+  "title" : "March of the Penguins",
   "description" : "An alleged history of the Penguin species.",
   "icon" : "r-penguinhistory.png",
   "contentPages" : [
