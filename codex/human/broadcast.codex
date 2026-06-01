@@ -5,7 +5,7 @@
   "description" : "A somewhat yellowed transcript of an order received from USCM mobile HQ.",
   "icon" : "camoclip.png",
   "contentPages" : [
-  "^red;//ALERT^white;
+  "^red;//URGENT^white;
 
 Effective immediately, the Universal Space Corporate Military has been disbanded
 
