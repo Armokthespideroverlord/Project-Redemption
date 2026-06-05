@@ -1,24 +1,640 @@
 [
-[
-{
-    "op": "test",
-    "path": "/metadata/anchor/37",
-    "value" : "protectorate_base"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/anchor/37"
-  }
-],
-[
-{
-    "op": "test",
-    "path": "/metadata/anchor/57",
-    "value" : "protectorate_base"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/anchor/57"
-  }
-]
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/0",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/0"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/1",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/2",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/3",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/4",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/4"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/5",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/5"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/6",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/6"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/7",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/7"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/8",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/8"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/9",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/9"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/10",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/10"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/11",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/11"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/12",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/12"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/13",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/13"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/14",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/14"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/15",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/15"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/16",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/16"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/17",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/17"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/18",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/18"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/19",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/19"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/20",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/20"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/21",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/21"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/22",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/22"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/23",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/23"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/24",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/24"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/25",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/25"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/26",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/26"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/27",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/27"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/28",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/28"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/29",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/29"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/30",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/30"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/31",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/31"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/32",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/32"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/33",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/33"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/34",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/34"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/35",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/35"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/36",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/36"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/37",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/37"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/38",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/38"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/39",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/39"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/40",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/40"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/41",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/41"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/42",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/42"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/43",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/43"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/44",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/44"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/45",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/45"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/46",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/46"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/47",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/47"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/48",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/48"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/49",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/49"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/50",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/50"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/51",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/51"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/52",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/52"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/53",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/53"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/54",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/54"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/55",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/55"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/56",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/56"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/metadata/anchor/57",
+      "value": "protectorate_base"
+    },
+    {
+      "op": "remove",
+      "path": "/metadata/anchor/57"
+    }
+  ]
 ]
