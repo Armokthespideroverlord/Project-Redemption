@@ -155,7 +155,9 @@ function update(args)
           local moveDirection = vec2.rotate({moveX, 0}, self.headingAngle)
           mcontroller.controlApproachVelocityAlongAngle(math.atan(moveDirection[2], moveDirection[1]), self.ballSpeed, 2000)
 
-          self.angularVelocity = -moveX * self.ballSpeed
+          -- Use world-space X component of the move direction so the spin
+          -- matches movement regardless of surface orientation.
+          self.angularVelocity = -moveDirection[1] * self.ballSpeed
         else
           mcontroller.controlApproachVelocity({0, 0}, 2000)
           self.angularVelocity = 0
@@ -197,9 +199,19 @@ end
 function updateAngularVelocity(dt, inLiquid, controlDirection)
   if mcontroller.isColliding() or mcontroller.groundMovement() then
     local positionDiff = world.distance(self.lastPosition or mcontroller.position(), mcontroller.position())
-    self.angularVelocity = -vec2.mag(positionDiff) / dt / self.ballRadius
-    if positionDiff[1] > 0 then
-      self.angularVelocity = -self.angularVelocity
+    local speed = vec2.mag(positionDiff) / math.max(dt, 1e-6) / self.ballRadius
+
+    if self.headingAngle then
+      local tangent = vec2.withAngle(self.headingAngle, 1.0)
+      local dot = positionDiff[1] * tangent[1] + positionDiff[2] * tangent[2]
+      local sign = 0
+      if dot > 0 then sign = 1 elseif dot < 0 then sign = -1 end
+      self.angularVelocity = sign * speed
+    else
+      self.angularVelocity = -speed
+      if positionDiff[1] > 0 then
+        self.angularVelocity = -self.angularVelocity
+      end
     end
   elseif inLiquid then
     if controlDirection and controlDirection ~= 0 then
