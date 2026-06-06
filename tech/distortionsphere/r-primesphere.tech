@@ -8,13 +8,13 @@
   "description" : "Combines the aqua, sonic, and spike spheres into one. ^green;[F]",
   "shortDescription" : "Prime Sphere",
   "rarity" : "Legendary",
-  "icon" : "/tech/spikesphere.png",
+  "icon" : "/tech/r-primesphere.png",
 
   "chipCost" : 24,
 
   "animationParts" : {
-    "ballGlow" : "sonicsphereglow.png",
-    "ball" : "sonicsphere.png"
+    "ballGlow" : "r-primesphereglow.png",
+    "ball" : "r-primesphere.png"
   },
 
   "transformedMovementParameters" : {
@@ -53,7 +53,7 @@
   "energyCost" : 50,
 
   "ballRadius" : 1,
-  "ballFrames" : 8,
+  "ballFrames" : 4,
 
   "chargePitchAdjust" : 2.0,
 
