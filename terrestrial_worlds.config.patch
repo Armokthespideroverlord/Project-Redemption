@@ -212,6 +212,10 @@
 {"op" : "add", "path" : "/planetTypes/ringed_tundra/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/ringed_scorchedcity/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
 {"op" : "add", "path" : "/planetTypes/ringed_volcanic/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/pmchaos"},
+    {"op" : "add", "path" : "/planetTypes/pmchaos/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
   ]
 
 ]
