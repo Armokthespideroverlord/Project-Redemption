@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/6/microdungeons/-",
+    "value": "r-arcticmicrodungeons"
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/6/microdungeons/-",
+    "value": "r-magmamicrodungeons"
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/6/microdungeons/-",
+    "value": "armok-darkundergroundchamber"
+  }
+]
