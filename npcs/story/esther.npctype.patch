@@ -22,12 +22,12 @@
 {
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "According to the Avoscript, Kluex bestowed Avolite crystals to the Avaians through a great gift. I suspect that this gift may have actually been the Avian artifact..."
+    "value": "According to the Avoscript, Kluex bestowed Avolite crystals to the Avians through a great gift. I suspect that this gift may have actually been the Avian artifact..."
   },
   {
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "If the rumors are to be believed, the Apex artifact might have been the basis of the Vestigi-Evo Process!"
+    "value": "If the rumors are to be believed, the Apex artifact might have been the basis for the Vestigi-Evo Process!"
   },
   {
     "op": "add",
