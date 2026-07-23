@@ -1,0 +1,40 @@
+{
+  "id" : "runnerup3",
+  "species" : "apex",
+  "title" : "An Intercepted Transmission",
+  "description" : "A Miniknog broadcast intercepted by a rebel spy codenamed \"M_Sipher\".",
+  "icon" : "apexcover4.png",
+  "contentPages" : [
+"\"All hail Big Ape.\"\n\n\"All hail Big Ape, may his hit single chart #1 forever. Captain Geba. Your report on Invasive Research Lab DA-13's comm silence?\"\n\n\"Er, yes sir. It appears the lab has been ransacked... quite thoroughly. Anything of remote value is gone. All staff accounted for, confirmed deceased.\"",
+
+"\"Hrrrn. Big Ape isn't going to like that. Were you able to recover security footage? Was it a rebel cell?\"\n\n\"Yes, and no, sir. They took the security cameras. And the computer banks. And the toilet. But they missed the remote black-box surveillance hub. It was a Floran attack, sir.\"",
+
+"\"Well, thank Big Ape for small favors. At least Florans are too stupid to know what to do with anything they took, including the toilet. How many of those weeds were there?\"\n\n\"...um... one, sir.\"",
+
+"\"...Care to repeat that, Captain?\"\n\n\"Not especially, sir.\"\n\n\"ONE?!\"\n\n\"Apparently, sir. It killed the south entrance guard before he could sound the alarm. It appears Overwatch Bonzo was getting a frozen banana at the time.\"",
+
+"\"The Floran should never even have gotten close enough to-\"\n\n\"It... well... it had a long-range rocket launcher, sir.\"\n\n\"... a long range... oh pelt lice. Floran with heavy explosives? ...Wait. Even then, the Miniknog should have been able to stop it.\"",
+
+"\"Apparently no-one raised an alarm, sir.\"\n\n\"Nobody? You're telling me NOBODY heard a [EXPLETIVE DELETED] houseplant with a [EXPLETIVE DELETED] rocket launcher slaughter a fling-load of scientists and a highly-trained Miniknog division, Captain?\"",
+
+"\"They'd just finished installing the Mark Three soundproofing, sir... you know, for the screaming...\"\n\n\"[43 SECONDS OF EXASPERATED LAUGHTER] Okay. I'll bite. So, Captain Geba, how did a single Floran ransack an entire complex?\"",
+
+"\"From what we can see... it had a Matter Manipulator, sir.\"\n\n\"... oh you are [EXPLETIVE DELETED] kidding me.\"\n\n\"I really, really wish I was, sir.\"",
+
+"\"Oh, chimp-biscuits. Big Ape's gonna fling it far when he hears this.\"\n\n\"Yes, sir.\"\n\n\"I need some news to salvage something out of this, Captain. DA-13 had some Special Political Guests, correct?\"",
+
+"\"Two, sir, according to records.\"\n\n\"Their status?\"\n\n\"It took them out, sir.\"\n\n\"...Captain... would you care to clarify those words?\"",
+
+"\"Sir?\"\n\n\"When you say 'took them out', did you mean 'savagely murdered them in a gory display' or 'freed them from their cells unharmed'?\"",
+
+"\"And if I hear that same dumb 'sir?' tone out of you, I will sign you up for a Happy Vacation Package. So please, say 'Sir' in that damn tone again.\"\n\n\"...the latter, sir.\"",
+
+"\"[EXPLETIVE DELETED]\"\n\n\"Yes, sir.\"\n\n\"Know what? I'm signing up for a Happy Vacation Package myself.\"",
+
+"Message from Agent GD:\n\nWe believe the prisoners to be Agents BB and PNT. Have not had contact yet. Need to confirm their safety.\n\nAnd also see if we can recruit this Floran.\n\nOr at least take some clippings."
+],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

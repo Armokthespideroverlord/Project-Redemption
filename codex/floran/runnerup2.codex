@@ -1,0 +1,24 @@
+{
+  "id" : "runnerup2",
+  "species" : "floran",
+  "title" : "Floran Creation Lesson",
+  "description" : "As documented by Dr. Cree \"Reyavan\" Pex.",
+  "icon" : "florancover2.png",
+  "contentPages" : [
+"My people and descendants of Vief-lora, listen now for I will tell the story of our seeding. Many suns ago, long before we became the children of stars that we now are, was the dark and untamed planet of Vief-lora. On that planet lived the holy goddess of light Lorata who had been exiled by her brother Rama for, as I've told you, stealing the gift of life.",
+
+"Unwilling to remain alone on that planet, she cultivated the gift of life and sowed the first seeds on the cold, dark ground. From these seeds grew small vegetation, the descendants of which one can find in caves and all dark places.\n\nUnhappy with the small fruits of her labor, she used the gift of life to feed the plants with nutrients born of her body.",
+
+"Fed by these offerings, the plants grew more, and the grasses and shrubs of the world were born. Desiring more, Lorata drew once again from the gift of life and poured her life-blood into the world, creating the rivers, lakes, and oceans that watered the plants. No longer thirsty, the plants' roots began to dig deep, and tall and lush trees began to grow.",
+
+"With one final effort Lorata sought to create life even grander than that, and using her gift sent her soul into the heavens to create the stars and suns. The plants upon the surface, now fed, watered, and given light were free to prosper, and from these humble seeds grew us, the Florans.",
+
+"Given charge of the world and all of its wonders, we grew and lived in large communities and served as caretakers. Before long however, Lorata's jealous brother Rama visited the site of his sister's exile and found a thriving planet.",
+
+"Overcome with rage, Rama seized the gift of life and created in his own image creatures of flesh and blood that began to grow upon the surface. Our ancestors fought long and hard against these animals, and after many years became victorious. As Lorata's chosen fauna, we became the masters of the world which we called Vief-lora."
+],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

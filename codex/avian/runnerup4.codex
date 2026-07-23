@@ -1,0 +1,16 @@
+{
+  "id" : "runnerup4",
+  "species" : "avian",
+  "title" : "The Beast of Seven Toes",
+  "description" : "An Avian poem as recorded by \"SpiderDave\".",
+  "icon" : "aviancover6.png",
+  "contentPages" : [
+"Beware the beast of seven toes\nOf where the stinging current blows\nIt sleeps beneath the frozen earth\nAnd waits for those who welcome woes\n\nIts eyes are pitch its heart is stone\nIts den composed of ice and bone\nTo those who venture far from kin\nBeware the fiend of relic throne",
+
+"With seven hooks of wounding hold\nTo steal the breath of heroes bold\nReject the words inscribed within\nA terrifying end foretold\n\nIts beak is sharp its wings are vast\nWith magnitude of dire cast\nA hero's valiancy abridged\nI stand in shadow veil aghast"
+],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "runnerup1",
+  "species" : "apex",
+  "title" : "Apex Expeditioner's Audio Log",
+  "description" : "A transcribed audio log recovered by Miniknog operative \"DoctorShaggy\".",
+  "icon" : "apexcover6.png",
+  "contentPages" : [
+"Stardate 06.05.**** 15:32\n\nConvoy successfully teleported to planet surface. Temporary operations base established. Initial samples of local flora inconclusive: contaminated by unknown microbial spores. Further analysis needed.\n\n\nStardate 06.06.**** 18:41\n\nFloran savages sighted in the area. Highly hostile. Caution advised.",
+
+"Stardate 06.07.**** 06:19\n\n...[screams]....Sssssss... What button do?.... No matter. Floran takesss ssshiny from hairy onessss...[unintelligible]...\n\n\nStardate 06.09.**** 12:54\n\nSsss... What?! Nasssty mussshroomsss! Let Floran go! Let Floran fight! Nasssty, ssquisshy, sssneaky musshroomsss...[unintelligible]",
+
+"Stardate 06.14.**** 04:33\n\nFloran sssso hungry. Nassssty mussshroomsss won't let Floran go. Refussse to eat Nasssty mussshroomsss food. But... sssoo hungry... maybe jusssst... one bite?",
+
+"Stardate 06.15.**** 04:17\n\nGah! What wasss in nasssty food? Feel ssso ssstrange... weak... Floran fear nassssty mussshrooms... What hasss mussshroom done to Floran? Can feel... thingsss... growing in Floran... Ssssss...Hoooom... [unintelligible]",
+
+"Stardate 06.16.**** 19:29 [Final entry]\n\n...[unintelligible]... Hoom hoom! Kissface nab feara shroom. Mesti Kissface. Mesti shroom. Mesti future. Nab feara future..."
+],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

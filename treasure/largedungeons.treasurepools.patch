@@ -24,6 +24,11 @@
     },
 {
       "op" : "add",
+      "path" : "/apexbaseLore/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "runnerup1-codex"}
+    },
+{
+      "op" : "add",
       "path" : "/apexcityLore/0/1/pool/-",
       "value" : {"weight" : 0.2, "item" : "bads-codex"}
     },
@@ -31,6 +36,11 @@
       "op" : "add",
       "path" : "/humancampLore/0/1/pool/-",
       "value" : {"weight" : 0.2, "item" : "unioncodex-codex"}
+    },
+{
+      "op" : "add",
+      "path" : "/humancampLore/0/1/pool/-",
+      "value" : {"weight" : 0.2, "item" : "runnerup5-codex"}
     },
 {
       "op" : "add",
@@ -64,10 +74,31 @@
     },
 {
       "op" : "add",
+      "path" : "/apexcampLore/0/1/pool/-",
+      "value" : {"weight" : 0.5, "item" : "runnerup3-codex"}
+    },
+{
+      "op" : "add",
       "path" : "/avianvillageLore/0/1/pool/-",
       "value" : {
             "weight": 0.25,
             "item": "avianmythos-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/avianvillageLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.25,
+            "item": "runnerup4-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/aviannativevillageLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.33,
+            "item": "runnerup4-codex"
           }
     },
 {
@@ -96,10 +127,26 @@
     },
 {
       "op" : "add",
+      "path" : "/floranvillagetowerLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.2,
+            "item": "runnerup2-codex"
+          }
+    },
+{
+      "op" : "add",
       "path" : "/floranhutvillageLore/0/1/pool/-",
       "value" : {
             "weight": 0.2,
             "item": "floranwar-codex"
+          }
+    },
+{
+      "op" : "add",
+      "path" : "/floranhutvillageLore/0/1/pool/-",
+      "value" : {
+            "weight": 0.2,
+            "item": "runnerup2-codex"
           }
     }
 ]

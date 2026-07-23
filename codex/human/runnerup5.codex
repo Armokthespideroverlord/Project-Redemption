@@ -1,0 +1,40 @@
+{
+  "id" : "runnerup5",
+  "species" : "human",
+  "title" : "The Tale of Bustow Gurrilla",
+  "description" : "The tale of a legendary Human adventurer penned by \"The Squid\".",
+  "icon" : "humancover2.png",
+  "contentPages" : [
+"Bustow Gurrilla. The name spoken in hushed tones throughout the galaxy. The name cursed by Miniknog soldiers and respected by even the fiercest Floran hunters.\n\nThe name that Glitch kings despised and Kluex-doubting Avians celebrated.\n\nThe name of one of the galaxy's most intrepid explorers, as well as one of its greatest mysteries.",
+
+"Bustow Gurrilla was a hero of the people. He fought for justice and peace.\n\nOne day, however, he disappeared in one of the most awe-inspiring battles ever recorded.\n\nIt was a dark day. Clouds had settled over the enormous Stargazer airship, and rain pounded the wooden decks.",
+
+"Pirates rushed around the ship, firing cannons at one another and trying not to get killed.\n\nBustow stood at the wheel of the ship, steering through the storm. He had commandeered the ship after staging a mutiny and declaring himself captain.",
+
+"As the old ship lugged through the storm, Bustow looked down at the decks below. He gazed upon the mutineers combating the loyal crewmates.\n\nThough the original captain was locked deep below decks, the fight raged on.",
+
+"Bustow fought the controls, struggling to keep the ship from crashing down onto the cold earth below.\n\nAnd then something awful happened.\n\nAs the mutineers struggled to keep the rebellion afloat, the clouds parted momentarily.",
+
+"A ray of sunshine shone onto the deck, casting a golden glow on the perplexed pirates who gazed in awe at the sky.\n\nFrom behind the clouds, the pirates were met with a truly awe-inspiring sight.",
+
+"An enormous dragon, made entirely of smooth, white bones, plummeted down towards the ship.\n\nIt opened its mouth, exposing a gaping chasm filled with jagged edges and rows of teeth.\n\nIts roar still haunts all who heard it.",
+
+"Many of the pirates bowed down to the terrible beast, thinking it was punishment from the great Kluex.\n\nOthers opened fire.\n\nGuns blazing, a terrific fight ensued.",
+
+"By this time, the airship had traveled over an Avian settlement, whose inhabitants watched in awe as the ship was attacked.\n\nBustow nearly fell to his death as the great dragon shot an enormous fireball at the ship's wheel.",
+
+"The controls now destroyed, Bustow grabbed his battle hammer.\n\nHe prepared himself for the fight.\n\nThe dragon landed on the old wooden ship, which gave a mighty shudder.",
+
+"The deck splintered and cracked, and the dragon collapsed one of the ship's towering masts.\n\nThe ship slowly lost altitude, much to the horror of the spectators below.",
+
+"Bustow ran along the railing of the ship, taking care not to slip on the damp wood.\n\nThe rain had started again, pounding the poor, overwhelmed airship in sheets.",
+
+"Bustow leapt through the air at the dragon, holding his hammer high above his head.\n\nAs he brought it down, the dragon gave a mighty roar, and the airship came plummeting to the ground.",
+
+"Scores of horrified witnesses rushed to the scene.\n\nBut to their surprise and utter mystification, no trace of Bustow was found.\n\nNor was their hero ever seen again."
+],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

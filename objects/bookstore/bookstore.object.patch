@@ -89,6 +89,31 @@
       "op" : "add",
       "path" : "/storeInventory/races/-",
       "value" : "bads-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "runnerup1-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "runnerup2-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "runnerup3-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "runnerup4-codex" 
+	  },
+{
+      "op" : "add",
+      "path" : "/storeInventory/races/-",
+      "value" : "runnerup5-codex" 
 	  }
   ],
   [
