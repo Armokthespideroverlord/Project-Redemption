@@ -216,6 +216,15 @@
 [
     {"op" : "test","path" : "/planetTypes/pmchaos"},
     {"op" : "add", "path" : "/planetTypes/pmchaos/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
+  ],
+[
+    {"op" : "test","path" : "/planetTypes/echydrogen"},
+    {"op" : "add", "path" : "/planetTypes/echydrogen/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/echelium/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/ecnitrogen/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/ecoxygen/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] },
+    {"op" : "add", "path" : "/planetTypes/ecneon/layers/surface/dungeons/-", "value" : [1.0, "r-USCMbunker"] }
   ]
+
 
 ]
