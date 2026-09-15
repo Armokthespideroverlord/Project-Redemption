@@ -5,7 +5,7 @@
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "r-protectoraugment.png",
-  "description" : "An advanced EPP module that grants physical resistance through an energy shield.",
+  "description" : "An advanced EPP module that grants physical resistance via an energy shield.",
   "shortdescription" : "Protector's Augment",
 
   "augment" : {
