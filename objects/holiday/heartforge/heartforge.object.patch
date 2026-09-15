@@ -1,6 +1,11 @@
 [
 {
     "op": "replace",
+    "path": "/price",
+    "value": 50
+  },
+{
+    "op": "replace",
     "path": "/rarity",
     "value": "Legendary"
   },
@@ -8,5 +13,40 @@
     "op": "replace",
     "path": "/shortdescription",
     "value": "^orange;Heart Forge^reset;"
+  },
+  {
+    "op": "replace",
+    "path": "/apexDescription",
+    "value": "A lovely forge with tools for crafting lovely items."
+  },
+  {
+    "op": "replace",
+    "path": "/avianDescription",
+    "value": "This romantic forge will allow me to spread the love."
+  },
+  {
+    "op": "replace",
+    "path": "/floranDescription",
+    "value": "Floran make pretty red bow."
+  },
+  {
+    "op": "replace",
+    "path": "/glitchDescription",
+    "value": "Longing. I shall craft the most delicious chocolate."
+  },
+  {
+    "op": "replace",
+    "path": "/humanDescription",
+    "value": "I can craft loads of lovely items with this forge!"
+  },
+  {
+    "op": "replace",
+    "path": "/hylotlDescription",
+    "value": "With this forge, I can create the tackiest of outfits."
+  },
+  {
+    "op": "replace",
+    "path": "/novakidDescription",
+    "value": "This here forge will let me craft romantic items!"
   }
 ]

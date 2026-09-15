@@ -12,7 +12,7 @@
 {
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "It appears this place was built by the Ancients, although I suspect you already know that..."
+    "value": "It appears this place was built by the Ancients, although I suspect you already knew that..."
   },
 {
     "op": "add",
@@ -22,7 +22,7 @@
 {
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "It's curious that the Novakid are represented in the ark gateway and its brethren, there's no mention of them obtaining an artifact..."
+    "value": "It's curious that the Novakid are represented in the ark gateway and its brethren, there's no mention of them obtaining an Artifact..."
   },
 {
     "op": "add",
@@ -77,7 +77,12 @@
 {
     "op": "add",
     "path": "/scriptConfig/dialog/converse/default/default/-",
-    "value": "That's about all I have for now regarding the Ark, I'm afraid the rest of my research will have to be spent assisting Esther on locating the artifacts."
+    "value": "It very much follows from this that we need to stop the Ruin, and quickly!"
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "That's about all I have for now regarding the Ark, I'm afraid the rest of my research will have to be spent assisting Esther on locating the Artifacts."
   },
 {
     "op": "add",
