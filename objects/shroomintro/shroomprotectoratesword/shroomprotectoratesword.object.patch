@@ -1,0 +1,56 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "Battered Protectorate weaponry that have seen better days."
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Protectorate Weapons"
+  },
+  {
+    "op": "replace",
+    "path": "/apexDescription",
+    "value": "It's a pair of weapons belonging to a member of the Protectorate."
+  },
+  {
+    "op": "replace",
+    "path": "/avianDescription",
+    "value": "A pair of weapons meant for someone with more of a warrior's spirit among the Protectorate."
+  },
+  {
+    "op": "replace",
+    "path": "/floranDescription",
+    "value": "Even Protectorate ssstill need to ssslassh, ssstab and ssshoot."
+  },
+  {
+    "op": "replace",
+    "path": "/glitchDescription",
+    "value": "Observation. Weaponry belonging to the Protectorate equivalent of a knight."
+  },
+  {
+    "op": "replace",
+    "path": "/humanDescription",
+    "value": "These weapons are from the Protectorate, their design's pretty hard to miss."
+  },
+  {
+    "op": "replace",
+    "path": "/novakidDescription",
+    "value": "Personally I think the Protectorate would be better off with just the gun rather than havin' a sword too, but I ain't complainin'."
+  },
+  {
+    "op": "replace",
+    "path": "/feneroxDescription",
+    "value": "Broken weapons. Seem useful. Should take."
+  },
+  {
+    "op": "add",
+    "path": "/breakDropOptions/0/-",
+    "value": [
+      "brokensidearm",
+      1,
+      {}
+    ]
+  }
+]
