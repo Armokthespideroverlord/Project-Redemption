@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/shroomProtectorateSword/text",
+    "value": "A dead Protector? Odd. Ignoring the question of where they came from, I would recommend taking their weaponry for protection."
+  }
+]
