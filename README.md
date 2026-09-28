@@ -10,7 +10,7 @@ Some of the more notable bits of content in the mod so far:
 * The Protector's Handgun and its damaged starting variant, as well as the Protector's Armor set.
 * USCM Remnant encounters, or more specifically a couple new microdungeons, a new dungeon, and an NPC ship encounter.
 * A mech recharging tool!
-* The reintroduction of Impervium, now an ore obtained from meteor microdungeons on magma planets.
+* The reintroduction of Impervium, now an ore obtained from meteor microdungeons on magma planets. Used to upgrade armor to tier 7!
 * On duty Peacekeepers who'll come in to aid friendly NPCs.
 * Many new lore codices found across vanilla villages, dungeons and ship/space encounters.
 * And much more!
