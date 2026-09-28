@@ -3,5 +3,10 @@
     "op": "replace",
     "path": "/shroomProtectorateSword/text",
     "value": "A dead Protector? Odd. Ignoring the question of where they came from, I would recommend taking their weaponry for protection."
+  },
+{
+    "op": "replace",
+    "path": "/shroomProtectorateSwordPester/text",
+    "value": "I know their weaponry are badly damaged, but they can likely be repaired at a later time. Please take them."
   }
 ]
