@@ -27,6 +27,7 @@ Some of the more notable bits of content in the mod so far:
 * Earth refugee ships
 * Mission and Boss additions
 * Virorbs
+
 And much much more.
 
 ## [Come join the official discord for my mods!](https://discord.gg/MBaUNt8)
