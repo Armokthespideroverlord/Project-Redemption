@@ -1,5 +1,11 @@
 [
   {
+    "op": "test",
+    "path": "/destinations/0/warpAction",
+    "value": "InstanceWorld:outpost=arkteleporter",
+    "inverse": true
+  },
+  {
     "op": "replace",
     "path": "/destinations/0",
     "value": {
