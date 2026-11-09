@@ -155,8 +155,6 @@ function update(args)
           local moveDirection = vec2.rotate({moveX, 0}, self.headingAngle)
           mcontroller.controlApproachVelocityAlongAngle(math.atan(moveDirection[2], moveDirection[1]), self.ballSpeed, 2000)
 
-          -- Use world-space X component of the move direction so the spin
-          -- matches movement regardless of surface orientation.
           self.angularVelocity = -moveDirection[1] * self.ballSpeed
         else
           mcontroller.controlApproachVelocity({0, 0}, 2000)

@@ -1,14 +1,12 @@
 require "/tech/doubletap.lua"
 
 function init()
-  -- Sprint parameters
   self.energyCostPerSecond = config.getParameter("energyCostPerSecond")
   self.dashControlForce = config.getParameter("dashControlForce")
   self.dashSpeedModifier = config.getParameter("dashSpeedModifier")
   self.groundOnly = config.getParameter("groundOnly")
   self.stopAfterDash = config.getParameter("stopAfterDash")
 
-  -- Blinkdash parameters
   self.mode = "none"
   self.blinkTimer = 0
   self.dashCooldownTimer = 0
@@ -102,7 +100,6 @@ end
 function updateSprint(args)
   local moveKey = self.dashDirection > 0 and "right" or "left"
   if args.moves[moveKey]
-      and not mcontroller.liquidMovement()
       and not dashBlocked() then
 
     if mcontroller.facingDirection() == self.dashDirection then
@@ -159,7 +156,7 @@ function updateBlink(args)
 end
 
 function groundValid()
-  return mcontroller.groundMovement() or not self.groundOnly
+  return mcontroller.groundMovement() or mcontroller.liquidMovement() or not self.groundOnly
 end
 
 function dashBlocked()

@@ -1,9 +1,8 @@
 [
 {
     "op": "add",
-    "path": "/cultistshipChest/0/1/pool/-",
+    "path": "/cultistshipChest/0/1/fill/-",
     "value": {
-"weight": 0.85,
       "item": [
         "cultistbroadcast-codex",
         1
