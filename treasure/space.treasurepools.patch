@@ -1,15 +1,28 @@
 [
 {
     "op": "add",
-    "path": "/cultistshipChest/0/1/fill/-",
-    "value": {
-      "item": [
-        "cultistbroadcast-codex",
-        1
-      ]
-    }
+    "path": "/cultistshipChest/0/1/fill",
+    "value": [
+      {
+        "item": [
+          "cultistbroadcast-codex",
+          1
+        ]
+      }
+    ]
   },
   {
+    "op": "add",
+    "path": "/cultistshipChest/1/1/fill",
+    "value": [
+      {
+        "item": [
+          "cultistbroadcast-codex",
+          1
+        ]
+      }
+    ]
+  },  {
     "op": "add",
     "path": "/protectorateshipChest/1/1/fill/-",
     "value": {
